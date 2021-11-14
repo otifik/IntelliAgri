@@ -1,0 +1,289 @@
+2020-06-30 11:17:44.066  INFO 7916 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2c6e6a85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-30 11:17:44.585  INFO 7916 --- [main] com.jit.authority.AuthorityApplication   : The following profiles are active: test
+2020-06-30 11:17:49.249  INFO 7916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-30 11:17:49.251  INFO 7916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-30 11:17:49.320  INFO 7916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45ms. Found 0 repository interfaces.
+2020-06-30 11:17:49.757  INFO 7916 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e26f9f9c-9ff5-3b80-8104-b6dd6a0dd698
+2020-06-30 11:17:49.844  INFO 7916 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.jit.authority.serviceinterface.WxloginService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-30 11:17:49.974  INFO 7916 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.jit.authority.config.RedisConfig$$EnhancerBySpringCGLIB$$1fd64c8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-30 11:17:50.255  INFO 7916 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$10546788] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-30 11:17:50.279  INFO 7916 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2c6e6a85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-30 11:17:51.003  INFO 7916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https) 8080 (http)
+2020-06-30 11:17:51.130  INFO 7916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-30 11:17:51.130  INFO 7916 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-30 11:17:53.275  INFO 7916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-30 11:17:53.276  INFO 7916 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8651 ms
+2020-06-30 11:17:53.611  INFO 7916 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-30 11:17:53.708  INFO 7916 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2a04ab05
+2020-06-30 11:17:57.488  INFO 7916 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-06-30 11:17:57.562  INFO 7916 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-06-30 11:17:57.912  INFO 7916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-06-30 11:17:57.912  INFO 7916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-06-30 11:17:58.995  INFO 7916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-06-30 11:17:58.996  INFO 7916 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-06-30 11:18:00.198  INFO 7916 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 11:18:00.424  INFO 7916 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-06-30 11:18:00.425  INFO 7916 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-06-30 11:18:00.425  INFO 7916 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-06-30 11:18:00.425  INFO 7916 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-06-30 11:18:00.425  INFO 7916 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-06-30 11:18:00.426  INFO 7916 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-06-30 11:18:00.426  INFO 7916 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-06-30 11:18:00.909  INFO 7916 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-06-30 11:18:00.960  INFO 7916 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-06-30 11:18:00.963  INFO 7916 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-06-30 11:18:01.058  INFO 7916 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1593487080967 with initial instances count: 2
+2020-06-30 11:18:05.668  INFO 7916 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-30 11:18:05.806  INFO 7916 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-30 11:18:06.515  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.gif'], []
+2020-06-30 11:18:06.515  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.png'], []
+2020-06-30 11:18:06.515  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.jpg'], []
+2020-06-30 11:18:06.515  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html'], []
+2020-06-30 11:18:06.515  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js'], []
+2020-06-30 11:18:06.515  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css'], []
+2020-06-30 11:18:06.515  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.ico'], []
+2020-06-30 11:18:06.515  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**'], []
+2020-06-30 11:18:06.516  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html*/**'], []
+2020-06-30 11:18:06.516  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/swagger-ui.html*/**'], []
+2020-06-30 11:18:06.540  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/ac-service/swagger-ui.html*/**'], []
+2020-06-30 11:18:06.540  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/configuration/security'], []
+2020-06-30 11:18:06.540  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources/**'], []
+2020-06-30 11:18:06.540  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/v2/api-docs'], []
+2020-06-30 11:18:06.540  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources'], []
+2020-06-30 11:18:06.540  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-ui.html'], []
+2020-06-30 11:18:06.540  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/ac-service/swagger-ui.html'], []
+2020-06-30 11:18:06.540  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/springfox-swagger-ui/*.js'], []
+2020-06-30 11:18:06.540  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/configuration/security'], []
+2020-06-30 11:18:06.540  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources/**'], []
+2020-06-30 11:18:06.540  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/v2/api-docs'], []
+2020-06-30 11:18:06.540  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources'], []
+2020-06-30 11:18:06.541  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-ui.html'], []
+2020-06-30 11:18:06.541  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/ac-service/swagger-ui.html'], []
+2020-06-30 11:18:06.541  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/springfox-swagger-ui/*.js'], []
+2020-06-30 11:18:06.574  INFO 7916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fe9adfb, org.springframework.security.web.context.SecurityContextPersistenceFilter@634d3439, org.springframework.security.web.header.HeaderWriterFilter@4bcf08ae, org.springframework.security.web.authentication.logout.LogoutFilter@289cf7db, com.jit.authority.jwtsecurity.filter.JwtAuthenticationFilter@f8fe81e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71891d6b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36c45149, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ad0cd43, org.springframework.security.web.session.SessionManagementFilter@4e25282d, org.springframework.security.web.access.ExceptionTranslationFilter@acea29e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e0f259e]
+2020-06-30 11:18:06.592  INFO 7916 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-30 11:18:06.785  INFO 7916 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-30 11:18:09.279  INFO 7916 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-30 11:18:10.653  INFO 7916 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+2020-06-30 11:18:10.800  INFO 7916 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTH-SERVICE with eureka with status UP
+2020-06-30 11:18:10.800  INFO 7916 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1593487090800, current=UP, previous=STARTING]
+2020-06-30 11:18:10.802  INFO 7916 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/dell-PC:auth-service:8443: registering service...
+2020-06-30 11:18:10.804  INFO 7916 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-30 11:18:11.019  INFO 7916 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/dell-PC:auth-service:8443 - registration status: 204
+2020-06-30 11:18:11.363  INFO 7916 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-30 11:18:11.438  INFO 7916 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-30 11:18:14.611  INFO 7916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) 8080 (http) with context path ''
+2020-06-30 11:18:14.614  INFO 7916 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8443
+2020-06-30 11:18:14.618  INFO 7916 --- [main] com.jit.authority.AuthorityApplication   : Started AuthorityApplication in 38.766 seconds (JVM running for 97.367)
+2020-06-30 11:18:14.745  INFO 7916 --- [main] com.jit.authority.AuthorityApplication   : authority application is running.........
+2020-06-30 11:18:15.336  INFO 7916 --- [RMI TCP Connection(3)-192.168.100.96] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-30 11:18:15.336  INFO 7916 --- [RMI TCP Connection(3)-192.168.100.96] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-30 11:18:15.348  INFO 7916 --- [RMI TCP Connection(3)-192.168.100.96] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-06-30 11:18:17.590  INFO 7916 --- [parallel-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-06-30 11:18:17.591  INFO 7916 --- [parallel-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-06-30 11:23:00.833  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 11:24:04.567  INFO 7916 --- [https-jsse-nio-8443-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-ui.html
+2020-06-30 11:24:07.262  INFO 7916 --- [https-jsse-nio-8443-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:24:12.331  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/springfox.css?v=2.8.0-SNAPSHOT
+2020-06-30 11:24:12.332  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:24:13.776  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/swagger-ui.css?v=2.8.0-SNAPSHOT
+2020-06-30 11:24:13.776  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:24:13.778  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.8.0-SNAPSHOT
+2020-06-30 11:24:13.779  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:24:13.796  INFO 7916 --- [https-jsse-nio-8443-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/springfox.js?v=2.8.0-SNAPSHOT
+2020-06-30 11:24:13.796  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.8.0-SNAPSHOT
+2020-06-30 11:24:13.998  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:24:13.998  INFO 7916 --- [https-jsse-nio-8443-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:24:18.668  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-resources/configuration/ui
+2020-06-30 11:24:18.668  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:24:19.149  INFO 7916 --- [https-jsse-nio-8443-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-resources/configuration/security
+2020-06-30 11:24:19.149  INFO 7916 --- [https-jsse-nio-8443-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:24:19.197  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-resources
+2020-06-30 11:24:54.113  INFO 7916 --- [https-jsse-nio-8443-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-ui.html
+2020-06-30 11:27:47.187  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:27:47.187  INFO 7916 --- [https-jsse-nio-8443-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:27:47.541  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /v2/api-docs
+2020-06-30 11:27:47.541  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:27:59.318  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2
+2020-06-30 11:27:59.319  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:27:59.417  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2
+2020-06-30 11:27:59.418  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:00.846  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 11:28:04.831  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/springfox.css?v=2.8.0-SNAPSHOT
+2020-06-30 11:28:04.831  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:04.835  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/swagger-ui.css?v=2.8.0-SNAPSHOT
+2020-06-30 11:28:04.835  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:10.013  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-resources/configuration/ui
+2020-06-30 11:28:10.013  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:10.066  INFO 7916 --- [https-jsse-nio-8443-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-resources/configuration/security
+2020-06-30 11:28:10.067  INFO 7916 --- [https-jsse-nio-8443-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:10.082  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-resources
+2020-06-30 11:28:10.083  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:10.200  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /v2/api-docs
+2020-06-30 11:28:10.201  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:10.717  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2
+2020-06-30 11:28:10.718  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:10.721  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2
+2020-06-30 11:28:10.722  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:11.784  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2
+2020-06-30 11:28:11.784  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2
+2020-06-30 11:28:11.785  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:11.785  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:22.382  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2
+2020-06-30 11:28:22.382  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:24.629  INFO 7916 --- [https-jsse-nio-8443-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2
+2020-06-30 11:28:24.630  INFO 7916 --- [https-jsse-nio-8443-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:34.594  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /auth/login?username=mm&password=mm
+2020-06-30 11:28:34.595  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:28:34.598  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.authority.controller.AuthController  : ---------------------login 1 -------------
+2020-06-30 11:29:14.657  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/v2/api-docs
+2020-06-30 11:29:14.657  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:29:26.086  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.netflix.config.ChainedDynamicProperty  : Flipping property: micro-aquaculture.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-06-30 11:29:26.148  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-micro-aquaculture
+2020-06-30 11:29:26.148  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.netflix.loadbalancer.BaseLoadBalancer  : Client: micro-aquaculture instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=micro-aquaculture,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-06-30 11:29:26.213  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2020-06-30 11:29:26.335  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.netflix.config.ChainedDynamicProperty  : Flipping property: micro-aquaculture.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-06-30 11:29:26.360  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client micro-aquaculture initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=micro-aquaculture,current list of Servers=[dell-PC:8084],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:dell-PC:8084;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@14667cb2
+2020-06-30 11:29:27.225  INFO 7916 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: micro-aquaculture.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-06-30 11:30:07.963  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one/tel?tel=18168092306
+2020-06-30 11:30:07.964  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 11:33:00.855  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 11:38:00.864  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 11:43:00.873  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 11:48:00.883  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 11:53:00.892  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 11:58:00.901  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 12:03:00.911  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 12:08:00.920  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 12:13:00.929  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 12:18:00.939  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 12:23:00.948  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 12:28:00.957  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 12:33:00.965  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 12:38:00.974  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 12:43:00.999  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 12:48:01.009  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 12:53:01.019  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 12:58:01.028  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 13:03:01.038  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 13:08:01.081  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 13:13:01.097  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 13:18:01.115  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 13:23:01.126  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 13:28:01.135  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 13:33:01.144  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 13:38:01.153  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 13:43:01.170  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 13:48:01.179  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 13:53:01.190  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 13:58:01.199  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 14:03:01.208  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 14:08:01.218  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 14:13:01.227  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 14:18:01.236  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 14:23:01.299  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 14:25:02.172  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-ui.html
+2020-06-30 14:25:02.317  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:25:07.608  INFO 7916 --- [https-jsse-nio-8443-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/springfox.css?v=2.8.0-SNAPSHOT
+2020-06-30 14:25:07.608  INFO 7916 --- [https-jsse-nio-8443-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:25:08.819  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/swagger-ui.css?v=2.8.0-SNAPSHOT
+2020-06-30 14:25:08.819  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:25:13.579  INFO 7916 --- [https-jsse-nio-8443-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-resources/configuration/ui
+2020-06-30 14:25:13.579  INFO 7916 --- [https-jsse-nio-8443-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:25:13.724  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/favicon-32x32.png?v=2.8.0-SNAPSHOT
+2020-06-30 14:25:13.725  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:25:16.699  INFO 7916 --- [https-jsse-nio-8443-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-resources/configuration/security
+2020-06-30 14:25:16.700  INFO 7916 --- [https-jsse-nio-8443-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:25:16.729  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-resources
+2020-06-30 14:25:16.730  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:25:17.137  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /v2/api-docs
+2020-06-30 14:25:17.138  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:27:55.299  INFO 7916 --- [https-jsse-nio-8443-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/v2/api-docs
+2020-06-30 14:27:55.368  INFO 7916 --- [https-jsse-nio-8443-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:28:01.320  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 14:28:18.862  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /v2/api-docs
+2020-06-30 14:28:18.862  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:28:46.832  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /auth/login?username=mm&password=mm
+2020-06-30 14:28:46.833  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:28:49.097  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.authority.controller.AuthController  : ---------------------login 1 -------------
+2020-06-30 14:33:01.339  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 14:33:56.318  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /user-center/v2/api-docs
+2020-06-30 14:33:56.319  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:34:13.355  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.netflix.config.ChainedDynamicProperty  : Flipping property: user-center.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-06-30 14:34:13.975  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-user-center
+2020-06-30 14:34:14.009  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.netflix.loadbalancer.BaseLoadBalancer  : Client: user-center instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=user-center,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-06-30 14:34:14.329  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2020-06-30 14:34:14.501  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.netflix.config.ChainedDynamicProperty  : Flipping property: user-center.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-06-30 14:34:14.514  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client user-center initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=user-center,current list of Servers=[dell-PC:8081],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:dell-PC:8081;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@7ee0cb47
+2020-06-30 14:34:15.409  INFO 7916 --- [PollingServerListUpdater-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: user-center.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-06-30 14:36:02.567  INFO 7916 --- [https-jsse-nio-8443-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/v2/api-docs
+2020-06-30 14:36:02.612  INFO 7916 --- [https-jsse-nio-8443-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:36:30.816  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /v2/api-docs
+2020-06-30 14:38:01.394  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 14:38:36.898  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:41:01.173  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/v2/api-docs
+2020-06-30 14:41:01.174  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:41:28.388  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one/tel?tel=18168092306
+2020-06-30 14:41:28.389  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:42:22.307  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one/tel?tel=18168092306
+2020-06-30 14:42:22.326  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:42:36.782  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one/tel?tel=18168092306
+2020-06-30 14:42:36.783  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:43:36.919  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 14:47:27.522  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one/tel?tel=18168092306
+2020-06-30 14:47:27.534  INFO 7916 --- [https-jsse-nio-8443-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:48:36.953  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 14:50:42.202  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one/tel?tel=18168092306
+2020-06-30 14:50:42.203  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:52:43.057  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one/tel?tel=18168092306
+2020-06-30 14:52:43.057  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:53:17.377  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one/tel?tel=18168092306
+2020-06-30 14:53:17.378  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 14:53:36.984  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 14:58:37.088  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 15:03:28.739  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one/tel?tel=18168092306
+2020-06-30 15:03:30.105  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:03:37.699  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 15:08:37.973  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 15:13:37.994  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 15:18:38.146  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 15:20:22.971  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one/tel?tel=18168092306
+2020-06-30 15:20:23.090  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:20:38.488  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-ui.html
+2020-06-30 15:20:38.580  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:20:42.854  INFO 7916 --- [https-jsse-nio-8443-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/swagger-ui.css?v=2.8.0-SNAPSHOT
+2020-06-30 15:20:42.854  INFO 7916 --- [https-jsse-nio-8443-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:20:43.587  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/springfox.css?v=2.8.0-SNAPSHOT
+2020-06-30 15:20:43.587  INFO 7916 --- [https-jsse-nio-8443-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:20:45.976  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /webjars/springfox-swagger-ui/favicon-32x32.png?v=2.8.0-SNAPSHOT
+2020-06-30 15:20:45.976  INFO 7916 --- [https-jsse-nio-8443-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:20:46.066  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-resources/configuration/ui
+2020-06-30 15:20:46.066  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:20:47.846  INFO 7916 --- [https-jsse-nio-8443-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-resources/configuration/security
+2020-06-30 15:20:47.862  INFO 7916 --- [https-jsse-nio-8443-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:20:48.260  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /swagger-resources
+2020-06-30 15:20:48.261  INFO 7916 --- [https-jsse-nio-8443-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:20:48.828  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /v2/api-docs
+2020-06-30 15:22:13.228  INFO 7916 --- [https-jsse-nio-8443-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:22:35.554  INFO 7916 --- [https-jsse-nio-8443-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/v2/api-docs
+2020-06-30 15:22:35.592  INFO 7916 --- [https-jsse-nio-8443-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:23:02.023  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one?tel=18168092306
+2020-06-30 15:23:02.024  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:23:38.234  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 15:28:37.200  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one?tel=18168092306
+2020-06-30 15:28:37.200  INFO 7916 --- [https-jsse-nio-8443-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:28:39.351  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 15:33:39.447  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 15:38:39.893  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 15:40:14.808  INFO 7916 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution succeeded on retry #1
+2020-06-30 15:40:14.963  INFO 7916 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution succeeded on retry #1
+2020-06-30 15:40:58.501  INFO 7916 --- [https-jsse-nio-8443-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one?tel=18168092306
+2020-06-30 15:40:58.543  INFO 7916 --- [https-jsse-nio-8443-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2020-06-30 15:43:39.946  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 15:48:40.248  INFO 7916 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-30 15:50:19.867  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/one?tel=18168092306
+2020-06-30 15:50:19.868  INFO 7916 --- [https-jsse-nio-8443-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null

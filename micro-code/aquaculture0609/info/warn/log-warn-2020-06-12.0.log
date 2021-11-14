@@ -1,0 +1,3 @@
+2020-06-12 10:23:41.373  WARN 8848 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-12 10:23:41.407  WARN 8848 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-12 10:23:43.809  WARN 8848 --- [main] o.s.b.a.i.InfluxDbAutoConfiguration      : InfluxDB client customizations using a OkHttpClient.Builder is deprecated, register a InfluxDbOkHttpClientBuilderProvider bean instead

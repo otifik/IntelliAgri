@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include
+        layout="@layout/include_toolbar"/>
+
+    <RelativeLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_portrait"
+            android:layout_margin="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/tab_my_normal"
+            />
+        <TextView
+            android:layout_toRightOf="@id/iv_portrait"
+            android:id="@+id/tv_mainuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="用户名称"
+            android:maxEms="8"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textSize="11sp"
+            android:textColor="#1E90FF"/>
+        <TextView
+            android:layout_toRightOf="@id/iv_portrait"
+            android:layout_below="@id/tv_mainuser"
+            android:id="@+id/tv_maintime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="4dp"
+            android:text="00-00 00:00"
+            android:textSize="11sp"
+            android:textColor="#404040"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_usertype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:paddingLeft="9dp"
+                android:paddingRight="9dp"
+                android:textSize="11sp"
+                android:textColor="#58E2B8"
+                android:background="@drawable/qalist_bg_green"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+    <ImageView
+        android:id="@+id/ivQuestion"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="问题描述:"
+            android:textSize="13sp"
+            android:textColor="#1E90FF"/>
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="3dp"
+            android:padding="4dp"
+            android:text="我是content"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/common_dimension_10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimension_35">
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="2dp"
+            android:layout_height="18dp"
+            android:background="@color/colorTheme" />
+
+        <TextView
+            android:text="回答描述"
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/mediumTextSize"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <com.jit.AgriIn.widget.SafeEditText
+        android:scrollbars="vertical"
+        android:id="@+id/etDef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shape_add_head_pic"
+        android:gravity="left|top"
+        android:lines="15"
+        android:padding="@dimen/common_dimension_4"
+        android:hint="填写对问题的回答"
+        android:textSize="14.5sp"/>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

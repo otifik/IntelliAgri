@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator">
+    <!-- 定义了一个加速拦截器
+         动画时常0.4秒
+         从2缩小到1
+         透明度从0变为1
+     -->
+    <scale
+        android:duration="@android:integer/config_mediumAnimTime"
+        android:fromXScale="2.0"
+        android:fromYScale="2.0"
+        android:pivotX="50%p"
+        android:pivotY="50%p"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+
+    <alpha
+        android:duration="@android:integer/config_mediumAnimTime"
+        android:fromAlpha="0"
+        android:toAlpha="1.0" />
+
+</set>

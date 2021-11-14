@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_cruise_speed">
+        <item>高速</item>
+        <item>中速</item>
+        <item>低速</item>
+    </array>
+
+    <array name="array_drug_kind">
+        <item>改底剂（芽孢杆菌微生态制剂</item>
+        <item>益生菌（光合细菌、酵母菌、乳酸菌、放线菌、芽孢杆菌等一定比例的复合微生态制剂）</item>
+    </array>
+
+    <array name="array_feed_kind">
+        <item>干料</item>
+        <item>湿料</item>
+        <item>冰鲜鱼</item>
+        <item>颗粒</item>
+        <item>麦糠豆粕</item>
+    </array>
+
+    <array name="array_cruise_mode">
+        <item>巡航</item>
+        <item>巡航+投饵</item>
+        <item>巡航+投饵+喷药</item>
+    </array>
+
+</resources>

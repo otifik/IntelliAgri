@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        layout="@layout/include_toolbar"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_50">
+                <TextView
+                    android:id="@+id/tvDiseaseName"
+                    android:layout_marginLeft="@dimen/common_dimension_15"
+                    android:layout_centerVertical="true"
+                    android:text="药品名称"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green1"
+                    android:textSize="@dimen/BasicTextSize"/>
+                <EditText
+
+                    android:inputType="text"
+                    android:id="@+id/etDiseaseName"
+                    android:background="@null"
+                    android:lines="1"
+                    android:hint="@string/drug_name"
+                    android:textCursorDrawable="@drawable/style_cursor_black"
+                    android:layout_marginLeft="@dimen/common_dimension_89"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SmallTextSize" />
+
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_add_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimension_1"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_50">
+                <TextView
+                    android:id="@+id/tvDiseaseType"
+                    android:layout_marginLeft="@dimen/common_dimension_15"
+                    android:layout_centerVertical="true"
+                    android:text="药品种类"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green1"
+                    android:textSize="@dimen/BasicTextSize"/>
+                <EditText
+                    android:inputType="text"
+                    android:id="@+id/etDiseaseType"
+                    android:background="@null"
+                    android:lines="1"
+                    android:hint="@string/drug_subkind"
+                    android:textCursorDrawable="@drawable/style_cursor_black"
+                    android:layout_marginLeft="@dimen/common_dimension_89"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SmallTextSize" />
+
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_add_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimension_1"
+                    />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_50">
+                <TextView
+                    android:id="@+id/tvCompany"
+                    android:layout_marginLeft="@dimen/common_dimension_15"
+                    android:layout_centerVertical="true"
+                    android:text="来源"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green1"
+                    android:textSize="@dimen/BasicTextSize"/>
+                <EditText
+                    android:inputType="text"
+                    android:id="@+id/etCompany"
+                    android:background="@null"
+                    android:lines="1"
+                    android:hint="@string/pls_bk_company"
+                    android:textCursorDrawable="@drawable/style_cursor_black"
+                    android:layout_marginLeft="@dimen/common_dimension_89"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SmallTextSize" />
+
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/color_add_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/common_dimension_1"
+                    />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/common_dimension_10"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_35">
+                <View
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="2dp"
+                    android:layout_height="18dp"
+                    android:background="@color/colorTheme" />
+
+                <TextView
+                    android:text="使用说明"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="@dimen/mediumTextSize"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <com.jit.AgriIn.widget.SafeEditText
+                android:scrollbars="vertical"
+                android:id="@+id/etDef"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/shape_add_head_pic"
+                android:gravity="left|top"
+                android:lines="15"
+                android:padding="@dimen/common_dimension_4"
+                android:hint="@string/drug_defination"
+                android:textSize="14.5sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

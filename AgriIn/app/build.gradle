@@ -1,0 +1,122 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.3'
+    defaultConfig {
+        applicationId rootProject.ext.applicationId
+        minSdkVersion rootProject.ext.minSdkVersion        /* 记住这个minSDK是16 */
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        // 分包
+        multiDexEnabled true
+        dexOptions{
+            preDexLibraries = false
+        }
+        ndk {
+//            abiFilters 'x86','x86_64','armeabi-v7a','armeabi'//只支持32位
+            abiFilters 'armeabi-v7a'
+        }
+
+    }
+    buildTypes {
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            // 混淆
+            minifyEnabled false
+            //Zipalign优化
+            zipAlignEnabled false
+            // 移除无用的resource文件
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    //lambda必备
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    configurations.all {
+        resolutionStrategy.eachDependency { details ->
+            def requested = details.requested
+            if (requested.group == 'com.android.support') {
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion rootProject.ext.supportVersion
+                }
+            }
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    /**
+     * 牛逼啊 aar传递引用
+     */
+    repositories {
+        flatDir {
+            dirs 'libs_aar', '../open/libs_aar', 'libs'
+        }
+    }
+/*   设置虚拟机堆内存空间大小，避免在编译期间OOM
+     这个不添加 不然会报:Warning:The `android.dexOptions.incremental`
+     property is deprecated and it has no effect on the build process.*/
+/*    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g"
+    }*/
+    //打包不检查
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':baselib')
+    implementation project(':open')
+    implementation project(':yslib')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    // 必加
+    annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0-rc2'
+    // 必加
+    annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:2.3.2'
+    // 视频资源库 ---- 这个后面考虑删除掉吧
+//    implementation 'cn.jzvd:jiaozivideoplayer:6.3.1'
+//    implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
+//    implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.4'
+//    implementation 'com.google.android.exoplayer:exoplayer:2.8.4'
+    //    implementation 'com.shuyu:gsyVideoPlayer-ex_so:6.0.1'
+    //    //是否需要ExoPlayer模式
+    //    implementation 'com.shuyu:GSYVideoPlayer-exo2:6.0.1'
+    // 速度选择的seekbar
+    implementation 'com.github.warkiz.widget:indicatorseekbar:2.1.2'
+    // 加入进度条(线性)
+    implementation 'com.xw.repo:bubbleseekbar:3.16'
+    // 加入仿IOS SwitchButton
+    implementation 'ch.ielse:switchbutton:1.0.1'
+    implementation files('libs/jxl.jar')
+    implementation files('libs/Msc.jar')
+    //aar
+    implementation(name: 'app-debug', ext: 'aar')
+    implementation(name: 'openDefault-4.3.0', ext: 'aar')
+    implementation 'info.hoang8f:android-segmented:1.0.6'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+    //添加缺失依赖
+//    implementation 'org.apache.httpcomponents:httpclient:4.4'
+}

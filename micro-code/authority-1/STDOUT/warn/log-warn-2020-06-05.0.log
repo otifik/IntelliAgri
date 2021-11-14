@@ -1,0 +1,11 @@
+2020-06-05 08:42:15.508  WARN 7184 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-05 08:42:15.553  WARN 7184 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-05 08:42:21.415  WARN 7184 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-05 08:42:29.451  WARN 7184 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-05 08:42:47.382  WARN 7184 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-05 08:42:52.997  WARN 7184 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-05 08:50:02.752  WARN 7184 --- [http-nio-4431-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-05 08:52:43.827  WARN 7184 --- [http-nio-4431-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-05 08:52:52.083  WARN 7184 --- [http-nio-4431-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-05 08:52:55.199  WARN 7184 --- [http-nio-4431-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-05 08:57:51.936  WARN 7184 --- [http-nio-4431-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_subportrait"
+            android:layout_margin="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/tab_my_normal"
+            />
+        <TextView
+            android:layout_toRightOf="@id/iv_subportrait"
+            android:id="@+id/tv_submainuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="用户名称"
+            android:maxEms="8"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textSize="11sp"
+            android:textColor="#1E90FF"/>
+        <TextView
+            android:layout_toRightOf="@id/iv_subportrait"
+            android:layout_below="@id/tv_submainuser"
+            android:id="@+id/tv_submaintime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="4dp"
+            android:text="00-00 00:00"
+            android:textSize="11sp"
+            android:textColor="#404040"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_subusertype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:paddingLeft="9dp"
+                android:paddingRight="9dp"
+                android:textSize="11sp"
+                android:textColor="#58E2B8"
+                android:background="@drawable/qalist_bg_green"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="回答:"
+            android:textSize="13sp"
+            android:textColor="#1E90FF"/>
+        <TextView
+            android:id="@+id/tv_subcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="3dp"
+            android:padding="4dp"
+            android:text="我是content"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

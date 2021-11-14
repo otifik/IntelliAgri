@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jit.AgriIn.ui.activity.config.PondMainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.example.xrecyclerview.XRecyclerView
+            android:layout_marginTop="@dimen/common_dimension_8"
+            android:layout_marginBottom="@dimen/common_dimension_45"
+            android:id="@+id/rvPond"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.example.xrecyclerview.XRecyclerView>
+    </RelativeLayout>
+</LinearLayout>

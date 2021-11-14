@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aquaculture0609/aquaculture.iml" filepath="$PROJECT_DIR$/aquaculture0609/aquaculture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/authority-1/authority.iml" filepath="$PROJECT_DIR$/authority-1/authority.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-center/eureka-center.iml" filepath="$PROJECT_DIR$/eureka-center/eureka-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/micro-code.iml" filepath="$PROJECT_DIR$/.idea/micro-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-center/usercenter.iml" filepath="$PROJECT_DIR$/user-center/usercenter.iml" />
+    </modules>
+  </component>
+</project>

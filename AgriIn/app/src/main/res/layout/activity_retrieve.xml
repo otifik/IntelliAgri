@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <LinearLayout
+        android:id="@+id/content"
+        android:fitsSystemWindows="true"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_marginTop="@dimen/common_dimension_65"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/agri"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/account"
+                >
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/login_username"
+                    android:id="@+id/accountIcon" />
+
+
+                <com.zxl.baselib.widget.EditTextWithDel
+                    android:id="@+id/etAccount"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:textColorHint="#DCDCDC"
+                    android:hint="@string/input_your_phone"
+                    android:textSize="13sp"
+                    android:background="#fff"
+                    android:layout_marginRight="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/accountIcon"
+                    tools:ignore="RtlCompat" />
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:id="@+id/rlRecode"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    >
+                    <ImageView
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/login_password"
+                        android:id="@+id/keyIcon" />
+
+                    <com.zxl.baselib.widget.EditTextWithDel
+                        android:id="@+id/smsCode"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/black"
+                        android:inputType="number"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:textColorHint="#DCDCDC"
+                        android:hint="@string/sms_code"
+                        android:textSize="13sp"
+                        android:background="#fff"
+                        android:layout_marginRight="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/keyIcon"
+                        tools:ignore="RtlCompat" />
+                </RelativeLayout>
+                <com.zxl.baselib.widget.PaperButton
+                    android:id="@+id/pbSmsCode"
+                    android:layout_weight="1.6"
+                    android:layout_marginLeft="25dp"
+                    app:paper_corner_radius="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:gravity="center"
+                    app:paper_text_size="13sp"
+                    app:paper_text="@string/send_sms_code"
+                    app:paper_color="@color/login_input_active"
+                    app:paper_text_color="@color/white"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"/>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/submit_next"
+                android:background="@drawable/selector_btn_login_submit"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_15"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="@dimen/common_dimension_8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height">
+        <ImageView
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            android:layout_marginLeft="@dimen/common_dimension_10"
+            android:id="@+id/ivToolbarNavigation"
+            android:padding="@dimen/common_dimension_8"
+            android:layout_width="@dimen/common_dimension_40"
+            android:layout_height="@dimen/common_dimension_40"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_back2" />
+    </RelativeLayout>
+
+</FrameLayout>

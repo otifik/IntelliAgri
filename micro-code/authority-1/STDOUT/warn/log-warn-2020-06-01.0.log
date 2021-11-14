@@ -1,0 +1,50 @@
+2020-06-01 09:31:44.897  WARN 8092 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-01 09:31:44.928  WARN 8092 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-01 09:31:54.113  WARN 8092 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 09:32:17.692  WARN 8092 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-01 09:32:37.866  WARN 8092 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 09:32:40.498  WARN 8092 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-01 14:33:49.178  WARN 8092 --- [Thread-122] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1590993229178, current=DOWN, previous=UP]
+2020-06-01 14:34:53.355  WARN 6404 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-01 14:34:53.398  WARN 6404 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-01 14:34:56.778  WARN 6404 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 14:34:59.310  WARN 6404 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-01 14:35:00.563  WARN 6404 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 14:35:01.723  WARN 6404 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-01 15:28:46.473  WARN 9596 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-01 15:28:46.547  WARN 9596 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-01 15:28:55.593  WARN 9596 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 15:29:02.843  WARN 9596 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-01 15:29:05.338  WARN 9596 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 15:29:07.261  WARN 9596 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-01 15:34:57.485  WARN 9596 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 120000ms.
+2020-06-01 15:35:36.547  WARN 9596 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 120000ms.
+2020-06-01 15:40:52.327  WARN 9596 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 120000ms.
+2020-06-01 15:51:46.002  WARN 212 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-01 15:51:46.033  WARN 212 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-01 15:51:56.758  WARN 212 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 15:52:00.993  WARN 212 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-01 15:52:02.988  WARN 212 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 15:52:05.552  WARN 212 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-01 15:56:52.017  WARN 212 --- [http-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 120000ms.
+2020-06-01 15:58:39.670  WARN 2100 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-01 15:58:39.683  WARN 2100 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-01 15:58:41.139  WARN 2100 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 15:58:43.443  WARN 2100 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-01 15:58:44.811  WARN 2100 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 15:58:45.681  WARN 2100 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-01 16:00:47.645  WARN 2100 --- [http-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 120000ms.
+2020-06-01 16:02:27.264  WARN 6332 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-01 16:02:27.272  WARN 6332 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-01 16:02:32.106  WARN 6332 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 16:02:37.387  WARN 6332 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-01 16:02:39.064  WARN 6332 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 16:02:40.437  WARN 6332 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-01 16:15:39.306  WARN 6332 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 120000ms.
+2020-06-01 16:22:41.612  WARN 6576 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-01 16:22:41.728  WARN 6576 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-01 16:22:56.140  WARN 6576 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 16:23:07.893  WARN 6576 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-01 16:23:16.580  WARN 6576 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-01 16:23:19.511  WARN 6576 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-01 16:27:51.058  WARN 6576 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.

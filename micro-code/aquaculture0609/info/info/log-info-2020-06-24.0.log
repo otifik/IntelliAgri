@@ -1,0 +1,490 @@
+2020-06-24 09:13:51.369  INFO 2644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$722710cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:13:51.873  INFO 2644 --- [main] c.j.aquaculture.AquacultureApplication   : The following profiles are active: test
+2020-06-24 09:13:56.300  INFO 2644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-24 09:13:56.366  INFO 2644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-24 09:13:56.651  INFO 2644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106ms. Found 0 repository interfaces.
+2020-06-24 09:13:57.729  INFO 2644 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=99b9ca4d-09a6-3ea8-8255-51c846f5ce83
+2020-06-24 09:13:57.754  INFO 2644 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-06-24 09:13:57.802  INFO 2644 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-06-24 09:13:58.023  INFO 2644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$560d0dd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:13:58.127  INFO 2644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$c0fec8ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:13:58.161  INFO 2644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:13:58.181  INFO 2644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$722710cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:13:58.806  INFO 2644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2020-06-24 09:13:58.866  INFO 2644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-24 09:13:58.866  INFO 2644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-24 09:13:59.092  INFO 2644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-24 09:13:59.092  INFO 2644 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6976 ms
+2020-06-24 09:14:02.656  INFO 2644 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-24 09:14:02.866  INFO 2644 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:14:03.224  INFO 2644 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:14:04.131  INFO 2644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 09:14:06.019  INFO 2644 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-24 09:14:07.054  INFO 2644 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-06-24 09:14:07.054  INFO 2644 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-06-24 09:14:07.055  INFO 2644 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2020-06-24 09:14:07.081  INFO 2644 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-06-24 09:14:07.137  INFO 2644 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-06-24 09:14:07.580  INFO 2644 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-06-24 09:14:07.580  INFO 2644 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-06-24 09:14:07.886  INFO 2644 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-06-24 09:14:07.886  INFO 2644 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-06-24 09:14:08.331  INFO 2644 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-24 09:14:08.457  INFO 2644 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-06-24 09:14:08.457  INFO 2644 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-06-24 09:14:08.457  INFO 2644 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-06-24 09:14:08.457  INFO 2644 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-06-24 09:14:08.457  INFO 2644 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-06-24 09:14:08.458  INFO 2644 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-06-24 09:14:08.458  INFO 2644 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-06-24 09:14:09.159  INFO 2644 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-06-24 09:14:09.176  INFO 2644 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-06-24 09:14:09.178  INFO 2644 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-06-24 09:14:09.190  INFO 2644 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1592961249180 with initial instances count: 5
+2020-06-24 09:14:09.193  INFO 2644 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MICRO-AQUACULTURE with eureka with status UP
+2020-06-24 09:14:09.194  INFO 2644 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1592961249194, current=UP, previous=STARTING]
+2020-06-24 09:14:09.197  INFO 2644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-24 09:14:09.198  INFO 2644 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084: registering service...
+2020-06-24 09:14:09.316  INFO 2644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-24 09:14:09.349  INFO 2644 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084 - registration status: 204
+2020-06-24 09:14:09.394  INFO 2644 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-24 09:14:09.700  INFO 2644 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2020-06-24 09:14:09.702  INFO 2644 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_1
+2020-06-24 09:14:09.731  INFO 2644 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllDailyThrowUsingGET_1
+2020-06-24 09:14:09.736  INFO 2644 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDailyThrowByDateUsingGET_1
+2020-06-24 09:14:09.765  INFO 2644 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_2
+2020-06-24 09:14:09.770  INFO 2644 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_2
+2020-06-24 09:14:09.903  INFO 2644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2020-06-24 09:14:09.904  INFO 2644 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2020-06-24 09:14:09.906  INFO 2644 --- [main] c.j.aquaculture.AquacultureApplication   : Started AquacultureApplication in 23.198 seconds (JVM running for 31.959)
+2020-06-24 09:14:09.910  INFO 2644 --- [main] c.j.aquaculture.AquacultureApplication   : aquaculture application is running.........
+2020-06-24 09:15:32.237  INFO 2644 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-24 09:15:32.238  INFO 2644 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-24 09:15:32.487  INFO 2644 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 249 ms
+2020-06-24 09:32:39.565  INFO 8928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$35ac9039] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:32:39.995  INFO 8928 --- [main] c.j.aquaculture.AquacultureApplication   : The following profiles are active: test
+2020-06-24 09:32:44.878  INFO 8928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-24 09:32:44.881  INFO 8928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-24 09:32:44.954  INFO 8928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2020-06-24 09:32:45.967  INFO 8928 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=99b9ca4d-09a6-3ea8-8255-51c846f5ce83
+2020-06-24 09:32:46.009  INFO 8928 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-06-24 09:32:46.064  INFO 8928 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-06-24 09:32:46.743  INFO 8928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$19928d3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:32:46.876  INFO 8928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$8484486b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:32:46.892  INFO 8928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:32:46.914  INFO 8928 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$35ac9039] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:32:47.880  INFO 8928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2020-06-24 09:32:47.923  INFO 8928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-24 09:32:47.923  INFO 8928 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-24 09:32:48.167  INFO 8928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-24 09:32:48.168  INFO 8928 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8143 ms
+2020-06-24 09:32:51.733  INFO 8928 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-24 09:32:51.835  INFO 8928 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:32:51.975  INFO 8928 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:32:52.476  INFO 8928 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 09:33:03.369  INFO 6476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d8b2a600] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:33:03.694  INFO 6476 --- [main] c.j.aquaculture.AquacultureApplication   : The following profiles are active: test
+2020-06-24 09:33:04.735  INFO 6476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-24 09:33:04.738  INFO 6476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-24 09:33:04.799  INFO 6476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 0 repository interfaces.
+2020-06-24 09:33:05.137  INFO 6476 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=99b9ca4d-09a6-3ea8-8255-51c846f5ce83
+2020-06-24 09:33:05.146  INFO 6476 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-06-24 09:33:05.163  INFO 6476 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-06-24 09:33:05.292  INFO 6476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bc98a303] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:33:05.326  INFO 6476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$278a5e32] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:33:05.339  INFO 6476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:33:05.371  INFO 6476 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d8b2a600] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:33:05.909  INFO 6476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2020-06-24 09:33:05.935  INFO 6476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-24 09:33:05.936  INFO 6476 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-24 09:33:06.227  INFO 6476 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-24 09:33:06.227  INFO 6476 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2515 ms
+2020-06-24 09:33:07.882  INFO 6476 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-24 09:33:07.928  INFO 6476 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:33:07.934  INFO 6476 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:33:08.175  INFO 6476 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 09:33:09.290  INFO 6476 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-24 09:33:10.239  INFO 6476 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-06-24 09:33:10.240  INFO 6476 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-06-24 09:33:10.240  INFO 6476 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2020-06-24 09:33:10.256  INFO 6476 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-06-24 09:33:10.313  INFO 6476 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-06-24 09:33:10.630  INFO 6476 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-06-24 09:33:10.630  INFO 6476 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-06-24 09:33:10.795  INFO 6476 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-06-24 09:33:10.796  INFO 6476 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-06-24 09:33:11.650  INFO 6476 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-24 09:33:11.780  INFO 6476 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-06-24 09:33:11.781  INFO 6476 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-06-24 09:33:11.781  INFO 6476 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-06-24 09:33:11.781  INFO 6476 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-06-24 09:33:11.781  INFO 6476 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-06-24 09:33:11.781  INFO 6476 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-06-24 09:33:11.781  INFO 6476 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-06-24 09:33:12.162  INFO 6476 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-06-24 09:33:12.167  INFO 6476 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-06-24 09:33:12.169  INFO 6476 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-06-24 09:33:12.172  INFO 6476 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1592962392171 with initial instances count: 7
+2020-06-24 09:33:12.174  INFO 6476 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MICRO-AQUACULTURE with eureka with status UP
+2020-06-24 09:33:12.175  INFO 6476 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1592962392175, current=UP, previous=STARTING]
+2020-06-24 09:33:12.177  INFO 6476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084: registering service...
+2020-06-24 09:33:12.177  INFO 6476 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-24 09:33:12.209  INFO 6476 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-24 09:33:12.238  INFO 6476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084 - registration status: 204
+2020-06-24 09:33:12.275  INFO 6476 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-24 09:33:12.540  INFO 6476 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2020-06-24 09:33:12.542  INFO 6476 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_1
+2020-06-24 09:33:12.577  INFO 6476 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllDailyThrowUsingGET_1
+2020-06-24 09:33:12.584  INFO 6476 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDailyThrowByDateUsingGET_1
+2020-06-24 09:33:12.617  INFO 6476 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_2
+2020-06-24 09:33:12.622  INFO 6476 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_2
+2020-06-24 09:33:12.769  INFO 6476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2020-06-24 09:33:12.770  INFO 6476 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2020-06-24 09:33:12.771  INFO 6476 --- [main] c.j.aquaculture.AquacultureApplication   : Started AquacultureApplication in 10.824 seconds (JVM running for 12.206)
+2020-06-24 09:33:12.774  INFO 6476 --- [main] c.j.aquaculture.AquacultureApplication   : aquaculture application is running.........
+2020-06-24 09:33:27.833  INFO 6476 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-24 09:33:27.834  INFO 6476 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-24 09:33:27.861  INFO 6476 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2020-06-24 09:38:11.789  INFO 6476 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-24 09:41:31.785  INFO 6476 --- [Thread-27] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MICRO-AQUACULTURE with eureka with status DOWN
+2020-06-24 09:41:31.786  INFO 6476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084: registering service...
+2020-06-24 09:41:31.793  INFO 6476 --- [Thread-27] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-06-24 09:41:31.794  INFO 6476 --- [Thread-27] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2020-06-24 09:41:31.794  INFO 6476 --- [Thread-27] o.s.i.endpoint.EventDrivenConsumer       : stopped _org.springframework.integration.errorLogger
+2020-06-24 09:41:31.799  INFO 6476 --- [Thread-27] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-06-24 09:41:31.814  INFO 6476 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084 - registration status: 204
+2020-06-24 09:41:31.988  INFO 6476 --- [Thread-27] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-24 09:41:32.037  INFO 6476 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-06-24 09:41:35.039  INFO 6476 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-06-24 09:41:35.061  INFO 6476 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084 - deregister  status: 200
+2020-06-24 09:41:35.100  INFO 6476 --- [Thread-27] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-06-24 09:45:57.364  INFO 6064 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1d9d1885] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:45:57.781  INFO 6064 --- [main] c.j.aquaculture.AquacultureApplication   : The following profiles are active: test
+2020-06-24 09:45:59.648  INFO 6064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-24 09:45:59.650  INFO 6064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-24 09:45:59.700  INFO 6064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+2020-06-24 09:45:59.995  INFO 6064 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=99b9ca4d-09a6-3ea8-8255-51c846f5ce83
+2020-06-24 09:46:00.003  INFO 6064 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-06-24 09:46:00.019  INFO 6064 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-06-24 09:46:00.119  INFO 6064 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1831588] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:46:00.140  INFO 6064 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$6c74d0b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:46:00.148  INFO 6064 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:46:00.164  INFO 6064 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1d9d1885] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:46:00.732  INFO 6064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2020-06-24 09:46:00.755  INFO 6064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-24 09:46:00.755  INFO 6064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-24 09:46:00.969  INFO 6064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-24 09:46:00.969  INFO 6064 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3171 ms
+2020-06-24 09:46:02.579  INFO 6064 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-24 09:46:02.619  INFO 6064 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:46:02.623  INFO 6064 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:46:02.860  INFO 6064 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 09:46:06.495  INFO 6064 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-24 09:46:07.454  INFO 6064 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-06-24 09:46:07.454  INFO 6064 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-06-24 09:46:07.454  INFO 6064 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2020-06-24 09:46:07.482  INFO 6064 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-06-24 09:46:07.538  INFO 6064 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-06-24 09:46:07.878  INFO 6064 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-06-24 09:46:07.879  INFO 6064 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-06-24 09:46:08.079  INFO 6064 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-06-24 09:46:08.079  INFO 6064 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-06-24 09:46:08.587  INFO 6064 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-24 09:46:08.702  INFO 6064 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-06-24 09:46:08.703  INFO 6064 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-06-24 09:46:08.703  INFO 6064 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-06-24 09:46:08.703  INFO 6064 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-06-24 09:46:08.703  INFO 6064 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-06-24 09:46:08.703  INFO 6064 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-06-24 09:46:08.703  INFO 6064 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-06-24 09:46:09.333  INFO 6064 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-06-24 09:46:09.336  INFO 6064 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-06-24 09:46:09.338  INFO 6064 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-06-24 09:46:09.341  INFO 6064 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1592963169340 with initial instances count: 6
+2020-06-24 09:46:09.343  INFO 6064 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MICRO-AQUACULTURE with eureka with status UP
+2020-06-24 09:46:09.343  INFO 6064 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1592963169343, current=UP, previous=STARTING]
+2020-06-24 09:46:09.345  INFO 6064 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084: registering service...
+2020-06-24 09:46:09.346  INFO 6064 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-24 09:46:09.383  INFO 6064 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-24 09:46:09.421  INFO 6064 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084 - registration status: 204
+2020-06-24 09:46:09.463  INFO 6064 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-24 09:46:09.664  INFO 6064 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2020-06-24 09:46:09.666  INFO 6064 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_1
+2020-06-24 09:46:09.695  INFO 6064 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllDailyThrowUsingGET_1
+2020-06-24 09:46:09.699  INFO 6064 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDailyThrowByDateUsingGET_1
+2020-06-24 09:46:09.728  INFO 6064 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_2
+2020-06-24 09:46:09.733  INFO 6064 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_2
+2020-06-24 09:46:09.802  INFO 6064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2020-06-24 09:46:09.803  INFO 6064 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2020-06-24 09:46:09.804  INFO 6064 --- [main] c.j.aquaculture.AquacultureApplication   : Started AquacultureApplication in 14.097 seconds (JVM running for 15.718)
+2020-06-24 09:46:09.807  INFO 6064 --- [main] c.j.aquaculture.AquacultureApplication   : aquaculture application is running.........
+2020-06-24 09:46:15.818  INFO 6064 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-24 09:46:15.818  INFO 6064 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-24 09:46:15.861  INFO 6064 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 43 ms
+2020-06-24 09:47:47.423  INFO 6064 --- [DiscoveryClient-CacheRefreshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://111.229.163.181:8761: No route to host: connect
+2020-06-24 09:47:47.423  INFO 6064 --- [DiscoveryClient-HeartbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://111.229.163.181:8761: No route to host: connect
+2020-06-24 09:47:47.423  INFO 6064 --- [DiscoveryClient-CacheRefreshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://111.229.163.181:8761
+2020-06-24 09:47:47.423  INFO 6064 --- [DiscoveryClient-HeartbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://111.229.163.181:8761
+2020-06-24 09:47:47.424  INFO 6064 --- [DiscoveryClient-CacheRefreshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://111.229.163.181:8761: No route to host: connect
+2020-06-24 09:47:47.424  INFO 6064 --- [DiscoveryClient-CacheRefreshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://111.229.163.181:8761
+2020-06-24 09:47:47.434  INFO 6064 --- [DiscoveryClient-HeartbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://111.229.163.181:8761: No route to host: connect
+2020-06-24 09:47:47.434  INFO 6064 --- [DiscoveryClient-HeartbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://111.229.163.181:8761
+2020-06-24 09:47:47.435  INFO 6064 --- [DiscoveryClient-CacheRefreshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://111.229.163.181:8761: No route to host: connect
+2020-06-24 09:47:47.435  INFO 6064 --- [DiscoveryClient-CacheRefreshExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://111.229.163.181:8761
+2020-06-24 09:47:47.437  INFO 6064 --- [DiscoveryClient-HeartbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : I/O exception (java.net.NoRouteToHostException) caught when connecting to {}->http://111.229.163.181:8761: No route to host: connect
+2020-06-24 09:47:47.437  INFO 6064 --- [DiscoveryClient-HeartbeatExecutor-0] o.a.http.impl.client.DefaultHttpClient   : Retrying connect to {}->http://111.229.163.181:8761
+2020-06-24 09:49:50.929  INFO 8868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fc4b31a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:49:51.282  INFO 8868 --- [main] c.j.aquaculture.AquacultureApplication   : The following profiles are active: test
+2020-06-24 09:49:53.394  INFO 8868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-24 09:49:53.397  INFO 8868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-24 09:49:53.447  INFO 8868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+2020-06-24 09:49:53.743  INFO 8868 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=99b9ca4d-09a6-3ea8-8255-51c846f5ce83
+2020-06-24 09:49:53.751  INFO 8868 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-06-24 09:49:53.764  INFO 8868 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-06-24 09:49:53.862  INFO 8868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e0312ea6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:49:53.882  INFO 8868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$4b22e9d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:49:53.890  INFO 8868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:49:53.905  INFO 8868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fc4b31a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:49:56.202  INFO 8868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2020-06-24 09:49:56.319  INFO 8868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-24 09:49:56.319  INFO 8868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-24 09:49:57.702  INFO 8868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-24 09:49:57.703  INFO 8868 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6407 ms
+2020-06-24 09:50:00.785  INFO 8868 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-24 09:50:00.826  INFO 8868 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:50:00.830  INFO 8868 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:50:01.086  INFO 8868 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 09:50:09.916  INFO 8868 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-24 09:50:12.443  INFO 8868 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-06-24 09:50:12.443  INFO 8868 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-06-24 09:50:12.443  INFO 8868 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2020-06-24 09:50:12.488  INFO 8868 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-06-24 09:50:12.778  INFO 8868 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-06-24 09:50:13.835  INFO 8868 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-06-24 09:50:13.836  INFO 8868 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-06-24 09:50:14.609  INFO 8868 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-06-24 09:50:14.609  INFO 8868 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-06-24 09:50:16.195  INFO 8868 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-24 09:50:16.384  INFO 8868 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-06-24 09:50:16.384  INFO 8868 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-06-24 09:50:16.384  INFO 8868 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-06-24 09:50:16.384  INFO 8868 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-06-24 09:50:16.384  INFO 8868 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-06-24 09:50:16.385  INFO 8868 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-06-24 09:50:16.385  INFO 8868 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-06-24 09:50:16.928  INFO 8868 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-06-24 09:50:16.945  INFO 8868 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-06-24 09:50:16.947  INFO 8868 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-06-24 09:50:16.950  INFO 8868 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1592963416949 with initial instances count: 7
+2020-06-24 09:50:16.952  INFO 8868 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MICRO-AQUACULTURE with eureka with status UP
+2020-06-24 09:50:16.953  INFO 8868 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1592963416953, current=UP, previous=STARTING]
+2020-06-24 09:50:16.955  INFO 8868 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084: registering service...
+2020-06-24 09:50:16.955  INFO 8868 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-24 09:50:17.094  INFO 8868 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-24 09:50:17.193  INFO 8868 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084 - registration status: 204
+2020-06-24 09:50:17.211  INFO 8868 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-24 09:50:17.668  INFO 8868 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2020-06-24 09:50:17.670  INFO 8868 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_1
+2020-06-24 09:50:17.697  INFO 8868 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllDailyThrowUsingGET_1
+2020-06-24 09:50:17.701  INFO 8868 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDailyThrowByDateUsingGET_1
+2020-06-24 09:50:17.730  INFO 8868 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_2
+2020-06-24 09:50:17.735  INFO 8868 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_2
+2020-06-24 09:50:17.799  INFO 8868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2020-06-24 09:50:17.800  INFO 8868 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2020-06-24 09:50:17.801  INFO 8868 --- [main] c.j.aquaculture.AquacultureApplication   : Started AquacultureApplication in 29.487 seconds (JVM running for 30.978)
+2020-06-24 09:50:17.803  INFO 8868 --- [main] c.j.aquaculture.AquacultureApplication   : aquaculture application is running.........
+2020-06-24 09:51:00.702  INFO 8868 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-24 09:51:00.702  INFO 8868 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-24 09:51:00.822  INFO 8868 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 119 ms
+2020-06-24 09:51:39.224  INFO 6948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fc4b31a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:51:39.604  INFO 6948 --- [main] c.j.aquaculture.AquacultureApplication   : The following profiles are active: test
+2020-06-24 09:51:41.171  INFO 6948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-24 09:51:41.173  INFO 6948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-24 09:51:41.223  INFO 6948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+2020-06-24 09:51:41.524  INFO 6948 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=99b9ca4d-09a6-3ea8-8255-51c846f5ce83
+2020-06-24 09:51:41.532  INFO 6948 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-06-24 09:51:41.547  INFO 6948 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-06-24 09:51:41.653  INFO 6948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e0312ea6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:51:41.673  INFO 6948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$4b22e9d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:51:41.683  INFO 6948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:51:41.700  INFO 6948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fc4b31a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:51:42.092  INFO 6948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2020-06-24 09:51:42.113  INFO 6948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-24 09:51:42.113  INFO 6948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-24 09:51:42.293  INFO 6948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-24 09:51:42.294  INFO 6948 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2674 ms
+2020-06-24 09:51:43.586  INFO 6948 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-24 09:51:43.640  INFO 6948 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:51:43.644  INFO 6948 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:51:43.820  INFO 6948 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 09:51:44.441  INFO 6948 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-24 09:51:45.026  INFO 6948 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-06-24 09:51:45.026  INFO 6948 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-06-24 09:51:45.027  INFO 6948 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2020-06-24 09:51:45.040  INFO 6948 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-06-24 09:51:45.067  INFO 6948 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-06-24 09:51:45.191  INFO 6948 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-06-24 09:51:45.192  INFO 6948 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-06-24 09:51:45.290  INFO 6948 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-06-24 09:51:45.290  INFO 6948 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-06-24 09:51:45.498  INFO 6948 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-24 09:51:45.591  INFO 6948 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-06-24 09:51:45.591  INFO 6948 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-06-24 09:51:45.591  INFO 6948 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-06-24 09:51:45.591  INFO 6948 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-06-24 09:51:45.591  INFO 6948 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-06-24 09:51:45.591  INFO 6948 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-06-24 09:51:45.591  INFO 6948 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-06-24 09:51:45.981  INFO 6948 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-06-24 09:51:45.984  INFO 6948 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-06-24 09:51:45.986  INFO 6948 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-06-24 09:51:45.989  INFO 6948 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1592963505988 with initial instances count: 7
+2020-06-24 09:51:45.991  INFO 6948 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MICRO-AQUACULTURE with eureka with status UP
+2020-06-24 09:51:45.992  INFO 6948 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1592963505992, current=UP, previous=STARTING]
+2020-06-24 09:51:45.993  INFO 6948 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084: registering service...
+2020-06-24 09:51:45.994  INFO 6948 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-24 09:51:46.016  INFO 6948 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-24 09:51:46.040  INFO 6948 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084 - registration status: 204
+2020-06-24 09:51:46.056  INFO 6948 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-24 09:51:46.235  INFO 6948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2020-06-24 09:51:46.237  INFO 6948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_1
+2020-06-24 09:51:46.273  INFO 6948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllDailyThrowUsingGET_1
+2020-06-24 09:51:46.278  INFO 6948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDailyThrowByDateUsingGET_1
+2020-06-24 09:51:46.312  INFO 6948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_2
+2020-06-24 09:51:46.317  INFO 6948 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_2
+2020-06-24 09:51:46.368  INFO 6948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2020-06-24 09:51:46.369  INFO 6948 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2020-06-24 09:51:46.371  INFO 6948 --- [main] c.j.aquaculture.AquacultureApplication   : Started AquacultureApplication in 8.721 seconds (JVM running for 9.957)
+2020-06-24 09:51:46.373  INFO 6948 --- [main] c.j.aquaculture.AquacultureApplication   : aquaculture application is running.........
+2020-06-24 09:51:48.397  INFO 6948 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-24 09:51:48.397  INFO 6948 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-24 09:51:48.406  INFO 6948 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-06-24 09:58:27.237  INFO 3348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ffebbf26] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:58:27.514  INFO 3348 --- [main] c.j.aquaculture.AquacultureApplication   : The following profiles are active: test
+2020-06-24 09:58:28.358  INFO 3348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-24 09:58:28.360  INFO 3348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-24 09:58:28.404  INFO 3348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+2020-06-24 09:58:28.676  INFO 3348 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=99b9ca4d-09a6-3ea8-8255-51c846f5ce83
+2020-06-24 09:58:28.683  INFO 3348 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-06-24 09:58:28.696  INFO 3348 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-06-24 09:58:28.791  INFO 3348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e3d1bc29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:58:28.811  INFO 3348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$4ec37758] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:58:28.819  INFO 3348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:58:28.833  INFO 3348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ffebbf26] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 09:58:29.426  INFO 3348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2020-06-24 09:58:29.454  INFO 3348 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-24 09:58:29.455  INFO 3348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-24 09:58:29.705  INFO 3348 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-24 09:58:29.706  INFO 3348 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2178 ms
+2020-06-24 09:58:31.844  INFO 3348 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-24 09:58:31.915  INFO 3348 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:58:31.943  INFO 3348 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 09:58:32.270  INFO 3348 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 09:58:33.923  INFO 3348 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-24 09:58:34.791  INFO 3348 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-06-24 09:58:34.792  INFO 3348 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-06-24 09:58:34.792  INFO 3348 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2020-06-24 09:58:36.858  INFO 3348 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-06-24 09:58:38.711  INFO 3348 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-06-24 09:58:39.607  INFO 3348 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-06-24 09:58:39.607  INFO 3348 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-06-24 09:58:40.003  INFO 3348 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-06-24 09:58:40.003  INFO 3348 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-06-24 09:58:40.607  INFO 3348 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-24 09:58:40.769  INFO 3348 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-06-24 09:58:40.770  INFO 3348 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-06-24 09:58:40.770  INFO 3348 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-06-24 09:58:40.771  INFO 3348 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-06-24 09:58:40.771  INFO 3348 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-06-24 09:58:40.772  INFO 3348 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-06-24 09:58:40.772  INFO 3348 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-06-24 09:58:42.107  INFO 3348 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-06-24 09:58:42.128  INFO 3348 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-06-24 09:58:42.130  INFO 3348 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-06-24 09:58:42.134  INFO 3348 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1592963922132 with initial instances count: 7
+2020-06-24 09:58:42.137  INFO 3348 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MICRO-AQUACULTURE with eureka with status UP
+2020-06-24 09:58:42.137  INFO 3348 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1592963922137, current=UP, previous=STARTING]
+2020-06-24 09:58:42.150  INFO 3348 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084: registering service...
+2020-06-24 09:58:42.150  INFO 3348 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-24 09:58:42.214  INFO 3348 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-24 09:58:42.275  INFO 3348 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084 - registration status: 204
+2020-06-24 09:58:42.296  INFO 3348 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-24 09:58:42.594  INFO 3348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2020-06-24 09:58:42.596  INFO 3348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_1
+2020-06-24 09:58:42.625  INFO 3348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllDailyThrowUsingGET_1
+2020-06-24 09:58:42.630  INFO 3348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDailyThrowByDateUsingGET_1
+2020-06-24 09:58:42.658  INFO 3348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_2
+2020-06-24 09:58:42.663  INFO 3348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_2
+2020-06-24 09:58:42.739  INFO 3348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2020-06-24 09:58:42.740  INFO 3348 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2020-06-24 09:58:42.741  INFO 3348 --- [main] c.j.aquaculture.AquacultureApplication   : Started AquacultureApplication in 16.606 seconds (JVM running for 17.438)
+2020-06-24 09:58:42.744  INFO 3348 --- [main] c.j.aquaculture.AquacultureApplication   : aquaculture application is running.........
+2020-06-24 09:58:53.204  INFO 3348 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-24 09:58:53.204  INFO 3348 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-24 09:58:53.266  INFO 3348 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 62 ms
+2020-06-24 10:01:50.522  INFO 8856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2f8a9da2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 10:01:50.811  INFO 8856 --- [main] c.j.aquaculture.AquacultureApplication   : The following profiles are active: test
+2020-06-24 10:01:52.750  INFO 8856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-24 10:01:52.752  INFO 8856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-24 10:01:52.806  INFO 8856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+2020-06-24 10:01:53.294  INFO 8856 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=99b9ca4d-09a6-3ea8-8255-51c846f5ce83
+2020-06-24 10:01:53.303  INFO 8856 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-06-24 10:01:53.329  INFO 8856 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-06-24 10:01:53.513  INFO 8856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$13709aa5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 10:01:53.573  INFO 8856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$7e6255d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 10:01:53.598  INFO 8856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 10:01:53.627  INFO 8856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2f8a9da2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-24 10:01:54.630  INFO 8856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2020-06-24 10:01:54.922  INFO 8856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-24 10:01:54.922  INFO 8856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-24 10:01:55.572  INFO 8856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-24 10:01:55.572  INFO 8856 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4747 ms
+2020-06-24 10:01:57.802  INFO 8856 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-24 10:01:57.841  INFO 8856 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 10:01:57.844  INFO 8856 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-24 10:01:58.016  INFO 8856 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 10:01:58.636  INFO 8856 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-24 10:01:59.174  INFO 8856 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-06-24 10:01:59.174  INFO 8856 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-06-24 10:01:59.174  INFO 8856 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2020-06-24 10:01:59.185  INFO 8856 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-06-24 10:01:59.210  INFO 8856 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-06-24 10:01:59.328  INFO 8856 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-06-24 10:01:59.328  INFO 8856 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-06-24 10:01:59.416  INFO 8856 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-06-24 10:01:59.416  INFO 8856 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-06-24 10:01:59.609  INFO 8856 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-24 10:01:59.700  INFO 8856 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-06-24 10:01:59.700  INFO 8856 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-06-24 10:01:59.700  INFO 8856 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-06-24 10:01:59.700  INFO 8856 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-06-24 10:01:59.700  INFO 8856 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-06-24 10:01:59.700  INFO 8856 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-06-24 10:01:59.700  INFO 8856 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-06-24 10:02:00.101  INFO 8856 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-06-24 10:02:00.104  INFO 8856 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-06-24 10:02:00.106  INFO 8856 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-06-24 10:02:00.109  INFO 8856 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1592964120108 with initial instances count: 7
+2020-06-24 10:02:00.111  INFO 8856 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MICRO-AQUACULTURE with eureka with status UP
+2020-06-24 10:02:00.111  INFO 8856 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1592964120111, current=UP, previous=STARTING]
+2020-06-24 10:02:00.113  INFO 8856 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084: registering service...
+2020-06-24 10:02:00.113  INFO 8856 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-24 10:02:00.135  INFO 8856 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-24 10:02:00.165  INFO 8856 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/dell-PC:micro-aquaculture:8084 - registration status: 204
+2020-06-24 10:02:00.174  INFO 8856 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-24 10:02:00.352  INFO 8856 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2020-06-24 10:02:00.355  INFO 8856 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_1
+2020-06-24 10:02:00.389  INFO 8856 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllDailyThrowUsingGET_1
+2020-06-24 10:02:00.394  INFO 8856 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDailyThrowByDateUsingGET_1
+2020-06-24 10:02:00.427  INFO 8856 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_2
+2020-06-24 10:02:00.433  INFO 8856 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_2
+2020-06-24 10:02:00.484  INFO 8856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2020-06-24 10:02:00.484  INFO 8856 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2020-06-24 10:02:00.486  INFO 8856 --- [main] c.j.aquaculture.AquacultureApplication   : Started AquacultureApplication in 11.438 seconds (JVM running for 12.623)
+2020-06-24 10:02:00.488  INFO 8856 --- [main] c.j.aquaculture.AquacultureApplication   : aquaculture application is running.........
+2020-06-24 10:02:15.106  INFO 8856 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-24 10:02:15.107  INFO 8856 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-24 10:02:15.118  INFO 8856 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-06-24 10:06:59.707  INFO 8856 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-24 10:11:59.712  INFO 8856 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-24 10:16:59.719  INFO 8856 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

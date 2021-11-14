@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.culture.CultureLogActivity">
+    <include
+        layout="@layout/include_toolbar_farm_log"/>
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimension_40">
+        <TextView
+            android:paddingLeft="@dimen/common_dimension_10"
+            android:layout_width="@dimen/common_dimension_85"
+            android:layout_height="match_parent"
+            android:background="@color/gray4"
+            android:gravity="center"
+            android:text="生产单元"
+            android:textColor="@color/green1"
+            android:textSize="@dimen/BasicTextSize"/>
+        <TextView
+            android:id="@+id/tvPondName"
+            android:layout_marginLeft="@dimen/common_dimension_89"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/SmallTextSize" />
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_add_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_dimension_1"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimension_40">
+        <TextView
+            android:paddingLeft="@dimen/common_dimension_10"
+            android:layout_width="@dimen/common_dimension_85"
+            android:layout_height="match_parent"
+            android:background="@color/gray4"
+            android:gravity="center"
+            android:text="地址"
+            android:textColor="@color/green1"
+            android:textSize="@dimen/BasicTextSize"/>
+        <TextView
+            android:id="@+id/tvPondLocation"
+            android:layout_marginLeft="@dimen/common_dimension_89"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/SmallTextSize" />
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_add_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_dimension_1"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/gray4"
+        android:layout_height="@dimen/common_dimension_40">
+        <TextView
+            android:id="@+id/tvTimeRang"
+            android:paddingLeft="@dimen/common_dimension_10"
+            android:layout_width="@dimen/common_dimension_85"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="时间范围"
+            android:textColor="@color/green1"
+            android:textSize="@dimen/mediumTextSize"/>
+
+        <LinearLayout
+            android:layout_toRightOf="@id/tvTimeRang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/common_dimension_15"
+                android:gravity="center_vertical"
+                android:id="@+id/llTimeOne"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvTimeOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2018-06-25"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/BasicTextSize" />
+                <ImageView
+                    android:id="@+id/ivTimeOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_dimension_8"
+                    android:layout_marginRight="@dimen/common_dimension_8"
+                    android:src="@mipmap/ic_arrow_bottom"
+                    tools:targetApi="lollipop" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="@dimen/common_dimension_6"
+                android:layout_marginRight="@dimen/common_dimension_6"
+                android:textSize="@dimen/mediumTextSize"
+                android:layout_gravity="center_vertical"
+                android:text="至"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/common_dimension_2"
+                android:gravity="center_vertical"
+                android:id="@+id/llTimeTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingLeft="@dimen/common_dimension_8"
+                    android:id="@+id/tvTimeTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2018-06-25"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/BasicTextSize" />
+                <ImageView
+                    android:id="@+id/ivTimeTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_dimension_8"
+                    android:layout_marginRight="@dimen/common_dimension_8"
+                    android:src="@mipmap/ic_arrow_bottom"
+                    tools:targetApi="lollipop" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_add_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_dimension_1"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <HorizontalScrollView
+            android:layout_marginBottom="@dimen/common_dimension_30"
+            android:scrollbars="none"
+            android:id="@+id/scrContent"
+            android:fillViewport="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/llTitle"
+                    android:background="@color/gray4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                </LinearLayout>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rvContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="@dimen/common_dimension_30">
+            <View
+                android:background="@color/bg_line_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_0.5"/>
+            <TextView
+                android:id="@+id/tvRecordNum"
+                android:text="记录数:0"
+                android:layout_marginLeft="@dimen/common_dimension_8"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zxl.baselib.widget.HackyViewPager
+        android:id="@+id/very_image_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/very_image_viewpager_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/common_dimension_25"
+        android:textColor="@color/white"
+        android:textSize="@dimen/BasicTextSize" />
+
+    <TextView
+        android:fitsSystemWindows="true"
+        android:id="@+id/tv_save_big_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/common_dimension_17"
+        android:layout_marginRight="@dimen/common_dimension_13"
+        android:background="@drawable/bg_save_big_image"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textSize="@dimen/SmallTextSize" />
+</RelativeLayout>

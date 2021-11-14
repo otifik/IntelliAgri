@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        layout="@layout/include_toolbar"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginLeft="@dimen/common_dimension_8"
+            android:layout_marginRight="@dimen/common_dimension_8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/ll_pond"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/common_dimension_50">
+                <TextView
+                    android:text="@string/pong_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/mediumTextSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:textSize="@dimen/SmallTextSize"
+                    android:inputType="text"
+                    android:id="@+id/etPondName"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:hint="@string/input_pond_name"
+                    android:textCursorDrawable="@drawable/style_cursor_black"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:visibility="invisible"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="@dimen/common_dimension_5"
+                    android:src="@mipmap/ic_shape_arrow_bigger"
+                    android:layout_width="@dimen/common_dimension_16"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_0.5"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/common_dimension_50">
+                <TextView
+                    android:text="@string/pond_length"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/mediumTextSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:textSize="@dimen/SmallTextSize"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/etPondLength"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:hint="@string/input_pond_length"
+                    android:textCursorDrawable="@drawable/style_cursor_black"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:visibility="invisible"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="@dimen/common_dimension_5"
+                    android:src="@mipmap/ic_shape_arrow_bigger"
+                    android:layout_width="@dimen/common_dimension_16"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_0.5"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/common_dimension_50">
+                <TextView
+                    android:text="@string/pond_width"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/mediumTextSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:textSize="@dimen/SmallTextSize"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/etPondWidth"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:hint="@string/input_pond_width"
+                    android:textCursorDrawable="@drawable/style_cursor_black"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:visibility="invisible"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="@dimen/common_dimension_5"
+                    android:src="@mipmap/ic_shape_arrow_bigger"
+                    android:layout_width="@dimen/common_dimension_16"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_0.5"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/common_dimension_50">
+                <TextView
+                    android:text="@string/pond_depth"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/mediumTextSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:textSize="@dimen/SmallTextSize"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/etPondDepth"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:hint="@string/input_pond_depth"
+                    android:textCursorDrawable="@drawable/style_cursor_black"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:visibility="invisible"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="@dimen/common_dimension_5"
+                    android:src="@mipmap/ic_shape_arrow_bigger"
+                    android:layout_width="@dimen/common_dimension_16"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_0.5"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/common_dimension_50">
+                <TextView
+                    android:text="@string/pond_max_depth"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/mediumTextSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:textSize="@dimen/SmallTextSize"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/etMaxPondDepth"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:hint="@string/input_pond_max_depth"
+                    android:textCursorDrawable="@drawable/style_cursor_black"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:visibility="invisible"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="@dimen/common_dimension_5"
+                    android:src="@mipmap/ic_shape_arrow_bigger"
+                    android:layout_width="@dimen/common_dimension_16"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_0.5"
+                />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:id="@+id/llPondAddress"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+
+                android:layout_height="@dimen/common_dimension_50">
+                <TextView
+                    android:text="@string/pond_address"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/mediumTextSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="@dimen/SmallTextSize"
+                    android:id="@+id/tvPondAddress"
+                    android:gravity="right"
+                    android:hint="@string/input_pond_address"
+                    android:textCursorDrawable="@drawable/style_cursor_black"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:focusableInTouchMode="false"
+                    android:focusable="false"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:visibility="visible"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="@dimen/common_dimension_5"
+                    android:src="@mipmap/ic_shape_arrow_bigger"
+                    android:layout_width="@dimen/common_dimension_16"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_0.5"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/common_dimension_50">
+                <TextView
+                    android:text="@string/pond_detail_address"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/mediumTextSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:textSize="@dimen/SmallTextSize"
+                    android:inputType="text"
+                    android:id="@+id/etDetailAddress"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:hint="@string/input_pond_detail_address"
+                    android:textCursorDrawable="@drawable/style_cursor_black"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:visibility="invisible"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="@dimen/common_dimension_5"
+                    android:src="@mipmap/ic_shape_arrow_bigger"
+                    android:layout_width="@dimen/common_dimension_16"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_0.5"
+                />
+
+            <LinearLayout
+                android:id="@+id/llPondDirection"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/common_dimension_50">
+                <TextView
+                    android:text="@string/pond_direction"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/mediumTextSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="@dimen/SmallTextSize"
+                    android:id="@+id/tvInputDirection"
+                    android:gravity="right"
+                    android:hint="@string/input_pond_direction"
+                    android:textCursorDrawable="@drawable/style_cursor_black"
+                    android:focusableInTouchMode="false"
+                    android:focusable="false"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:visibility="visible"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="@dimen/common_dimension_5"
+                    android:src="@mipmap/ic_shape_arrow_bigger"
+                    android:layout_width="@dimen/common_dimension_16"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_0.5"
+                />
+
+            <LinearLayout
+                android:id="@+id/llPondLatitude"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/common_dimension_65">
+                <TextView
+                    android:text="@string/pond_atitude"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/mediumTextSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:textSize="@dimen/SmallTextSize"
+                    android:id="@+id/tvPondLatitude"
+                    android:gravity="right|center_vertical"
+                    android:hint="@string/input_pond_attitude"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:lines="2"
+                    android:focusableInTouchMode="false"
+                    android:focusable="false"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:visibility="visible"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="@dimen/common_dimension_5"
+                    android:src="@mipmap/ic_shape_arrow_bigger"
+                    android:layout_width="@dimen/common_dimension_16"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View
+                android:background="@color/line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimension_0.5"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,293 @@
+<resources>
+    <string name="app_name">金科智农</string>
+    <!-- 公共部分 -->
+    <string name="snack_bar">JitRobot Tips:%s</string>
+
+    <string name="register_protocol">
+        欢迎注册，注册前请详细阅读服务协议!
+
+\n\n金科智农服务协议
+
+\n\n在使用各项服务前，请仔细阅读本协议。协议文本包括了您所使用的服务及其相关条款，如后续有任何附加协议，而您又选用了其中的附加服务，则此附加协议也应作为协议的组成部分。
+
+\n南京软件研究院金科智农（以下简称金科智农）相关软件及服务由南京软件研究院提供。
+
+
+\n\n1.服务内容
+
+
+
+\n\n1.1
+
+\n1.2金科智农目前为您提供包括但不限于以下服务内容：
+
+
+
+\n\n1.2.1等；
+
+\n1.2.2等；
+
+\n1.2.3等；
+
+\n1.2.4等；
+
+
+\n\n1.3。
+
+\n1.4。
+
+
+
+
+
+\n\n2.开通条件
+
+\n2.1。
+
+\n2.2。
+
+
+
+\n\n3.相关资费及付款方式
+
+
+
+\n3.1。
+
+\n3.1.1。
+
+
+
+\n\n3.2您可根据您的需求，选择免费服务期结束后的套餐类型。具体套餐内容和免费服务期/免费服务范围外的收费标准参见金科智农官方渠道发布的信息。
+
+\n3.3。
+
+\n3.4。
+
+
+
+\n\n4.服务变更、中断或终止
+
+
+
+\n\n4.1。
+
+
+
+\n\n4.2。
+
+
+
+
+
+
+\n\n5.使用规则及相关免责
+
+
+
+
+\n\n9.1本协议项下联车科技对于用户所有的通知可通过网页公告、电子邮件、手机短信或常规的信件传送等方式进行；上述通知于发送之日视为已送达收件人。
+
+
+
+\n\n南京软件研究院联系方式：
+
+\n服务邮箱： m18501405374@163.com
+
+\n书面邮寄地址：
+
+\n邮政编码：211100
+
+
+
+
+\n11.4本协议解释权归南京软件研究院所有。
+
+
+
+\n\n南京软件研究院
+
+\n2018年8 月 27 日
+    </string>
+    <!-- 登录注册 -->
+    <string name="login_other_hint">其他方式登录</string>
+    <string name="click_to_login">立刻注册</string>
+    <string name="input_phone_extras">请输入用户名或手机号</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_confirm_password">请输入确认密码</string>
+    <string name="input_username">请输入用户名</string>
+    <string name="error_twice_pwd">两次填写密码不一致</string>
+    <string name="submit_login">登录</string>
+    <string name="input_your_phone">请输入您的手机号</string>
+    <string name="sms_code">请输入验证码</string>
+    <string name="send_sms_code">获取验证码</string>
+    <string name="submit_register">注册</string>
+    <string name="ensure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="submit_next">下一步</string>
+    <string name="read_and_agree_protocol">我已阅读并接受《精细种植管理平台》</string>
+    <string name="confirm_pwd">确认密码</string>
+    <string name="input_your_password">请输入密码</string>
+    <string name="title_robot_protocol">金科智农使用协议</string>
+    <string name="tip_network_error">没有可用的网络</string>
+    <string name="forget_pwd">忘记密码？</string>
+    <string name="token_suffix">Bearer %s</string> <!--用于添加token前缀-->
+    <string name="info_tips">信息提示</string>
+    <string name="register_content">就差一步就完成注册啦,确定退出吗？</string>
+    <string name="dialog_ensure">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="input_phone_num">请输入手机号</string>
+    <string name="sms_send_again">重新发送</string>
+    <string name="input_sms_code">请输入短信验证码</string>
+    <string name="error_sms_code">短信验证码错误</string>
+    <string name="success_sms_send">短信发送成功</string>
+    <string name="error_phone_num">手机格式错误</string>
+    <string name="app_need_your_protocol">您需要同意金科智农服务条款方可注册</string>
+
+    <!-- 配置相关 -->
+    <string name="latitude_format">(%1$s°,%2$s°)</string>
+    <string name="pond_direction">塘口朝向</string>
+    <string name="input_pond_name">请输入塘口名称</string>
+    <string name="input_pond_length">请输入塘口长度</string>
+    <string name="input_pond_width">请输入塘口宽度</string>
+    <string name="input_pond_address">请选择塘口所在省市区</string>
+    <string name="input_pond_detail_address">请输入塘口详细地址</string>
+    <string name="input_pond_attitude">请录入塘口四角的经纬度</string>
+    <string name="input_pond_depth">请输入当前水深</string>
+    <string name="input_pond_max_depth">请输入最大水深</string>
+    <string name="input_pond_direction">请选择塘口朝向</string>
+
+    <string name="title_add_pond_config">添加塘口配置</string>
+    <string name="pond_depth">当前水深(m)</string>
+    <string name="submit">提交</string>
+    <string name="choose_pond_direction">请选择塘口朝向</string>
+    <string name="latitude_format_total">(%1$s°,%2$s°),(%3$s°,%4$s°)\n(%5$s°,%6$s°),(%7$s°,%8$s°)</string>
+    <string name="pong_name">塘口名称</string>
+    <string name="pond_length">长度(m)</string>
+    <string name="pond_width">宽度(m)</string>
+    <string name="pond_max_depth">最大水深(m)</string>
+    <string name="pond_address">塘口位置</string>
+    <string name="pond_detail_address">详细位置</string>
+    <string name="pond_atitude">塘角经纬度</string>
+    <string name="set_pond_latitude">设置塘口经纬度</string>
+    <string name="input_bound_pond_four_latitude">请完整录入塘口四角的经纬度数据</string>
+    <string name="tips_this_corner_not_set_ok">该角经纬度未设置完整!</string>
+    <string name="title_my_pond_config">我的塘口配置</string>
+    <string name="modify">修改</string>
+    <string name="show_lat">经度:%1$s°</string>
+    <string name="show_lang">纬度:%1$s°</string>
+    <string name="error_map_location">定位失败</string>
+    <string name="get_it">了解了</string>
+    <string name="click_to_set_lang">点击塘口四角设置经纬度</string>
+    <string name="version_name">版本号:%s</string>
+    <string name="set_permission_txt">赋予权限</string>
+    <string name="turn_to_open">去打开</string>
+    <string name="permission_tip_title">权限说明</string>
+    <string name="needs_your_award">%s权限需要您的授权</string>
+    <string name="needs_pm_to_setting">未取得%s的使用权限，金科智农无法开启。请前往应用权限设置打开权限</string>
+    <string name="open_needs_pm">未取得%s的使用权限，金科智农无法开启。</string>
+    <string name="pm_phone_info">手机信息</string>
+    <string name="pm_read_no_space">读写存储</string>
+    <string name="pm_read_space">读写存储</string>
+    <string name="pm_location_no_space">定位</string>
+    <string name="pm_location_space">定位</string>
+    <string name="camera_depth_title">摄像头深度(cm)</string>
+    <string name="sensor_depth_title">传感器深度(cm)</string>
+    <string name="cruise_speed_title">巡航速度</string>
+    <string name="cruise_num_title">自动巡航圈数</string>
+    <string name="return_cruise_num_title">返航速度</string>
+    <string name="feed_name_title">饵料名称</string>
+    <string name="feed_weight_title">饵料重量(kg)</string>
+    <string name="feed_speed_title">投饵速度</string>
+    <string name="drug_name_title">药品名称</string>
+    <string name="drug_weight_num_title">药品重量(kg)</string>
+    <string name="drug_speed_title">投药速度</string>
+    <string name="cruise_mode_title">巡航模式</string>
+    <string name="drive_bird_title">驱鸟器</string>
+
+    <string name="contains_input">录入</string>
+    <string name="input_cruise_speed">点击录入巡航速度</string>
+    <string name="input_return_speed">点击录入返航速度</string>
+    <string name="input_feed_name">点击录入饵料名称</string>
+    <string name="input_feed_weight">点击录入饵料重量</string>
+    <string name="input_feed_speed">点击录入投饵速度</string>
+    <string name="input_medicine_name">点击录入药品名称</string>
+    <string name="input_medicine_weight">点击录入药品重量</string>
+    <string name="input_medicine_speed">点击录入投药速度</string>
+    <string name="input_cruise_mode">点击录入巡航模式</string>
+
+    <string name="exit_account">退出当前账号</string>
+    <string name="exit_app">关闭管理平台</string>
+    <string name="change_pwd">修改密码</string>
+    <string name="pond_measure_suffix">%sm</string>
+
+    <string name="empty_add_pond">暂未配置塘口，快去添加吧~</string>
+    <string name="empty_add_robot">暂无可操作机器人，快去添加吧~</string>
+    <string name="empty_add_config">暂未配置设备，快去添加吧~</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="update_exit">编辑内容尚未提交,确定退出吗？</string>
+    <string name="save">保存</string>
+    <string name="update_pond">修改塘口配置</string>
+    <string name="pond_manage">塘口管理</string>
+    <string name="robot_manage">机器人管理</string>
+    <string name="input_robot_number">请录入机器人设备编号</string>
+    <string name="edit_robot">编辑机器人</string>
+    <string name="submit_edit">提交修改</string>
+    <string name="config_main">设备配置总览</string>
+    <string name="onClick">点击</string>
+    <string name="open">开启</string>
+    <string name="close">关闭</string>
+    <string name="str_limit_50">50</string>
+
+    <string name="str_title_write_remark">填写备注</string>
+    <string name="str_title_write_type_define">填写用药情况</string>
+    <string name="title_data_manage">种养日志</string>
+    <string name="format_logcat_num">记录数:%s</string>
+    <string name="download">下载</string>
+    <string name="cat">查看</string>
+    <string name="str_value_0">0</string>
+    <string name="title_farm_log_table">养殖记录表</string>
+    <string name="title_time_pick">时间选择</string>
+    <string name="title_insert_file_name">输入文件名</string>
+    <string name="str_hint_file">请输入文件名</string>
+    <string name="edit_file">编辑文件名</string>
+    <string name="str_toast_check_file">客官请输入文件名!</string>
+    <string name="time_format">%1$d-%2$d-%3$d</string>
+    <string name="record_count">记录数: %s</string>
+    <string name="no_log_to_download">客官,暂无数据可供下载ing!</string>
+
+    <string name="baike_source">信息来源: %s</string>
+    <string name="baike_company">公司: %s</string>
+    <string name="baike_use">使用范围: %s</string>
+    <string name="baike_time">发布时间: %s</string>
+    <string name="baike_name">名称: %s</string>
+    <string name="baike_kind">类别: %s</string>
+
+    <string name="dis_treatment">请填写治疗方法…</string>
+    <string name="dis_defination">请填写发病症状…</string>
+    <string name="dis_subkind">请输入疾病种类…</string>
+    <string name="dis_name">请输入疾病名称…</string>
+    <string name="dis_pic">请选择封面图片…</string>
+    <string name="drug_name">请输入药品名称…</string>
+    <string name="drug_subkind">请输入药品种类…</string>
+    <string name="drug_defination">请输入说明书…</string>
+    <string name="pls_bk_company">请输入公司…</string>
+    <string name="feed_def">请输入投喂描述</string>
+    <string name="feed_name">请输入投喂名称…</string>
+    <string name="feed_subkind">请输入投喂种类…</string>
+    <string name="product_subkind">请输入产品种类…</string>
+    <string name="product_name">请输入产品名称…</string>
+
+    <string name="str_tv_old_pwd">原始密码</string>
+    <string name="str_et_hint_old_pwd">填写原始密码</string>
+    <string name="str_tv_new_pwd">新密码</string>
+    <string name="str_et_hint_new_pwd">填写新密码</string>
+    <string name="str_tv_confirm_pwd">确认密码</string>
+    <string name="str_et_hint_confirm_pwd">填写确认密码</string>
+    <string name="str_btn_confirm">确定</string>
+    <string name="str_title_change_pwd">修改密码</string>
+    <string name="pwd_input_twice_error">两次密码输入的不一致!</string>
+
+
+</resources>

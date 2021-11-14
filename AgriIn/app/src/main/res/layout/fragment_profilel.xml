@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="个人中心"
+        android:padding="@dimen/dp_4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_gravity="center"
+                android:id="@+id/img_avater"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="管理平台"
+                android:textColor="@color/black"
+                android:textSize="@dimen/mediumTextSize" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#F4F4F4"/>
+
+
+    <com.allen.library.SuperTextView
+        app:sDividerLineType="both"
+        app:sRightIconRes="@drawable/shape_arrow"
+        android:id="@+id/stv_Modify"
+        app:sLeftTextString="修改资料"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:sLeftIconWidth="@dimen/common_dimension_20"
+        app:sLeftIconHeight="@dimen/common_dimension_20"
+        app:sLeftIconRes="@drawable/ico_data">
+    </com.allen.library.SuperTextView>
+    <com.allen.library.SuperTextView
+        app:sRightIconRes="@drawable/shape_arrow"
+        android:id="@+id/stv_robot_pwd"
+        app:sLeftTextString="修改密码"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:sLeftIconWidth="@dimen/common_dimension_20"
+        app:sLeftIconHeight="@dimen/common_dimension_20"
+        app:sLeftIconRes="@drawable/ico_password">>
+    </com.allen.library.SuperTextView>
+
+    <com.allen.library.SuperTextView
+        app:sRightIconRes="@drawable/shape_arrow"
+        android:id="@+id/stv_about_robot"
+        app:sLeftTextString="安防监控"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:sLeftIconWidth="@dimen/common_dimension_20"
+        app:sLeftIconHeight="@dimen/common_dimension_20"
+        app:sLeftIconRes="@drawable/ico_robot">>
+    </com.allen.library.SuperTextView>
+    <com.allen.library.SuperTextView
+        app:sRightIconRes="@drawable/shape_arrow"
+        android:id="@+id/stv_Opinion"
+        app:sLeftTextString="用户管理"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:sLeftIconWidth="@dimen/common_dimension_20"
+        app:sLeftIconHeight="@dimen/common_dimension_20"
+        app:sLeftIconRes="@drawable/ico_opinion">
+    </com.allen.library.SuperTextView>
+    <com.allen.library.SuperTextView
+        app:sRightTextSize="@dimen/SmallTextSize"
+        android:id="@+id/stvDrive"
+        app:sLeftTextString="消息推送"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:sRightViewType="switchBtn"
+        app:sSwitchMinWidth="40dp"
+        app:sThumbResource="@drawable/cb_thumb"
+        app:sTrackResource="@drawable/cb_track"
+        app:sLeftIconWidth="@dimen/common_dimension_20"
+        app:sLeftIconHeight="@dimen/common_dimension_20"
+        app:sLeftIconRes="@drawable/ico_inform">
+    </com.allen.library.SuperTextView>
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/stv_logout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimension_50"
+        app:sLeftTextString="退出"
+        app:sLeftIconWidth="@dimen/common_dimension_20"
+        app:sLeftIconHeight="@dimen/common_dimension_20"
+        app:sLeftIconRes="@drawable/ico_logout" />
+</LinearLayout>

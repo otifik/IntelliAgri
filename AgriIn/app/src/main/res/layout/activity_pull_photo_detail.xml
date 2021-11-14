@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".ui.activity.photos.PullPhotoDetailActivity">
+    <com.zxl.baselib.widget.PullBackLayout
+        android:layout_gravity="center"
+        android:id="@+id/pullLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <uk.co.senab.photoview.PhotoView
+            android:id="@+id/photoView"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:transitionName="@string/transition_photos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:targetApi="lollipop" />
+    </com.zxl.baselib.widget.PullBackLayout>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="@dimen/common_dimension_30"
+        android:layout_height="@dimen/common_dimension_30"
+        android:layout_gravity="center" />
+
+</FrameLayout>

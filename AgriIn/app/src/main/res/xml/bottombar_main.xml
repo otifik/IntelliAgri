@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 所有的列表-->
+<tabs>
+    <tab
+        id="@+id/tabMiao"
+        icon="@mipmap/ic_baike_seed"
+        title="种苗" />
+    <tab
+        id="@+id/tabPin"
+        icon="@mipmap/ic_baike_product"
+        title="产品" />
+    <tab
+        id="@+id/tabYao"
+        icon="@mipmap/ic_baike_drug"
+        title="药品" />
+    <tab
+        id="@+id/tabWei"
+        icon="@mipmap/ic_baike_feed"
+        title="投喂" />
+    <tab
+        id="@+id/tabBing"
+        icon="@mipmap/ic_baike_disease"
+        title="疾病" />
+</tabs>

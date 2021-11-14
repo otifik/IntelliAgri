@@ -1,0 +1,176 @@
+[
+  {
+    "product": "air_temphumi",
+    "manuid": 2,
+    "desc": "大气温湿度",
+    "params": [
+      {
+        "reg": 4097,
+        "envparam": "temp"
+      },
+      {
+        "reg": 4098,
+        "envparam": "humi"
+      }
+    ]
+  },
+  {
+    "product": "soid_temphumi",
+    "manuid": 2,
+    "desc": "土壤温湿度",
+    "params": [
+      {
+        "reg": 4102,
+        "envparam": "soilTemp"
+      },
+      {
+        "reg": 4103,
+        "envparam": "soilHumi"
+      }
+    ]
+  },
+  {
+    "product": "soil_ec",
+    "manuid": 2,
+    "desc": "土壤盐分",
+    "params": [
+      {
+        "reg": 4102,
+        "envparam": "soilTemp"
+      },
+      {
+        "reg": 4103,
+        "envparam": "soilHumi"
+      },
+      {
+        "reg": 4111,
+        "envparam": "soilEC"
+      }
+    ]
+  },
+  {
+    "product": "illu",
+    "manuid": 2,
+    "desc": "光照度",
+    "params": [
+      {
+        "reg": 4099,
+        "envparam": "illu"
+      }
+    ]
+  },
+  {
+    "product": "co2",
+    "manuid": 2,
+    "desc": "二氧化碳含量",
+    "params": [
+      {
+        "reg": 4100,
+        "envparam": "co2"
+      }
+    ]
+  },
+  {
+    "product": "par",
+    "manuid": 2,
+    "desc": "光合作用光通量",
+    "params": [
+      {
+        "reg": 4107,
+        "envparam": "ltQtm"
+      }
+    ]
+  },
+  {
+    "product": "windspeed",
+    "manuid": 2,
+    "desc": "风速",
+    "params": [
+      {
+        "reg": 4105,
+        "envparam": "windSpd"
+      }
+    ]
+  },
+  {
+    "product": "EP400",
+    "manuid": 3,
+    "desc": "农芯EP400终端空气温湿度、土壤温湿度、光照、CO2、电池电压",
+    "params": [
+      {
+        "reg": 3,
+        "envparam": "temp"
+      },
+      {
+        "reg": 4,
+        "envparam": "humi"
+      },
+      {
+        "reg": 5,
+        "envparam": "soilTemp"
+      },
+      {
+        "reg": 6,
+        "envparam": "soilHumi"
+      },
+      {
+        "reg": 7,
+        "envparam": "co2"
+      },
+      {
+        "reg": 8,
+        "envparam": "illu"
+      }
+    ]
+  },
+  {
+    "product": "AQ20",
+    "manuid": 4,
+    "desc": "易通汇联水质终端do、ph、水温、电池电压",
+    "params": [
+      {
+        "reg": 2,
+        "envparam": "do"
+      },
+      {
+        "reg": 3,
+        "envparam": "ph"
+      },
+      {
+        "reg": 4,
+        "envparam": "waTemp"
+      }
+    ]
+  },
+  {
+    "product": "LD10-WT",
+    "manuid": 4,
+    "desc": "易通汇联气象站温湿度、光照、风向风速、24小时降雨量",
+    "params": [
+      {
+        "reg": 5,
+        "envparam": "temp"
+      },
+      {
+        "reg": 6,
+        "envparam": "humi"
+      },
+      {
+        "reg": 7,
+        "envparam": "illu"
+      },
+      {
+        "reg": 8,
+        "envparam": "windSpd"
+      },
+      {
+        "reg": 9,
+        "envparam": "windDrct"
+      },
+      {
+        "reg": 10,
+        "envparam": "rain24Hr"
+      }
+    ]
+  }
+]

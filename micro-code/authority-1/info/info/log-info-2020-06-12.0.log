@@ -1,0 +1,83 @@
+2020-06-12 09:37:13.296  INFO 8176 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$37353815] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-12 09:37:13.745  INFO 8176 --- [main] com.jit.authority.AuthorityApplication   : The following profiles are active: test
+2020-06-12 09:37:16.988  INFO 8176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-12 09:37:16.991  INFO 8176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-06-12 09:37:17.099  INFO 8176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+2020-06-12 09:37:17.645  INFO 8176 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4ddd9c73-9dc0-39ec-8ef7-fa9eab8c31f8
+2020-06-12 09:37:17.927  INFO 8176 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.jit.authority.config.RedisConfig$$EnhancerBySpringCGLIB$$2a9d1a1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-12 09:37:18.449  INFO 8176 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b1b3518] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-12 09:37:18.528  INFO 8176 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$37353815] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-12 09:37:19.086  INFO 8176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 443 (https)
+2020-06-12 09:37:19.112  INFO 8176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-12 09:37:19.113  INFO 8176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-06-12 09:37:19.389  INFO 8176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-12 09:37:19.389  INFO 8176 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5604 ms
+2020-06-12 09:37:19.563  INFO 8176 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-12 09:37:19.605  INFO 8176 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5e9bf744
+2020-06-12 09:37:26.438  INFO 8176 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-12 09:37:26.767  INFO 8176 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-06-12 09:37:27.020  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.gif'], []
+2020-06-12 09:37:27.020  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.png'], []
+2020-06-12 09:37:27.020  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.jpg'], []
+2020-06-12 09:37:27.020  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html'], []
+2020-06-12 09:37:27.020  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js'], []
+2020-06-12 09:37:27.020  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css'], []
+2020-06-12 09:37:27.020  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.ico'], []
+2020-06-12 09:37:27.021  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**'], []
+2020-06-12 09:37:27.021  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html*/**'], []
+2020-06-12 09:37:27.021  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/swagger-ui.html*/**'], []
+2020-06-12 09:37:27.021  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/ac-service/swagger-ui.html*/**'], []
+2020-06-12 09:37:27.021  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/configuration/security'], []
+2020-06-12 09:37:27.021  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources/**'], []
+2020-06-12 09:37:27.021  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/v2/api-docs'], []
+2020-06-12 09:37:27.021  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources'], []
+2020-06-12 09:37:27.021  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-ui.html'], []
+2020-06-12 09:37:27.021  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/ac-service/swagger-ui.html'], []
+2020-06-12 09:37:27.021  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/springfox-swagger-ui/*.js'], []
+2020-06-12 09:37:27.021  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/configuration/security'], []
+2020-06-12 09:37:27.021  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources/**'], []
+2020-06-12 09:37:27.022  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/v2/api-docs'], []
+2020-06-12 09:37:27.022  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources'], []
+2020-06-12 09:37:27.022  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-ui.html'], []
+2020-06-12 09:37:27.022  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/ac-service/swagger-ui.html'], []
+2020-06-12 09:37:27.022  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/springfox-swagger-ui/*.js'], []
+2020-06-12 09:37:27.087  INFO 8176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3149409c, org.springframework.security.web.context.SecurityContextPersistenceFilter@86bf90b, org.springframework.security.web.header.HeaderWriterFilter@4544ab46, org.springframework.security.web.authentication.logout.LogoutFilter@43090195, com.jit.authority.jwtsecurity.filter.JwtAuthenticationFilter@1c421b0f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4aba7617, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41f23499, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ce18cec, org.springframework.security.web.session.SessionManagementFilter@68f79b7c, org.springframework.security.web.access.ExceptionTranslationFilter@4d0abb23, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@bdda8a7]
+2020-06-12 09:37:27.114  INFO 8176 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-12 09:37:27.803  INFO 8176 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-12 09:37:28.888  INFO 8176 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-06-12 09:37:29.926  INFO 8176 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+2020-06-12 09:37:30.137  INFO 8176 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-06-12 09:37:30.200  INFO 8176 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-06-12 09:37:30.422  INFO 8176 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-06-12 09:37:30.422  INFO 8176 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-06-12 09:37:30.892  INFO 8176 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-06-12 09:37:30.893  INFO 8176 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-06-12 09:37:31.254  INFO 8176 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-12 09:37:31.370  INFO 8176 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-06-12 09:37:31.370  INFO 8176 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-06-12 09:37:31.370  INFO 8176 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-06-12 09:37:31.370  INFO 8176 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-06-12 09:37:31.370  INFO 8176 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-06-12 09:37:31.370  INFO 8176 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-06-12 09:37:31.370  INFO 8176 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-06-12 09:37:31.598  INFO 8176 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-06-12 09:37:31.616  INFO 8176 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-06-12 09:37:31.618  INFO 8176 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-06-12 09:37:31.638  INFO 8176 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1591925851620 with initial instances count: 7
+2020-06-12 09:37:31.641  INFO 8176 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTH-SERVICE with eureka with status UP
+2020-06-12 09:37:31.642  INFO 8176 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591925851642, current=UP, previous=STARTING]
+2020-06-12 09:37:31.644  INFO 8176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/dell-PC:auth-service:443: registering service...
+2020-06-12 09:37:31.647  INFO 8176 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-06-12 09:37:31.692  INFO 8176 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-06-12 09:37:31.709  INFO 8176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/dell-PC:auth-service:443 - registration status: 204
+2020-06-12 09:37:31.833  INFO 8176 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-06-12 09:37:32.854  INFO 8176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 443 (https) with context path ''
+2020-06-12 09:37:32.855  INFO 8176 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 443
+2020-06-12 09:37:32.857  INFO 8176 --- [main] com.jit.authority.AuthorityApplication   : Started AuthorityApplication in 23.553 seconds (JVM running for 32.14)
+2020-06-12 09:37:32.903  INFO 8176 --- [main] com.jit.authority.AuthorityApplication   : authority application is running.........
+2020-06-12 09:37:33.466  INFO 8176 --- [RMI TCP Connection(2)-192.168.100.96] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-12 09:37:33.466  INFO 8176 --- [RMI TCP Connection(2)-192.168.100.96] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-12 09:37:33.569  INFO 8176 --- [RMI TCP Connection(2)-192.168.100.96] o.s.web.servlet.DispatcherServlet        : Completed initialization in 103 ms
+2020-06-12 09:37:34.831  INFO 8176 --- [parallel-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-06-12 09:37:34.832  INFO 8176 --- [parallel-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-06-12 09:42:31.379  INFO 8176 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

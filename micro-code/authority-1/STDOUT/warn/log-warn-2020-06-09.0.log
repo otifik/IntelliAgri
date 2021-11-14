@@ -1,0 +1,1013 @@
+2020-06-09 08:03:51.555  WARN 3164 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:66)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2020-06-09 08:03:51.555  WARN 3164 --- [DiscoveryClient-1] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:66)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2020-06-09 08:33:07.607  WARN 3164 --- [DiscoveryClient-1] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:66)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2020-06-09 08:33:07.607  WARN 3164 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:66)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2020-06-09 08:33:12.099  WARN 3164 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.SocketException: Network is unreachable: connect
+2020-06-09 08:33:12.296  WARN 3164 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.SocketException: Network is unreachable: connect
+2020-06-09 08:33:20.079  WARN 3164 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: com.fasterxml.jackson.core.JsonParseException: processing aborted
+ at [Source: (GZIPInputStream); line: 1, column: 18]
+2020-06-09 10:59:05.832  WARN 12428 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 10:59:05.843  WARN 12428 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 10:59:37.119  WARN 12428 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 10:59:50.534  WARN 12428 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 11:00:05.574  WARN 12428 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:00:16.897  WARN 12428 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 11:00:41.102  WARN 12428 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:00:41.103  WARN 12428 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:252)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:00:41.103  WARN 12428 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:00:41.127  WARN 12428 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591671641127, current=DOWN, previous=UP]
+2020-06-09 11:02:25.730  WARN 13308 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:02:25.740  WARN 13308 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:02:36.097  WARN 13308 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:02:59.627  WARN 13308 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 11:03:19.367  WARN 13308 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:03:25.005  WARN 13308 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 11:03:42.065  WARN 13308 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:03:42.067  WARN 13308 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:252)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:03:42.069  WARN 13308 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:03:42.088  WARN 13308 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591671822088, current=DOWN, previous=UP]
+2020-06-09 11:05:59.313  WARN 12620 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:05:59.326  WARN 12620 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:06:17.358  WARN 12620 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:06:33.190  WARN 12620 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 11:06:34.795  WARN 12620 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:06:36.349  WARN 12620 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 11:06:42.685  WARN 12620 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:06:42.686  WARN 12620 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:252)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:06:42.687  WARN 12620 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:06:42.705  WARN 12620 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591672002705, current=DOWN, previous=UP]
+2020-06-09 11:07:46.542  WARN 11908 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:07:46.550  WARN 11908 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:07:54.629  WARN 11908 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:07:58.419  WARN 11908 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 11:08:00.421  WARN 11908 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:08:01.936  WARN 11908 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 11:08:06.927  WARN 11908 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:08:06.929  WARN 11908 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:252)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:08:06.930  WARN 11908 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:08:06.942  WARN 11908 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591672086942, current=DOWN, previous=UP]
+2020-06-09 11:09:51.161  WARN 11820 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:09:51.170  WARN 11820 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:09:58.804  WARN 11820 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:10:03.512  WARN 11820 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 11:10:07.287  WARN 11820 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:10:08.150  WARN 11820 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 11:13:18.139  WARN 13088 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:13:18.148  WARN 13088 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:13:19.925  WARN 13088 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:13:23.763  WARN 13088 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 11:13:25.701  WARN 13088 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:13:27.480  WARN 13088 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 11:13:58.541  WARN 13088 --- [http-nio-4431-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:06.986  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:07.001  WARN 13088 --- [http-nio-4431-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:07.002  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:07.150  WARN 13088 --- [http-nio-4431-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:07.150  WARN 13088 --- [http-nio-4431-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:11.425  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:13.811  WARN 13088 --- [http-nio-4431-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:15.172  WARN 13088 --- [http-nio-4431-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:15.304  WARN 13088 --- [http-nio-4431-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:24.558  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:24.785  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:24.854  WARN 13088 --- [http-nio-4431-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:25.468  WARN 13088 --- [http-nio-4431-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:25.519  WARN 13088 --- [http-nio-4431-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:25.606  WARN 13088 --- [http-nio-4431-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:26.775  WARN 13088 --- [http-nio-4431-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:26.902  WARN 13088 --- [http-nio-4431-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:26.936  WARN 13088 --- [http-nio-4431-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:27.792  WARN 13088 --- [http-nio-4431-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:27.908  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:28.028  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:28.741  WARN 13088 --- [http-nio-4431-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:28.839  WARN 13088 --- [http-nio-4431-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:28.876  WARN 13088 --- [http-nio-4431-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:36.081  WARN 13088 --- [http-nio-4431-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:36.652  WARN 13088 --- [http-nio-4431-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:37.428  WARN 13088 --- [http-nio-4431-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:39.052  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:39.152  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:39.229  WARN 13088 --- [http-nio-4431-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:40.508  WARN 13088 --- [http-nio-4431-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:40.531  WARN 13088 --- [http-nio-4431-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:40.682  WARN 13088 --- [http-nio-4431-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:41.232  WARN 13088 --- [http-nio-4431-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:41.342  WARN 13088 --- [http-nio-4431-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:41.388  WARN 13088 --- [http-nio-4431-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:42.020  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:42.063  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:14:42.075  WARN 13088 --- [http-nio-4431-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:02.446  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:03.819  WARN 13088 --- [http-nio-4431-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:03.848  WARN 13088 --- [http-nio-4431-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:03.872  WARN 13088 --- [http-nio-4431-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:04.640  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:05.359  WARN 13088 --- [http-nio-4431-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:07.341  WARN 13088 --- [http-nio-4431-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:07.366  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:07.378  WARN 13088 --- [http-nio-4431-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:07.996  WARN 13088 --- [http-nio-4431-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:08.025  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:08.041  WARN 13088 --- [http-nio-4431-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:08.727  WARN 13088 --- [http-nio-4431-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:08.744  WARN 13088 --- [http-nio-4431-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:08.755  WARN 13088 --- [http-nio-4431-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:09.731  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:09.891  WARN 13088 --- [http-nio-4431-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:09.936  WARN 13088 --- [http-nio-4431-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:10.622  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:10.646  WARN 13088 --- [http-nio-4431-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:10.662  WARN 13088 --- [http-nio-4431-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:11.624  WARN 13088 --- [http-nio-4431-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:11.695  WARN 13088 --- [http-nio-4431-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:11.712  WARN 13088 --- [http-nio-4431-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:12.418  WARN 13088 --- [http-nio-4431-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:12.530  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:12.685  WARN 13088 --- [http-nio-4431-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:13.333  WARN 13088 --- [http-nio-4431-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:13.364  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:13.378  WARN 13088 --- [http-nio-4431-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:18.366  WARN 13088 --- [http-nio-4431-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:18.386  WARN 13088 --- [http-nio-4431-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:15:18.585  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:15.871  WARN 13088 --- [http-nio-4431-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:21.748  WARN 13088 --- [http-nio-4431-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:21.754  WARN 13088 --- [http-nio-4431-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:21.772  WARN 13088 --- [http-nio-4431-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:21.926  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:21.926  WARN 13088 --- [http-nio-4431-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:22.504  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:25.356  WARN 13088 --- [http-nio-4431-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:25.570  WARN 13088 --- [http-nio-4431-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:25.664  WARN 13088 --- [http-nio-4431-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:26.417  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:26.444  WARN 13088 --- [http-nio-4431-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:26.500  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:27.710  WARN 13088 --- [http-nio-4431-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:27.721  WARN 13088 --- [http-nio-4431-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:27.735  WARN 13088 --- [http-nio-4431-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:28.371  WARN 13088 --- [http-nio-4431-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:28.391  WARN 13088 --- [http-nio-4431-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:28.412  WARN 13088 --- [http-nio-4431-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:28.981  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:29.037  WARN 13088 --- [http-nio-4431-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:29.051  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:30.114  WARN 13088 --- [http-nio-4431-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:30.137  WARN 13088 --- [http-nio-4431-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:30.149  WARN 13088 --- [http-nio-4431-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:31.343  WARN 13088 --- [http-nio-4431-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:31.368  WARN 13088 --- [http-nio-4431-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:31.380  WARN 13088 --- [http-nio-4431-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:32.436  WARN 13088 --- [http-nio-4431-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:32.456  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:32.473  WARN 13088 --- [http-nio-4431-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:33.122  WARN 13088 --- [http-nio-4431-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:33.140  WARN 13088 --- [http-nio-4431-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:33.155  WARN 13088 --- [http-nio-4431-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:34.365  WARN 13088 --- [http-nio-4431-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:34.388  WARN 13088 --- [http-nio-4431-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:34.403  WARN 13088 --- [http-nio-4431-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:34.995  WARN 13088 --- [http-nio-4431-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:35.023  WARN 13088 --- [http-nio-4431-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:16:35.052  WARN 13088 --- [http-nio-4431-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:04.772  WARN 6496 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:17:04.780  WARN 6496 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:17:06.689  WARN 6496 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:17:09.179  WARN 6496 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 11:17:10.174  WARN 6496 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:17:11.013  WARN 6496 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 11:17:21.967  WARN 6496 --- [http-nio-8585-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:24.281  WARN 6496 --- [http-nio-8585-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:24.281  WARN 6496 --- [http-nio-8585-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:24.281  WARN 6496 --- [http-nio-8585-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:24.281  WARN 6496 --- [http-nio-8585-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:24.281  WARN 6496 --- [http-nio-8585-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:24.775  WARN 6496 --- [http-nio-8585-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:26.654  WARN 6496 --- [http-nio-8585-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:26.688  WARN 6496 --- [http-nio-8585-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:26.711  WARN 6496 --- [http-nio-8585-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:27.267  WARN 6496 --- [http-nio-8585-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:27.294  WARN 6496 --- [http-nio-8585-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:27.307  WARN 6496 --- [http-nio-8585-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:27.905  WARN 6496 --- [http-nio-8585-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:27.935  WARN 6496 --- [http-nio-8585-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:27.952  WARN 6496 --- [http-nio-8585-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:28.835  WARN 6496 --- [http-nio-8585-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:28.859  WARN 6496 --- [http-nio-8585-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:17:28.870  WARN 6496 --- [http-nio-8585-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 11:18:23.694  WARN 13156 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:18:23.702  WARN 13156 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 11:18:24.860  WARN 13156 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:18:26.642  WARN 13156 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 11:18:27.456  WARN 13156 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 11:18:28.264  WARN 13156 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 11:18:29.580  WARN 13156 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:18:29.581  WARN 13156 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:252)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:18:29.581  WARN 13156 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 11:18:29.586  WARN 13156 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591672709586, current=DOWN, previous=UP]
+2020-06-09 13:15:18.281  WARN 11504 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 13:15:18.320  WARN 11504 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 13:15:22.838  WARN 11504 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 13:15:29.648  WARN 11504 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 13:15:31.560  WARN 11504 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 13:15:34.982  WARN 11504 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 13:15:37.837  WARN 11504 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 13:15:37.838  WARN 11504 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:252)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 13:15:37.840  WARN 11504 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 13:15:37.875  WARN 11504 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591679737875, current=DOWN, previous=UP]
+2020-06-09 15:54:34.090  WARN 9512 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 15:54:34.194  WARN 9512 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 15:54:41.805  WARN 9512 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 15:54:51.213  WARN 9512 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 15:55:01.967  WARN 9512 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 15:55:04.916  WARN 9512 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 15:55:16.348  WARN 9512 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 15:55:16.349  WARN 9512 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:252)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 15:55:16.349  WARN 9512 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 15:55:16.355  WARN 9512 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591689316355, current=DOWN, previous=UP]
+2020-06-09 15:56:40.707  WARN 6572 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 15:56:40.720  WARN 6572 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 15:56:49.828  WARN 6572 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 15:56:53.922  WARN 6572 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 15:56:55.577  WARN 6572 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 15:56:57.673  WARN 6572 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 15:57:09.176  WARN 6572 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 15:57:09.177  WARN 6572 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:252)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 15:57:09.178  WARN 6572 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 15:57:09.188  WARN 6572 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591689429188, current=DOWN, previous=UP]
+2020-06-09 15:58:35.663  WARN 8668 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 15:58:35.674  WARN 8668 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 15:58:37.503  WARN 8668 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 15:58:40.440  WARN 8668 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 15:58:41.338  WARN 8668 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 15:58:42.155  WARN 8668 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 15:58:43.645  WARN 8668 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 15:58:43.645  WARN 8668 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:252)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 15:58:43.646  WARN 8668 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 15:58:43.651  WARN 8668 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591689523651, current=DOWN, previous=UP]
+2020-06-09 15:59:09.386  WARN 11724 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 15:59:09.396  WARN 11724 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 15:59:10.561  WARN 11724 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 15:59:12.373  WARN 11724 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 15:59:13.227  WARN 11724 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 15:59:14.003  WARN 11724 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 16:01:50.007  WARN 10708 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:01:50.017  WARN 10708 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:01:52.077  WARN 10708 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:01:55.435  WARN 10708 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 16:02:01.834  WARN 10708 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:02:04.023  WARN 10708 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 16:02:06.625  WARN 10708 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 16:02:06.626  WARN 10708 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:252)
+ io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+ io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 16:02:06.626  WARN 10708 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+2020-06-09 16:02:06.634  WARN 10708 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1591689726634, current=DOWN, previous=UP]
+2020-06-09 16:04:53.872  WARN 11068 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:04:53.883  WARN 11068 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:04:55.157  WARN 11068 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:04:59.579  WARN 11068 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 16:05:01.074  WARN 11068 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:05:01.953  WARN 11068 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 16:10:05.175  WARN 6136 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:10:05.216  WARN 6136 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:10:13.446  WARN 6136 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:10:21.207  WARN 6136 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 16:10:24.839  WARN 6136 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:10:26.702  WARN 6136 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 16:11:28.776  WARN 6136 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:34.363  WARN 6136 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:34.413  WARN 6136 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:35.131  WARN 6136 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:35.151  WARN 6136 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:35.155  WARN 6136 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:35.641  WARN 6136 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:39.087  WARN 6136 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:39.293  WARN 6136 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:39.317  WARN 6136 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:39.924  WARN 6136 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:39.953  WARN 6136 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:39.976  WARN 6136 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:40.555  WARN 6136 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:40.611  WARN 6136 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:40.639  WARN 6136 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:41.190  WARN 6136 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:41.217  WARN 6136 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:41.234  WARN 6136 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:41.869  WARN 6136 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:41.893  WARN 6136 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:41.905  WARN 6136 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:42.996  WARN 6136 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:43.035  WARN 6136 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:43.064  WARN 6136 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:44.139  WARN 6136 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:44.201  WARN 6136 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:44.217  WARN 6136 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:44.812  WARN 6136 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:44.827  WARN 6136 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:44.839  WARN 6136 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:54.395  WARN 6136 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:54.449  WARN 6136 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:54.703  WARN 6136 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:55.366  WARN 6136 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:55.403  WARN 6136 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:55.434  WARN 6136 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:56.057  WARN 6136 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:56.077  WARN 6136 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:56.115  WARN 6136 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:56.795  WARN 6136 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:56.851  WARN 6136 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:11:56.868  WARN 6136 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:12:36.290  WARN 6136 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:12:36.384  WARN 6136 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:12:36.403  WARN 6136 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:12:37.514  WARN 6136 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:12:37.547  WARN 6136 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:12:37.561  WARN 6136 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:12:38.115  WARN 6136 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:12:38.145  WARN 6136 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:12:38.479  WARN 6136 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:12:39.042  WARN 6136 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:12:39.072  WARN 6136 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:12:39.087  WARN 6136 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:15.587  WARN 6136 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:15.643  WARN 6136 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:15.660  WARN 6136 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:16.220  WARN 6136 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:16.242  WARN 6136 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:16.282  WARN 6136 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:17.281  WARN 6136 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:17.301  WARN 6136 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:17.313  WARN 6136 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:19.604  WARN 6136 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:19.655  WARN 6136 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:19.663  WARN 6136 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:41.088  WARN 6136 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:41.099  WARN 6136 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:41.138  WARN 6136 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:42.088  WARN 6136 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:42.107  WARN 6136 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:42.119  WARN 6136 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:42.744  WARN 6136 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:42.766  WARN 6136 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:42.778  WARN 6136 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:43.441  WARN 6136 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:43.485  WARN 6136 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:16:43.523  WARN 6136 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:00.531  WARN 10264 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:20:00.554  WARN 10264 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:20:05.382  WARN 10264 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:20:08.967  WARN 10264 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 16:20:11.732  WARN 10264 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:20:14.472  WARN 10264 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 16:20:35.574  WARN 10264 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:36.172  WARN 10264 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:36.262  WARN 10264 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:36.316  WARN 10264 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:37.694  WARN 10264 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:38.717  WARN 10264 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:38.717  WARN 10264 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:40.423  WARN 10264 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:40.488  WARN 10264 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:40.562  WARN 10264 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:42.072  WARN 10264 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:42.131  WARN 10264 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:42.172  WARN 10264 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:42.712  WARN 10264 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:42.753  WARN 10264 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:42.786  WARN 10264 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:43.535  WARN 10264 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:43.634  WARN 10264 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:43.688  WARN 10264 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:44.287  WARN 10264 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:44.326  WARN 10264 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:44.375  WARN 10264 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:45.000  WARN 10264 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:45.040  WARN 10264 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:45.076  WARN 10264 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:45.664  WARN 10264 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:45.700  WARN 10264 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:45.731  WARN 10264 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:46.287  WARN 10264 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:46.325  WARN 10264 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:20:46.368  WARN 10264 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:22:04.257  WARN 6116 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:22:04.288  WARN 6116 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:22:09.245  WARN 6116 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:24:02.259  WARN 6116 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 16:24:07.999  WARN 6116 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:24:11.285  WARN 6116 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 16:24:58.974  WARN 6116 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:24:58.974  WARN 6116 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:25:02.397  WARN 6116 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:25:02.434  WARN 6116 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:27:07.708  WARN 6116 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:27:07.794  WARN 6116 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:27:07.928  WARN 6116 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:27:09.290  WARN 6116 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:27:09.385  WARN 6116 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:27:09.572  WARN 6116 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:27:10.762  WARN 6116 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:27:10.847  WARN 6116 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:27:10.973  WARN 6116 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:27:12.189  WARN 6116 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:27:12.345  WARN 6116 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:27:12.394  WARN 6116 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:30:24.273  WARN 11524 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:30:24.324  WARN 11524 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:30:33.193  WARN 11524 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:30:43.343  WARN 11524 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 16:30:55.029  WARN 11524 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:31:01.506  WARN 11524 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 16:31:24.255  WARN 11524 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:24.255  WARN 11524 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:26.209  WARN 11524 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:26.226  WARN 11524 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:30.513  WARN 11524 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:30.639  WARN 11524 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:31.137  WARN 11524 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:32.838  WARN 11524 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:33.016  WARN 11524 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:33.110  WARN 11524 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:33.759  WARN 11524 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:33.982  WARN 11524 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:34.067  WARN 11524 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:35.308  WARN 11524 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:35.456  WARN 11524 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:35.540  WARN 11524 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:36.287  WARN 11524 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:36.426  WARN 11524 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:36.581  WARN 11524 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:37.244  WARN 11524 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:37.330  WARN 11524 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:37.387  WARN 11524 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:38.086  WARN 11524 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:38.680  WARN 11524 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:31:38.897  WARN 11524 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:34:04.751  WARN 12468 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:34:04.777  WARN 12468 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:34:07.008  WARN 12468 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:34:09.797  WARN 12468 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 16:34:11.196  WARN 12468 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:34:24.817  WARN 12468 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 16:34:42.122  WARN 12468 --- [https-jsse-nio-443-exec-1] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:34:42.122  WARN 12468 --- [https-jsse-nio-443-exec-2] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:34:44.891  WARN 12468 --- [https-jsse-nio-443-exec-3] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:34:45.347  WARN 12468 --- [https-jsse-nio-443-exec-5] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:34:45.347  WARN 12468 --- [https-jsse-nio-443-exec-4] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:34:46.596  WARN 12468 --- [https-jsse-nio-443-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:34:47.471  WARN 12468 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:34:47.500  WARN 12468 --- [https-jsse-nio-443-exec-7] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:34:47.536  WARN 12468 --- [https-jsse-nio-443-exec-10] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:34:48.001  WARN 12468 --- [https-jsse-nio-443-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:45:16.883  WARN 11112 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:45:16.913  WARN 11112 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-06-09 16:45:19.126  WARN 11112 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:45:22.568  WARN 11112 --- [main] c.j.a.rbac.MyFilterSecurityInterceptor   : Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2020-06-09 16:45:24.928  WARN 11112 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-06-09 16:45:27.269  WARN 11112 --- [main] o.s.c.n.core.CoreAutoConfiguration       : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+2020-06-09 16:46:33.161  WARN 11112 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 20000ms for the command ac-test is set lower than the combination of the Ribbon read and connect timeout, 1200000ms.
+2020-06-09 16:46:38.034  WARN 11112 --- [https-jsse-nio-443-exec-8] o.s.c.n.z.filters.post.SendErrorFilter   : Error during filtering
+
+com.netflix.zuul.exception.ZuulException: Forwarding error
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.handleException(RibbonRoutingFilter.java:198)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:173)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:119)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:45)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.jit.authority.rbac.MyFilterSecurityInterceptor.invoke(MyFilterSecurityInterceptor.java:59)
+	at com.jit.authority.rbac.MyFilterSecurityInterceptor.doFilter(MyFilterSecurityInterceptor.java:44)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.jit.authority.jwtsecurity.filter.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.jit.authority.config.CorsConfig.doFilter(CorsConfig.java:34)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.netflix.client.ClientException: null
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:118)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:221)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:55)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:410)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:167)
+	... 81 common frames omitted
+Caused by: java.lang.RuntimeException: org.apache.http.conn.HttpHostConnectException: Connect to dell-PC:8084 [dell-PC/192.168.100.96, dell-PC/fe80:0:0:0:4db5:7dab:6dd9:b318%11] failed: Connection refused: connect
+	at rx.exceptions.Exceptions.propagate(Exceptions.java:57)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:463)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:340)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
+	... 143 common frames omitted
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to dell-PC:8084 [dell-PC/192.168.100.96, dell-PC/fe80:0:0:0:4db5:7dab:6dd9:b318%11] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClient.execute(RibbonLoadBalancingHttpClient.java:83)
+	at org.springframework.cloud.netflix.ribbon.apache.RibbonLoadBalancingHttpClient.execute(RibbonLoadBalancingHttpClient.java:45)
+	at com.netflix.client.AbstractLoadBalancerAwareClient$1.call(AbstractLoadBalancerAwareClient.java:104)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$3$1.call(LoadBalancerCommand.java:303)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$3$1.call(LoadBalancerCommand.java:287)
+	at rx.internal.util.ScalarSynchronousObservable$3.call(ScalarSynchronousObservable.java:231)
+	at rx.internal.util.ScalarSynchronousObservable$3.call(ScalarSynchronousObservable.java:228)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeConcatMap$ConcatMapSubscriber.drain(OnSubscribeConcatMap.java:286)
+	at rx.internal.operators.OnSubscribeConcatMap$ConcatMapSubscriber.onNext(OnSubscribeConcatMap.java:144)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:185)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)
+	... 145 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 199 common frames omitted
+

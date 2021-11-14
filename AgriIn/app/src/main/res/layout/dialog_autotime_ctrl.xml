@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 弹出设置经纬度的弹出框 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/common_dimension_25"
+    android:paddingRight="@dimen/common_dimension_25"
+    android:paddingTop="@dimen/common_dimension_15"
+    android:paddingBottom="@dimen/common_dimension_15">
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="定时设置"
+        android:textColor="@color/black"
+        android:textSize="@dimen/LargeTextSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/common_dimension_3"
+        android:layout_marginTop="@dimen/common_dimension_15"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/common_dimension_8"
+        android:paddingBottom="@dimen/common_dimension_8"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="@dimen/common_dimension_5"
+            android:textSize="@dimen/BasicTextSize"
+            android:text="执行动作："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:background="@null"
+            android:id="@+id/tvOption"
+            android:textSize="@dimen/BasicTextSize"
+            android:layout_marginLeft="@dimen/common_dimension_20"
+            android:text="动作"
+            android:lines="1"
+            android:maxLines="1"
+            android:minLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:background="@drawable/bg_latitude_selector_bg"
+        android:layout_marginLeft="@dimen/common_dimension_3"
+        android:layout_marginTop="@dimen/common_dimension_15"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/common_dimension_8"
+        android:paddingBottom="@dimen/common_dimension_8"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="@dimen/common_dimension_5"
+            android:textSize="@dimen/BasicTextSize"
+            android:text="请选择控制时间："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:background="@null"
+            android:id="@+id/tvTime"
+            android:textSize="@dimen/BasicTextSize"
+            android:layout_marginLeft="@dimen/common_dimension_20"
+            android:text="时间"
+            android:lines="1"
+            android:maxLines="1"
+            android:minLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/common_dimension_12"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/common_dimension_5"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/common_dimension_35">
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/red0"
+            android:id="@+id/tvCancel"
+            android:padding="@dimen/common_dimension_5"
+            android:textSize="@dimen/BasicTextSize"
+            android:text="取消"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/red0"
+            android:text="确定"
+            android:id="@+id/tvEnsure"
+            android:padding="@dimen/common_dimension_5"
+            android:layout_marginLeft="@dimen/common_dimension_40"
+            android:layout_marginRight="@dimen/common_dimension_5"
+            android:textSize="@dimen/BasicTextSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

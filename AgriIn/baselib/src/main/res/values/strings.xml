@@ -1,0 +1,18 @@
+<resources>
+    <string name="send">发送</string>
+    <string name="save">保存</string>
+    <string name="str_resource_load_exception">资源加载异常</string>
+    <string name="start_download_pic">开始下载图片</string>
+    <string name="save_success">保存成功</string>
+    <string name="pic_save_path">已保存至%1$s/%2$s文件下</string>
+    <string name="mul_pic_num_show">%1$s/%2$s</string>
+
+    <!-- 共享过度动画 -->
+    <string name="transition_photos">transition_animation_news_photos</string>
+    <!-- 加载相关属性-->
+    <string name="net_error">网络访问错误，请稍后再试</string>
+    <string name="empty">还没有数据哦</string>
+    <string name="loading">请稍后…</string>
+    <string name="no_net">网络不可用,请检查你的网络</string>
+
+</resources>

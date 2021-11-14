@@ -1,0 +1,259 @@
+2021-11-10 15:17:04.532  INFO 4320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bb5743b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:05.074  INFO 4320 --- [main] c.j.aquaculture.AquacultureApplication   : No active profile set, falling back to default profiles: default
+2021-11-10 15:17:06.213  INFO 4387 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6f080017] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:06.480  INFO 4387 --- [main] com.jit.authority.AuthorityApplication   : No active profile set, falling back to default profiles: default
+2021-11-10 15:17:09.259  INFO 4320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 15:17:09.261  INFO 4320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 15:17:09.310  INFO 4320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2021-11-10 15:17:09.417  INFO 4387 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 15:17:09.419  INFO 4387 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 15:17:09.445  INFO 4387 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2021-11-10 15:17:09.787  INFO 4320 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a26c3c35-cbe6-3fca-95fe-1f3822258279
+2021-11-10 15:17:09.800  INFO 4320 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-11-10 15:17:09.812  INFO 4320 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-11-10 15:17:09.826  INFO 4387 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e26f9f9c-9ff5-3b80-8104-b6dd6a0dd698
+2021-11-10 15:17:09.889  INFO 4320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.jit.aquaculture.controller.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:09.889  INFO 4387 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.jit.authority.serviceinterface.WxloginService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:09.983  INFO 4320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9f3d40bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:10.000  INFO 4387 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.jit.authority.config.RedisConfig$$EnhancerBySpringCGLIB$$626fe221] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:10.006  INFO 4320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$a2efbeb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:10.018  INFO 4320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:10.031  INFO 4320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bb5743b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:10.241  INFO 4387 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$52edfd1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:10.257  INFO 4387 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6f080017] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:10.416  INFO 4320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-10 15:17:10.440  INFO 4320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-10 15:17:10.440  INFO 4320 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-11-10 15:17:10.526  INFO 4387 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https) 8080 (http)
+2021-11-10 15:17:10.571  INFO 4387 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-10 15:17:10.571  INFO 4387 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-11-10 15:17:10.628  INFO 4320 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-10 15:17:10.628  INFO 4320 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5208 ms
+2021-11-10 15:17:10.680  INFO 4387 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-10 15:17:10.681  INFO 4387 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4176 ms
+2021-11-10 15:17:10.972  INFO 4387 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-10 15:17:10.992  INFO 4387 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@fe13916
+2021-11-10 15:17:16.470  INFO 4387 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-11-10 15:17:16.532  INFO 4387 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-11-10 15:17:18.667  INFO 4320 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-11-10 15:17:18.868  INFO 4320 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-10 15:17:18.903  INFO 4320 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-10 15:17:19.334  INFO 4320 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 15:17:19.393  INFO 4387 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-11-10 15:17:19.393  INFO 4387 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-11-10 15:17:20.225  INFO 4387 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-11-10 15:17:20.226  INFO 4387 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-11-10 15:17:21.221  INFO 4320 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-10 15:17:21.554  INFO 4387 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:17:21.637  INFO 4387 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-10 15:17:21.638  INFO 4387 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-10 15:17:21.638  INFO 4387 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-10 15:17:21.638  INFO 4387 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-10 15:17:21.638  INFO 4387 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-10 15:17:21.638  INFO 4387 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-11-10 15:17:21.638  INFO 4387 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-10 15:17:21.837  INFO 4387 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-11-10 15:17:21.841  INFO 4387 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-11-10 15:17:21.875  INFO 4387 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1636528641844 with initial instances count: 0
+2021-11-10 15:17:21.944  INFO 4320 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-11-10 15:17:21.944  INFO 4320 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2021-11-10 15:17:21.944  INFO 4320 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2021-11-10 15:17:21.962  INFO 4320 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-11-10 15:17:21.996  INFO 4320 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-11-10 15:17:22.724  INFO 4320 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-11-10 15:17:22.724  INFO 4320 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-11-10 15:17:22.844  INFO 4320 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-11-10 15:17:22.845  INFO 4320 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-11-10 15:17:23.084  INFO 4320 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:17:23.109  INFO 4716 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d6d9e91a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:23.251  INFO 4716 --- [main] c.jit.usercenter.UserCenterApplication   : No active profile set, falling back to default profiles: default
+2021-11-10 15:17:23.253  INFO 4320 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-10 15:17:23.294  INFO 4320 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-10 15:17:23.294  INFO 4320 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-10 15:17:23.294  INFO 4320 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-10 15:17:23.294  INFO 4320 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-10 15:17:23.294  INFO 4320 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-11-10 15:17:23.294  INFO 4320 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-10 15:17:23.947  INFO 4320 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-11-10 15:17:23.948  INFO 4320 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-11-10 15:17:23.951  INFO 4320 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1636528643950 with initial instances count: 0
+2021-11-10 15:17:23.953  INFO 4320 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MICRO-AQUACULTURE with eureka with status UP
+2021-11-10 15:17:23.953  INFO 4320 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1636528643953, current=UP, previous=STARTING]
+2021-11-10 15:17:23.954  INFO 4320 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084: registering service...
+2021-11-10 15:17:23.955  INFO 4320 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-11-10 15:17:24.037  INFO 4320 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-11-10 15:17:24.117  INFO 4387 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-11-10 15:17:24.174  INFO 4320 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-11-10 15:17:24.345  INFO 4387 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-11-10 15:17:24.899  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2021-11-10 15:17:24.901  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_1
+2021-11-10 15:17:24.944  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllDailyThrowUsingGET_1
+2021-11-10 15:17:24.952  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDailyThrowByDateUsingGET_1
+2021-11-10 15:17:24.978  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addFeedTemplateUsingPOST_1
+2021-11-10 15:17:24.979  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteinputUsingDELETE_1
+2021-11-10 15:17:24.981  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectAllFeedTemplateUsingGET_1
+2021-11-10 15:17:24.983  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.gif'], []
+2021-11-10 15:17:24.983  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectFeedTemplateUsingGET_1
+2021-11-10 15:17:24.983  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.png'], []
+2021-11-10 15:17:24.983  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.jpg'], []
+2021-11-10 15:17:24.984  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html'], []
+2021-11-10 15:17:24.984  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js'], []
+2021-11-10 15:17:24.984  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css'], []
+2021-11-10 15:17:24.984  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.ico'], []
+2021-11-10 15:17:24.984  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**'], []
+2021-11-10 15:17:24.984  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html*/**'], []
+2021-11-10 15:17:24.984  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/swagger-ui.html*/**'], []
+2021-11-10 15:17:24.984  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/ac-service/swagger-ui.html*/**'], []
+2021-11-10 15:17:24.985  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/configuration/security'], []
+2021-11-10 15:17:24.985  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources/**'], []
+2021-11-10 15:17:24.985  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/v2/api-docs'], []
+2021-11-10 15:17:24.985  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources'], []
+2021-11-10 15:17:24.985  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-ui.html'], []
+2021-11-10 15:17:24.985  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/ac-service/swagger-ui.html'], []
+2021-11-10 15:17:24.985  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/springfox-swagger-ui/*.js'], []
+2021-11-10 15:17:24.985  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/configuration/security'], []
+2021-11-10 15:17:24.985  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources/**'], []
+2021-11-10 15:17:24.985  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/v2/api-docs'], []
+2021-11-10 15:17:24.985  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources'], []
+2021-11-10 15:17:24.985  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-ui.html'], []
+2021-11-10 15:17:24.985  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/ac-service/swagger-ui.html'], []
+2021-11-10 15:17:24.986  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/springfox-swagger-ui/*.js'], []
+2021-11-10 15:17:24.988  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateFeedTemplateUsingPUT_1
+2021-11-10 15:17:24.994  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_2
+2021-11-10 15:17:25.007  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectfishinputsUsingGET_1
+2021-11-10 15:17:25.014  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteinputUsingDELETE_2
+2021-11-10 15:17:25.042  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_3
+2021-11-10 15:17:25.047  INFO 4387 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@598f065f, org.springframework.security.web.context.SecurityContextPersistenceFilter@30407f28, org.springframework.security.web.header.HeaderWriterFilter@42c2a1da, org.springframework.security.web.authentication.logout.LogoutFilter@136d1d58, com.jit.authority.jwtsecurity.filter.JwtAuthenticationFilter@21f48f6c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@367a245e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f0ab520, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16745ba7, org.springframework.security.web.session.SessionManagementFilter@21c7415e, org.springframework.security.web.access.ExceptionTranslationFilter@23674e3d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ceac22d]
+2021-11-10 15:17:25.049  INFO 4320 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_2
+2021-11-10 15:17:25.072  INFO 4387 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-10 15:17:25.216  INFO 4320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2021-11-10 15:17:25.217  INFO 4320 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2021-11-10 15:17:25.237  INFO 4320 --- [main] c.j.aquaculture.AquacultureApplication   : Started AquacultureApplication in 25.172 seconds (JVM running for 28.587)
+2021-11-10 15:17:25.240  INFO 4320 --- [main] c.j.aquaculture.AquacultureApplication   : aquaculture application is running.........
+2021-11-10 15:17:25.306  INFO 4387 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 15:17:25.964  INFO 4716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-10 15:17:25.965  INFO 4716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-10 15:17:26.020  INFO 4716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2021-11-10 15:17:26.403  INFO 4387 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-10 15:17:26.593  INFO 4716 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b612e610-f1ee-330f-a616-9bdc466edc87
+2021-11-10 15:17:26.675  INFO 4716 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$babfe61d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:26.696  INFO 4716 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d6d9e91a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-10 15:17:26.720  INFO 4387 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+2021-11-10 15:17:26.819  INFO 4387 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTH-SERVICE with eureka with status UP
+2021-11-10 15:17:26.820  INFO 4387 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1636528646820, current=UP, previous=STARTING]
+2021-11-10 15:17:26.822  INFO 4387 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443: registering service...
+2021-11-10 15:17:26.825  INFO 4387 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-11-10 15:17:26.877  INFO 4716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-11-10 15:17:26.894  INFO 4387 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-11-10 15:17:26.904  INFO 4716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-10 15:17:26.905  INFO 4716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-11-10 15:17:26.928  INFO 4387 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-11-10 15:17:27.280  INFO 4716 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-10 15:17:27.280  INFO 4716 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3948 ms
+2021-11-10 15:17:27.744  INFO 4387 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) 8080 (http) with context path ''
+2021-11-10 15:17:27.745  INFO 4387 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8443
+2021-11-10 15:17:27.747  INFO 4387 --- [main] com.jit.authority.AuthorityApplication   : Started AuthorityApplication in 23.23 seconds (JVM running for 24.18)
+2021-11-10 15:17:27.755  INFO 4387 --- [main] com.jit.authority.AuthorityApplication   : authority application is running.........
+2021-11-10 15:17:28.228  INFO 4387 --- [RMI TCP Connection(14)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-10 15:17:28.228  INFO 4387 --- [RMI TCP Connection(14)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-10 15:17:28.239  INFO 4387 --- [RMI TCP Connection(14)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-11-10 15:17:28.627  INFO 4387 --- [parallel-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2021-11-10 15:17:28.628  INFO 4387 --- [parallel-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2021-11-10 15:17:28.629  INFO 4716 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-11-10 15:17:28.644  INFO 4716 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-10 15:17:28.646  INFO 4716 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-10 15:17:28.990  INFO 4716 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-10 15:17:29.960  INFO 4716 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-11-10 15:17:29.976  INFO 4716 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-11-10 15:17:30.421  INFO 4716 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-11-10 15:17:30.422  INFO 4716 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-11-10 15:17:30.526  INFO 4716 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-11-10 15:17:30.526  INFO 4716 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-11-10 15:17:30.842  INFO 4716 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:17:30.851  INFO 4716 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-10 15:17:30.851  INFO 4716 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-10 15:17:30.851  INFO 4716 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-10 15:17:30.851  INFO 4716 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-10 15:17:30.851  INFO 4716 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-10 15:17:30.851  INFO 4716 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-11-10 15:17:30.851  INFO 4716 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-10 15:17:31.245  INFO 4716 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-10 15:17:31.247  INFO 4716 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-11-10 15:17:31.248  INFO 4716 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-11-10 15:17:31.251  INFO 4716 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1636528651250 with initial instances count: 0
+2021-11-10 15:17:31.252  INFO 4716 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-CENTER with eureka with status UP
+2021-11-10 15:17:31.253  INFO 4716 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1636528651253, current=UP, previous=STARTING]
+2021-11-10 15:17:31.254  INFO 4716 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081: registering service...
+2021-11-10 15:17:31.255  INFO 4716 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-11-10 15:17:31.265  INFO 4716 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-11-10 15:17:31.317  INFO 4716 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-11-10 15:17:31.354  INFO 4716 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081 - registration status: 204
+2021-11-10 15:17:31.455  INFO 4716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-11-10 15:17:31.456  INFO 4716 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2021-11-10 15:17:31.459  INFO 4716 --- [main] c.jit.usercenter.UserCenterApplication   : Started UserCenterApplication in 9.669 seconds (JVM running for 10.82)
+2021-11-10 15:17:51.838  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-10 15:17:51.839  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-10 15:17:51.839  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-10 15:17:51.839  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-10 15:17:51.839  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-10 15:17:51.839  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-11-10 15:17:51.839  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-10 15:17:51.866  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-10 15:17:51.887  INFO 4387 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443 - Re-registering apps/AUTH-SERVICE
+2021-11-10 15:17:51.887  INFO 4387 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443: registering service...
+2021-11-10 15:17:51.915  INFO 4387 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443 - registration status: 204
+2021-11-10 15:17:53.948  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-10 15:17:53.949  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-10 15:17:53.949  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-10 15:17:53.949  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-10 15:17:53.949  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-10 15:17:53.949  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-11-10 15:17:53.950  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-10 15:17:53.960  INFO 4320 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084: registering service...
+2021-11-10 15:17:53.977  INFO 4320 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084 - Re-registering apps/MICRO-AQUACULTURE
+2021-11-10 15:17:53.977  INFO 4320 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084: registering service...
+2021-11-10 15:17:53.985  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-10 15:17:53.990  INFO 4320 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084 - registration status: 204
+2021-11-10 15:17:53.990  INFO 4320 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084 - registration status: 204
+2021-11-10 15:18:01.248  INFO 4716 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-10 15:18:01.248  INFO 4716 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-10 15:18:01.249  INFO 4716 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-10 15:18:01.249  INFO 4716 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-10 15:18:01.249  INFO 4716 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-10 15:18:01.249  INFO 4716 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2021-11-10 15:18:01.250  INFO 4716 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-10 15:18:01.308  INFO 4716 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-10 15:18:21.868  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-10 15:18:21.869  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-10 15:18:21.869  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-10 15:18:21.869  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-10 15:18:21.869  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-10 15:18:21.869  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2021-11-10 15:18:21.869  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-10 15:18:21.899  INFO 4387 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-10 15:18:23.987  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-10 15:18:23.987  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-10 15:18:23.987  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-10 15:18:23.987  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-10 15:18:23.988  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-10 15:18:23.988  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2021-11-10 15:18:23.988  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-10 15:18:24.018  INFO 4320 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-10 15:22:21.641  INFO 4387 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:22:23.296  INFO 4320 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:22:30.853  INFO 4716 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:27:21.642  INFO 4387 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:27:23.297  INFO 4320 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:27:30.854  INFO 4716 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:32:21.642  INFO 4387 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:32:23.298  INFO 4320 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:32:30.855  INFO 4716 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:37:21.658  INFO 4387 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:37:23.299  INFO 4320 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:37:30.856  INFO 4716 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:42:21.694  INFO 4387 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:42:23.300  INFO 4320 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:42:30.858  INFO 4716 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:47:21.695  INFO 4387 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:47:23.301  INFO 4320 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-10 15:47:30.859  INFO 4716 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

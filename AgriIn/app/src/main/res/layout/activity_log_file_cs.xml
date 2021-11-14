@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        layout="@layout/include_toolbar_farm_log"/>
+    <com.zxl.baselib.widget.DropDownView
+        android:id="@+id/drop_down_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:containerBackgroundColor="@color/dropDownContainerColor"
+        app:overlayColor="@color/transparentGray"/>
+</LinearLayout>

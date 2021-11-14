@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jit.AgriIn.ui.activity.config.LatitudesActivity">
+    <include
+        android:id="@+id/include"
+        layout="@layout/include_toolbar"/>
+    <RelativeLayout
+        android:id="@+id/rlInfo"
+        android:layout_below="@id/include"
+        android:layout_width="match_parent"
+        android:layout_height="175dp">
+        <LinearLayout
+            android:layout_marginLeft="@dimen/common_dimension_20"
+            android:orientation="vertical"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvW_N"
+                    android:padding="@dimen/common_dimension_5"
+                    android:text="(西北角)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tvE_N"
+                    android:padding="@dimen/common_dimension_5"
+                    android:layout_alignParentRight="true"
+                    android:text="(东北角)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <TextView
+                android:layout_marginLeft="@dimen/common_dimension_20"
+                android:layout_marginRight="@dimen/common_dimension_20"
+                android:layout_marginTop="@dimen/common_dimension_5"
+                android:layout_marginBottom="@dimen/common_dimension_5"
+                android:text="鱼塘"
+                android:textColor="@color/green1"
+                android:textSize="@dimen/mediumTextSize"
+                android:gravity="center"
+                android:background="@drawable/bg_simulation_pond"
+                android:layout_width="match_parent"
+                android:layout_height="90dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvW_S"
+                    android:padding="@dimen/common_dimension_5"
+                    android:text="(西南角)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tvE_S"
+                    android:padding="@dimen/common_dimension_5"
+                    android:layout_alignParentRight="true"
+                    android:text="(东南角)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/common_dimension_8"
+            android:layout_marginRight="@dimen/common_dimension_12"
+            android:gravity="center_horizontal"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/icon"
+                android:src="@mipmap/latitudes_north"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#1296DB"
+                android:text="北"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="@dimen/common_dimension_5"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvShowLat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvShowLang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/rlInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.amap.api.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.amap.api.maps.MapView>
+
+        <!--  返回当前位置 -->
+        <ImageButton
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/track2" />
+    </RelativeLayout>
+
+</RelativeLayout>

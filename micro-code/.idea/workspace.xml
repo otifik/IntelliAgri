@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="273a3d14-a335-46f4-906a-e848c3e1d43f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1zzhhsUIsL3SGaWHtjLkLrOvjPj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../桌面/esport" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jit.aquaculture.dto.addfood" />
+      <recent name="com.jit.aquaculture.responseResult" />
+      <recent name="com.jit.aquaculture.exception" />
+      <recent name="com.jit.aquaculture.aop" />
+      <recent name="com.jit.aquaculture.serviceimpl.file" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserCenterApplication">
+    <configuration name="FileUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jit.aquaculture.utils.FileUtils" />
+      <module name="aquaculture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jit.aquaculture.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aquaculture" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="testRedis" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AquacultureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aquaculture" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jit.aquaculture.AquacultureApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="authority" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jit.authority.AuthorityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jit.eurekacenter.EurekaCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="usercenter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jit.usercenter.UserCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test.testRedis" />
+        <item itemvalue="Application.FileUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="273a3d14-a335-46f4-906a-e848c3e1d43f" name="Default Changelist" comment="" />
+      <created>1635156947900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635156947900</updated>
+      <workItem from="1635156949125" duration="2399000" />
+      <workItem from="1635162487192" duration="2012000" />
+      <workItem from="1635245709549" duration="1153000" />
+      <workItem from="1635246927736" duration="2727000" />
+      <workItem from="1635250966478" duration="1548000" />
+      <workItem from="1635418496651" duration="4714000" />
+      <workItem from="1635423305219" duration="9495000" />
+      <workItem from="1635490609232" duration="8819000" />
+      <workItem from="1635509890454" duration="7773000" />
+      <workItem from="1635559662781" duration="11767000" />
+      <workItem from="1635580118522" duration="7475000" />
+      <workItem from="1635641271749" duration="9321000" />
+      <workItem from="1635830079349" duration="19712000" />
+      <workItem from="1635921169702" duration="5364000" />
+      <workItem from="1636015095210" duration="1918000" />
+      <workItem from="1636017091104" duration="11850000" />
+      <workItem from="1636078888262" duration="20174000" />
+      <workItem from="1636169649477" duration="15116000" />
+      <workItem from="1636199255798" duration="2082000" />
+      <workItem from="1636250002816" duration="8043000" />
+      <workItem from="1636263564469" duration="28936000" />
+      <workItem from="1636362270642" duration="14882000" />
+      <workItem from="1636435340378" duration="10936000" />
+      <workItem from="1636528529088" duration="705000" />
+      <workItem from="1636802753661" duration="67000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/aquaculture$AquacultureApplication.ic" NAME="AquacultureApplication Coverage Results" MODIFIED="1635249626168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

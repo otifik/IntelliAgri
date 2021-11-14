@@ -1,0 +1,27 @@
+###����˿ں�
+server:
+  port: 8761
+
+###��������
+spring:
+  application:
+    name: app-eureka-center
+
+eureka:
+  instance:
+    #ע�����ĵ�ַ
+#    hostname: 111.229.140.47
+    hostname: 127.0.0.1
+  ###�ͻ��˵��õ�ַ
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    ###�Ƿ��Լ�ע�ᵽEureka������,��Ϊ��Ӧ�ñ������ע�����ģ�����Ҫ��ע���Լ�����Ⱥ��ʱ��Ϊtrue��
+    register-with-eureka: false
+    ###�Ƿ��Eureka�л�ȡע����Ϣ,��Ϊ�Լ�Ϊע������,�����ڸ�Ӧ���еļ���������Ϣ
+    fetch-registry: false
+    server:
+      eviction-interval-timer-in-ms: 6000
+    #eureka server清理无效节点的时间间隔，默认60000毫秒，即60秒
+      enable-self-preservation: true
+  #是否开启自我保护模式，默认为true

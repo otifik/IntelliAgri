@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/llContent"
+    android:background="#fff"
+    tools:context="com.jit.AgriIn.ui.activity.SplashActivity">
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="智 · 控 水 产"
+        android:textColor="@color/color_weather_theme"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@mipmap/agri"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="金科智农"
+            android:textColor="@color/color_weather_theme"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tv_version_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:textColor="@color/color_weather_theme"
+            android:shadowColor="@color/white"
+            android:textSize="@dimen/LargeTextSize" />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:visibility="invisible"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="金陵科技学院"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_alignParentBottom="true"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="南京软件研究院"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_alignParentBottom="true"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="数字支撑农业        "
+            android:textSize="20sp"
+            android:textColor="#EFB336"
+            android:textAlignment="center"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="        信息服务农业"
+            android:textSize="20sp"
+            android:textColor="#EFB336"
+            android:textAlignment="center"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                        智慧引领农业"
+            android:textSize="20sp"
+            android:textColor="#EFB336"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

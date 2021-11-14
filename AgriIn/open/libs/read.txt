@@ -1,0 +1,26 @@
+1.短信验证:采用MOB短信验证
+MobCommons / MobTools / SDKWrapper / SMSSDK Jar
+注意:Manifest 以及Application进行注册
+
+
+
+2.关于登陆以及分享最好不用ShareSDK因为还涉及到支付宝,这特么的并不支持啊
+a.  QQ登陆分享 采用QQ互联(腾讯开发这平台可进行关联)
+open_sdk_r6008 Jar
+http://wiki.connect.qq.com/get_user_info (获得登陆信息后需要再次请求)
+http://wiki.connect.qq.com/sdk%E4%B8%8B%E8%BD%BD
+https://blog.csdn.net/jueblog/article/details/14497181
+b. 微博登陆
+开发网址:http://open.weibo.com/apps
+集成学习:https://github.com/sinaweibosdk/weibo_android_sdk
+aar文件在model中使用 https://blog.csdn.net/qq_35522272/article/details/70214962#commentsedit
+
+c. 微信登陆
+通过资质认证需要缴纳费用
+https://blog.csdn.net/pkandroid/article/details/72974552?utm_source=itdadao&utm_medium=referral
+
+d. 支付宝登陆
+
+
+
+2018 / 8

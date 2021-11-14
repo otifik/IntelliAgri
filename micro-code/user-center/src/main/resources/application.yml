@@ -1,0 +1,61 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: user-center #ָ��������
+  # ���ݿ�����
+  datasource:
+#    url: jdbc:mysql://111.229.163.181:3306/authority?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://127.0.0.1:3306/authority?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+#    password: nsi-xu811
+    password: zhny-123
+    #    password: jit-dev1217
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: org.apache.commons.dbcp2.BasicDataSource
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  main:
+    allow-bean-definition-overriding: true
+##################
+
+##�����ļ��ϴ�Ŀ¼
+image:
+  #url: D:/
+  url: http://111.229.163.181:80
+  user:
+#    path: /home/ubuntu/codedir/imageDir/
+#    url: /
+    path: /home/ubuntu/jit/resource/shuichan/user/
+    url: /shuichan/user/
+
+####����ע�ᵽeurekaע�����ĵĵ�ַ
+
+eureka:
+  instance:
+#    ip-address: 111.229.163.181
+    ip-address: 127.0.0.1
+    instance-id: ${eureka.instance.ip-address}:${server.port}
+    prefer-ip-address: true
+  client:
+    service-url:
+#      defaultZone: http://111.229.140.47:8761/eureka
+      defaultZone: http://127.0.0.1:8761/eureka
+#    ###��Ϊ��Ӧ��Ϊ�����ṩ�ߣ���eureka��һ���ͻ��ˣ���Ҫע�ᵽע������
+    register-with-eureka: true
+#    ###�Ƿ���Ҫ��eureka�ϼ�������
+    fetch-registry: true
+
+# mybatis����
+mybatis:
+  mapper-locations: classpath:mybatis/*mapper.xml
+  type-aliases-package: com.jit.usercenter.domain
+# mybatis-plus ����
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-column-underline: true
+    id-type: 0
+    capital-mode: true

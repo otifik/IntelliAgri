@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AgriIn.iml" filepath="$PROJECT_DIR$/.idea/modules/AgriIn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AgriIn.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AgriIn.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/baselib/AgriIn.baselib.iml" filepath="$PROJECT_DIR$/.idea/modules/baselib/AgriIn.baselib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/open/AgriIn.open.iml" filepath="$PROJECT_DIR$/.idea/modules/open/AgriIn.open.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xrecyclerview/AgriIn.xrecyclerview.iml" filepath="$PROJECT_DIR$/.idea/modules/xrecyclerview/AgriIn.xrecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/yslib/AgriIn.yslib.iml" filepath="$PROJECT_DIR$/.idea/modules/yslib/AgriIn.yslib.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:clickable="true"
+    app:cardCornerRadius="3dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="1dp">
+    <LinearLayout
+        android:id="@+id/layout_wrapper"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvMing"
+                android:textColor="@color/pond_text_color"
+                android:textSize="@dimen/SmallTextSize"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:text="名称："
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvRizhiname"
+                android:layout_below="@id/tvMing"
+                android:textColor="@color/pond_text_color"
+                android:textSize="@dimen/mediumTextSize"
+                android:layout_marginLeft="8dp"
+                android:text="塘口a"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvTian"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/pond_text_color"
+                android:textSize="@dimen/SmallTextSize"
+                android:text="填写时间："
+                android:textAlignment="textStart"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/tvRizhiTime"
+                android:layout_below="@id/tvTian"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/pond_text_color"
+                android:textSize="@dimen/mediumTextSize"
+                android:textAlignment="textStart"
+                android:text="塘口a"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ico_edit"/>
+
+
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/pond_text_color"
+                android:textSize="@dimen/SmallTextSize"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:text="日志内容："
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvRizhiContent"
+                android:textColor="@color/pond_text_color"
+                android:textSize="@dimen/mediumTextSize"
+                android:layout_marginLeft="8dp"
+                android:text="详细地址"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

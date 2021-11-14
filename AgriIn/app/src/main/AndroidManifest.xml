@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jit.AgriIn">
+    <!-- MOB 短信注册等权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" /> <!-- 高德地图定位权限 -->
+    <!-- 用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 用于访问GPS定位 -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+    <!-- 用于获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> -->
+    <!-- 用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 用于访问网络，网络定位需要上网 -->
+    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
+    <!-- 用于读取手机当前的状态 -->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <!-- 用于写入缓存数据到扩展存储卡 -->
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    <!-- 用于申请调用A-GPS模块 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" /> <!-- 用于申请获取蓝牙信息进行室内定位 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-feature android:name="android.hardware.Camera" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.jit.inplant.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+
+    <application
+        android:name=".app.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/agri"
+        android:label="金颗智农"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/agri"
+        android:supportsRtl="true"
+        android:theme="@style/RobotAppTheme"
+        tools:replace="label,allowBackup,theme">
+        <activity
+            android:name=".uinew.second.template.FeedingTemplateListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.template.FeedingTemplateUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.reagent.ReagentInputUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.reagent.ReagentInputListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.feeding.FeedingFoodListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.feeding.FeedingFoodUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.fishInput.FishInputUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.fishInput.FishInputListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.input.InputUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.input.InputConfigActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.reagent.ReagentInputAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.feeding.FeedingFoodActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.template.FeedingTemplateAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.fishInput.FishInputAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.input.InputListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.second.input.InputAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".uinew.first.data.FishPondAddActivity"
+            android:exported="true" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" /> <!-- 还是老老实实的用Jar好 编译快 -->
+        <meta-data
+            android:name="Mob-AppKey"
+            android:value="278a41d9f9180" />
+        <meta-data
+            android:name="Mob-AppSecret"
+            android:value="c357d0eb6f965dd21eae96a06bbba03f" /> <!-- Manifest中进行key注册 -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="a950074fe1ee76b9cc0ae6f09ad7c246" />
+        <meta-data
+            android:name="PGYER_APPID"
+            android:value="a1f99a31591a482ff0bec2317c60701a" /> <!-- ############ QQ空间和QQ  wechat SSO授权的Activity注册 ############ -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/App.Theme.Tweet.Main">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 如果你使用的公用账号，则不需要修改；否则修改成你在QQ开放平台申请的 APP ID -->
+                <data android:scheme="1111" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/App.Theme.Transparent" />
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/App.Theme.Transparent" />
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        -->
+        <!-- ############ QQ空间和QQ  wechat SSO授权的Activity注册完 ############ -->
+        <activity
+            android:name=".ui.activity.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.LaunchActivity" /> <!-- 应该是栈内复用模式吧 -->
+        <activity
+            android:name=".ui.activity.user.LoginActivity"
+            android:label="登陆"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreenTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.activity.user.RegisterOneActivity"
+            android:label="注册1"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreenTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.activity.user.RegisterTwoActivity"
+            android:label="注册2"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreenTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.activity.user.RetrieveActivity"
+            android:label="找回密码"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreenTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.activity.user.RegisterProtocolActivity"
+            android:label="协议授权"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.user.RestPwdActivity" />
+        <activity android:name=".ui.activity.config.PondMainActivity" />
+        <activity android:name=".ui.activity.config.PondShowActivity" />
+        <activity
+            android:name=".ui.activity.config.PondAddActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".ui.activity.config.PondUpdateActivity" />
+        <activity android:name=".ui.activity.config.LatitudesActivity" />
+        <activity android:name=".ui.activity.config.ConfigAddActivity" />
+        <activity android:name=".ui.activity.config.ConfigShowActivity" />
+        <activity android:name=".ui.activity.config.ConfigUpdateActivity" />
+        <activity
+            android:name=".ui.activity.user.PersonalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/App.Theme.main" />
+        <activity
+            android:name=".ui.activity.config.ConfigMainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.culture.CultureLogActivity" />
+        <activity
+            android:name=".ui.activity.culture.CultureSubmitActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.activity.culture.KeyInputActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.activity.culture.WeatherSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.culture.CultureMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.culture.LogFileCsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.culture.LogDdListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.culture.EditInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.baike.BaikeDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.baike.BaikeShSeedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/RobotAppTheme.ShowTheme" />
+        <activity
+            android:name=".ui.activity.baike.BaikeShFeedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/RobotAppTheme.ShowTheme" />
+        <activity
+            android:name=".ui.activity.baike.BaikeShProductActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/RobotAppTheme.ShowTheme" />
+        <activity
+            android:name=".ui.activity.baike.BaikeShDiseaseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/RobotAppTheme.ShowTheme" />
+        <activity
+            android:name=".ui.activity.baike.BaikeShDrugActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/RobotAppTheme.ShowTheme" />
+        <activity
+            android:name=".ui.activity.expert.ExpertInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.user.ChangePwdActivity" />
+        <activity android:name=".uinew.fourth.OpinionActivity" />
+        <activity android:name=".uinew.fourth.SelfInfoActivity" />
+        <activity android:name=".uinew.RobotMainActivity" />
+        <activity android:name=".uinew.third.SquareActivity" />
+        <activity android:name=".uinew.third.AnswerActivity" />
+        <activity android:name=".uinew.third.AnswerListActivity" />
+        <activity android:name=".uinew.third.AskQuestionActivity" />
+        <activity android:name=".uinew.second.guding.GudingActivity" />
+        <activity android:name=".uinew.second.guding.GudingAddActivity" />
+        <activity android:name=".uinew.second.guding.GudingUpdateActivity" />
+        <activity android:name=".uinew.second.rizhi.RizhiActivity" />
+        <activity android:name=".uinew.second.rizhi.RizhiAddActivity" />
+        <activity android:name=".uinew.second.rizhi.RizhiUpdateActivity" />
+        <activity android:name=".uinew.second.richang.RichangActivity" />
+        <activity android:name=".uinew.second.richang.RichangAddActivity" />
+        <activity android:name=".uinew.second.richang.RichangUpdateActivity" />
+        <activity android:name=".uinew.second.xiaoyi.goumai.GoumaiActivity" />
+        <activity android:name=".uinew.second.xiaoyi.goumai.GoumaiAddActivity" />
+        <activity android:name=".uinew.second.xiaoyi.xiaoshou.XiaoshouActivity" />
+        <activity android:name=".uinew.second.xiaoyi.xiaoshou.XiaoshouAddActivity" />
+        <activity android:name=".uinew.second.xiaoyi.xiaoshou.XiaoshouUpdateActivity" />
+        <activity android:name=".uinew.second.moban_d.MobanActivity" />
+        <activity android:name=".uinew.second.moban_d.MobanAddActivity" />
+        <activity android:name=".uinew.second.moban_d.MobanUpdateActivity" />
+        <activity android:name=".uinew.role_admin.RoleAdminActivity" />
+        <activity android:name=".ui.activity.role_expert.RoleExpertActivity" />
+        <activity android:name=".uinew.role_admin.TermAddActivity" />
+        <activity android:name=".uinew.role_admin.TermUpdateActivity" />
+        <activity android:name=".uinew.role_admin.UserChooseActivity" />
+        <activity android:name=".uinew.role_admin.SenorListActivity" />
+        <activity android:name=".uinew.role_admin.SensorAddActivity" />
+        <activity android:name=".uinew.role_admin.CellChooseActivity" />
+        <activity android:name=".uinew.role_admin.SensorUpdateActivity" />
+        <activity android:name=".uinew.role_admin.EquipListActivity" />
+        <activity android:name=".uinew.role_admin.EquipAddActivity" />
+        <activity android:name=".uinew.role_admin.EquipUpdateActivity" />
+        <activity android:name=".uinew.first.data.CellAddActivity" />
+        <activity android:name=".uinew.first.data.CellUpdateActivity" />
+        <activity android:name=".uinew.first.data.ctrl.CtrlActivity" />
+        <activity android:name=".uinew.first.data.query.RealOrHisActivity" />
+        <activity android:name=".uinew.first.CellListActivity" />
+        <activity android:name=".uinew.fourth.VideoConfirmActivity" />
+        <activity android:name=".uinew.fourth.VideoActivity" />
+        <activity android:name=".uinew.third.ZhishiActivity" />
+        <activity android:name=".uinew.third.ZhishiDetailActivity" />
+        <activity android:name=".uinew.first.data.autoctrl.AotuCtrlActivity" />
+        <activity android:name=".uinew.first.data.log.AutoLogActivity" />
+        <activity android:name=".uinew.first.data.log.WarnLogActivity" /> <!-- #########################萤火虫平台活动开始##################### -->
+        <activity
+            android:name=".ys.LoginSelectActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.videogo.main.EzvizWebViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.remoteplayback.list.PlayBackListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".ys.ui.cameralist.EZCameraListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.ui.realplay.EZRealPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.ui.message.EZMessageImageActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.ui.message.EZMessageActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.ui.remoteplayback.EZRemotePlayBackActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.devicemgt.EZDeviceSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.devicemgt.ModifyDeviceNameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.scan.main.CaptureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.ui.devicelist.SeriesNumSearchActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ys.ui.devicelist.AutoWifiNetConfigActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.ui.devicelist.AutoWifiConnectingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.ui.devicelist.AutoWifiPrepareStepOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.ui.devicelist.AutoWifiResetActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name=".ys.EzvizBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.apple.ysdemo.ys.action.ADD_DEVICE_SUCCESS_ACTION" />
+                <action android:name="com.example.apple.ysdemo.ys.action.OAUTH_SUCCESS_ACTION" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".ys.devicemgt.EZUpgradeDeviceActivity"
+            android:label="@string/title_activity_ezupgrade_device" />
+        <activity
+            android:name=".ys.ui.lanDevice.LanDeviceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.ui.lanDevice.LanDevicePlayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.ui.lanDevice.LanDeviceActivateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ys.ui.devicelist.APWifiConfigActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

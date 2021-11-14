@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="2dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.jit.AgriIn.ui.activity.config.PondAddActivity">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_marginLeft="@dimen/common_dimension_8"
+                    android:layout_marginRight="@dimen/common_dimension_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:id="@+id/ll_pond"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="@dimen/common_dimension_50">
+                        <TextView
+                            android:id="@+id/tvGoumaiType"
+                            android:text="固定成本"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/mediumTextSize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tvGudingType"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="选择投入品类型"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <ImageView
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="@dimen/common_dimension_5"
+                            android:src="@mipmap/shape_arrow_bigger"
+                            android:layout_width="@dimen/common_dimension_16"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:background="@color/line"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_dimension_0.5"
+                        />
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/ll_miao"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="@dimen/common_dimension_50">
+                        <TextView
+                            android:id="@+id/breedType"
+                            android:text="苗种类型"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/mediumTextSize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tvbreedType"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="选择苗种类型"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <ImageView
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="@dimen/common_dimension_5"
+                            android:src="@mipmap/shape_arrow_bigger"
+                            android:layout_width="@dimen/common_dimension_16"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:background="@color/line"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_dimension_0.5"
+                        />
+
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/llCount"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="@dimen/common_dimension_50">
+                        <TextView
+                            android:id="@+id/tvCount"
+                            android:text="投入量"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/mediumTextSize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <EditText
+                            android:textSize="@dimen/SmallTextSize"
+                            android:inputType="numberDecimal"
+                            android:id="@+id/etCount"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="请输入投入量"
+                            android:textCursorDrawable="@drawable/style_cursor_black"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tvUnit"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="选择单位"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <ImageView
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="@dimen/common_dimension_5"
+                            android:src="@mipmap/shape_arrow_bigger"
+                            android:layout_width="@dimen/common_dimension_16"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <View
+                        android:background="@color/line"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_dimension_0.5"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/ll_name"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="@dimen/common_dimension_50">
+                        <TextView
+                            android:text="名称"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/mediumTextSize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tvRichangName"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="投入名称"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <ImageView
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="@dimen/common_dimension_5"
+                            android:src="@mipmap/shape_arrow_bigger"
+                            android:layout_width="@dimen/common_dimension_16"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_count_type"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="@dimen/common_dimension_50">
+                        <TextView
+                            android:id="@+id/tvJilu"
+                            android:text="选择记录方式"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/mediumTextSize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_danjia"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="@dimen/common_dimension_50">
+                        <TextView
+                            android:id="@+id/tvDanjia"
+                            android:text="单价（元）"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/mediumTextSize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <EditText
+                            android:textSize="@dimen/SmallTextSize"
+                            android:inputType="numberDecimal"
+                            android:id="@+id/etDanjia"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="请输入投入品金额"
+                            android:textCursorDrawable="@drawable/style_cursor_black"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <ImageView
+                            android:visibility="invisible"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="@dimen/common_dimension_5"
+                            android:src="@mipmap/ic_shape_arrow_bigger"
+                            android:layout_width="@dimen/common_dimension_16"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <View
+                        android:background="@color/line"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_dimension_0.5"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/ll_shuliang"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="@dimen/common_dimension_50">
+                        <TextView
+                            android:id="@+id/tvShuliang"
+                            android:text="数量"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/mediumTextSize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <EditText
+                            android:textSize="@dimen/SmallTextSize"
+                            android:inputType="numberDecimal"
+                            android:id="@+id/etshuliang"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="数量"
+                            android:textCursorDrawable="@drawable/style_cursor_black"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tvDanwei"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="选择单位"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <ImageView
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="@dimen/common_dimension_5"
+                            android:src="@mipmap/shape_arrow_bigger"
+                            android:layout_width="@dimen/common_dimension_16"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <View
+                        android:background="@color/line"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_dimension_0.5"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/ll_zonge"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="@dimen/common_dimension_50">
+                        <TextView
+                            android:id="@+id/tvGoumaiTotal"
+                            android:text="投入品总额（元）"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/mediumTextSize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <EditText
+                            android:textSize="@dimen/SmallTextSize"
+                            android:inputType="numberDecimal"
+                            android:id="@+id/etGudingPrice"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="请输入投入品金额"
+                            android:textCursorDrawable="@drawable/style_cursor_black"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <ImageView
+                            android:visibility="invisible"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="@dimen/common_dimension_5"
+                            android:src="@mipmap/ic_shape_arrow_bigger"
+                            android:layout_width="@dimen/common_dimension_16"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <View
+                        android:background="@color/line"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_dimension_0.5"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/ll_inputTime"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_height="@dimen/common_dimension_50">
+                        <TextView
+                            android:text="时间"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/mediumTextSize"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tvTimeSelected"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="点击选择时间"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content" />
+                        <ImageView
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="@dimen/common_dimension_5"
+                            android:src="@mipmap/shape_arrow_bigger"
+                            android:layout_width="@dimen/common_dimension_16"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <View
+                        android:background="@color/line"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_dimension_0.5"
+                        />
+
+
+
+                    <EditText
+                        android:id="@+id/etDescription"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:padding="5dp"
+                        android:textSize="@dimen/SmallTextSize"
+                        android:textColor="@color/black"
+                        android:hint="投入备注（选填）"
+                        android:gravity="left|top"
+                        android:maxLines="3"
+                        android:background="@drawable/rounded_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp" />
+
+
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

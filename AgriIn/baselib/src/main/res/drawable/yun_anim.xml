@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这里其实没多神奇,就是简单的帧动画罢了
+     难点在于UI吧 没有图例
+ -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/app_loading0"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/app_loading1"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/app_loading2"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/app_loading3"
+        android:duration="150" />
+
+</animation-list>  

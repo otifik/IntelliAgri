@@ -1,0 +1,166 @@
+http:
+  port: 8080
+
+server:
+  port: 8443
+  ssl:
+    protocol: TLS
+    key-store: classpath:www.njzhny.com.jks
+    key-store-password: h3pn898jbe167e
+    key-store-type: JKS
+
+#server:
+#  port: 8080
+#
+#https:
+#  port: 8443
+#  ssl:
+#    protocol: TLS
+#    key-store: classpath:www.njzhny.com.jks
+#    key-store-password: h3pn898jbe167e
+#    key-store-type: JKS
+
+spring:
+  application:
+    name: auth-service #指定服务名
+  # 数据库连接
+  datasource:
+#    url: jdbc:mysql://111.229.163.181:3306/authority?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://127.0.0.1:3306/authority?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+#    password: nsi-xu811
+    password: zhny-123
+    #    password: jit-dev1217
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: org.apache.commons.dbcp2.BasicDataSource
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  main:
+    allow-bean-definition-overriding: true
+##################
+
+##配置文件上传目录
+image:
+  #url: D:/
+  url: http://122.51.112.224:8061
+  user:
+    path: /home/ubuntu/codedir/imageDir/
+    url: /
+
+# mybatis配置
+mybatis:
+  mapper-locations: classpath:mybatis/*mapper.xml
+  type-aliases-package: com.jit.authority.domain
+# mybatis-plus 配置
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-column-underline: true
+    id-type: 0
+    capital-mode: true
+# 分页插件
+pagehelper:
+  reasonable: false
+  support-methods-arguments: true
+  params: count=countSql
+  row-bounds-with-count: true
+  helper-dialect: mysql
+## 日志
+logging:
+  level:
+    com.jit.authority: info
+  #config: classpath:logback-spring.xml
+# JWT 配置
+jwt:
+  config:
+    # 过期时长 单位毫秒  24小时
+    expiry: 86400000
+    # 签发者
+    issuer: jit
+    # 私钥
+    base64Security: jit_base64Security
+  route:
+    authentication:
+      path: auth
+      refresh: refresh
+      register: auth/signup
+
+###服务注册到eureka注册中心的地址
+eureka:
+  client:
+    service-url:
+#      defaultZone: http://111.229.140.47:8761/eureka
+      defaultZone: http://127.0.0.1:8761/eureka
+    ###因为该应用为服务提供者，是eureka的一个客户端，需要注册到注册中心
+    register-with-eureka: true
+    ###是否需要从eureka上检索服务
+    fetch-registry: true
+
+zuul:
+  sensitiveHeaders:
+  #sensitive-headers: Set-Cookie、Cookie、Host、Connection、Content-Length、Content-Encoding、Server、Transfer-Encoding、X-Application-Context
+  routes:
+
+    #用户管理
+    user-center:
+      path: /user-center/**
+      serviceid: user-center
+      url: http://111.229.163.181:8081/
+    #养殖日志
+    ac-service:
+      path: /ac-service/**
+      serviceid: micro-aquaculture
+      url: http://111.229.163.181:8084/
+    #物联网
+    micro-iot:
+      path: /micro-iot/**
+      serviceid: micro-iot
+      url: http://111.229.163.181:8009/
+    #物流
+    micro-vehicles:
+      path: /micro-vehicles/**
+      serviceid: micro-vehicles
+      url: http://81.68.110.168:8060/
+    micro-sms:
+      path: /micro-sms/**
+      serviceid: micro-sms
+      url: http://81.68.110.168:8078/
+
+    #电商
+    order:
+      path: /order/**
+      serviceid: order
+      url: http://111.229.140.47:8802/
+    product:
+      path: /product/**
+      serviceid: product-provider
+      url: http://111.229.140.47:8803/
+    user:
+      path: /user/**
+      serviceid: user
+      url: http://111.229.140.47:8804/
+
+  host:
+    connect-timeout-millis: 15000 #HTTP连接超时要比Hystrix的大
+    socket-timeout-millis: 60000   #socket超时
+feign:
+  hystrix:
+    enabled: true #feign开启hystrix支持
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE  #加上这个就可以获取到HttpServletRequest
+          thread:
+            timeoutInMilliseconds: 20000
+#ribbon的超时时间, 防止feign调用超时
+ribbon:
+  ReadTimeout: 150000
+  ConnectTimeout: 150000
+  MaxAutoRetries: 1 #同一台实例最大重试次数,不包括首次调用
+  MaxAutoRetriesNextServer: 1 #重试负载均衡其他的实例最大重试次数,不包括首次调用
+  OkToRetryOnAllOperations: false  #是否所有操作都重试
+

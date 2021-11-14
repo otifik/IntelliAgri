@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这种图片背景顶到状态栏的效果 不用fitSystemWindows
+     fitSystemWindows会顶出一块和状态栏同样高度的空间用于填充背景颜色
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.user.PersonalActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+        <ImageView
+            android:id="@+id/img_bg"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginBottom="3dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bg_person_head"
+            android:visibility="visible" />
+        <com.zxl.baselib.widget.WaveView
+            android:id="@+id/wave_view"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_alignBottom="@+id/img_bg"
+            android:layout_gravity="bottom" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_avater"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="10dp" />
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/img_avater"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/img_avater"
+            android:ellipsize="end"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:text="管理平台"
+            android:textColor="@color/white"
+            android:textSize="@dimen/LargeTextSize"
+            android:textStyle="bold" />
+        <ImageView
+            android:scaleType="centerInside"
+            android:visibility="visible"
+            android:layout_marginLeft="@dimen/common_dimension_10"
+            android:id="@+id/ivToolbarNavigation"
+            android:layout_width="@dimen/common_dimension_20"
+            android:layout_height="@dimen/common_dimension_40"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentStart="true"
+            android:src="@mipmap/ic_back2" />
+    </RelativeLayout>
+
+    <com.allen.library.SuperTextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/stv_robot_manage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimension_50"
+        app:sLeftTextString="机器人管理"
+        app:sLeftIconWidth="@dimen/common_dimension_30"
+        app:sLeftIconHeight="@dimen/common_dimension_30"
+        app:sLeftIconRes="@mipmap/ic_setting_manage" />
+    <com.allen.library.SuperTextView
+        android:id="@+id/stv_robot_reapir"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimension_50"
+        app:sLeftTextString="机器人维修"
+        app:sLeftIconWidth="@dimen/common_dimension_30"
+        app:sLeftIconHeight="@dimen/common_dimension_30"
+        app:sLeftIconRes="@mipmap/ic_setting_repair" />
+
+    <com.allen.library.SuperTextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/stv_robot_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimension_50"
+        app:sLeftTextString="修改密码"
+        app:sLeftIconWidth="@dimen/common_dimension_30"
+        app:sLeftIconHeight="@dimen/common_dimension_30"
+        app:sLeftIconRes="@mipmap/ic_setting_chage_pwd" />
+    <com.allen.library.SuperTextView
+        android:id="@+id/stv_about_robot"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimension_50"
+        app:sLeftTextString="关于金科智农"
+        app:sLeftIconWidth="@dimen/common_dimension_30"
+        app:sLeftIconHeight="@dimen/common_dimension_30"
+        app:sLeftIconRes="@mipmap/ic_setting_robot" />
+    <com.allen.library.SuperTextView
+        android:id="@+id/stv_logout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimension_50"
+        app:sLeftTextString="退出"
+        app:sLeftIconWidth="@dimen/common_dimension_30"
+        app:sLeftIconHeight="@dimen/common_dimension_30"
+        app:sLeftIconRes="@mipmap/ic_setting_logout" />
+</LinearLayout>

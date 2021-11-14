@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.role_expert.RoleExpertActivity">
+    <RelativeLayout
+        android:paddingTop="18dp"
+        android:paddingBottom="10dp"
+        android:background="#F9F9F9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="13dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:contentDescription="设备"
+            android:id="@+id/setting"
+            android:src="@drawable/shape_setting"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <com.jit.AgriIn.widget.GreatRadioGroup
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioGroup"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:textSize="16sp"
+                android:id="@+id/customList"
+                android:textColor="@color/city_hot_tab_text_color"
+                android:gravity="center"
+                android:background="@drawable/city_left_bg"
+                android:layout_width="90dp"
+                android:layout_height="33dp"
+                android:button="@null"
+                android:text="用户列表" />
+
+            <RadioButton android:textSize="16sp"
+                android:id="@+id/baikeList"
+                android:textColor="@color/city_hot_tab_text_color"
+                android:gravity="center"
+                android:background="@drawable/city_right_bg"
+                android:layout_width="90dp"
+                android:layout_height="33dp"
+                android:button="@null"
+                android:text="知识库" />
+        </com.jit.AgriIn.widget.GreatRadioGroup>
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"/>
+</LinearLayout>

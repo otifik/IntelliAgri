@@ -1,0 +1,3 @@
+2020-06-18 16:36:11.798 ERROR 7616 --- [main] c.b.mybatisplus.MybatisConfiguration     : mapper[com.jit.authority.mapper.UserMapper.update] is ignored, because it's exists, maybe from xml file
+2020-06-18 16:36:12.052 ERROR 7616 --- [main] c.b.mybatisplus.MybatisConfiguration     : mapper[com.jit.authority.mapper.UserMapper.delete] is ignored, because it's exists, maybe from xml file
+2020-06-18 16:36:12.055 ERROR 7616 --- [main] c.b.mybatisplus.MybatisConfiguration     : mapper[com.jit.authority.mapper.UserMapper.insert] is ignored, because it's exists, maybe from xml file

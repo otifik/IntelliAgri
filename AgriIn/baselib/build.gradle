@@ -1,0 +1,143 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug{
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    // 解决rx和pixture冲突问题
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+
+    configurations.all {
+        resolutionStrategy.eachDependency { details ->
+            def requested = details.requested
+            if (requested.group == 'com.android.support') {
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion rootProject.ext.supportVersion
+                }
+            }
+        }
+    }
+
+}
+
+/*
+implementation
+这个指令的特点就是，对于使用了该命令编译的依赖，
+对该项目有依赖的项目将无法访问到使用该命令编译的依赖中的任何程序，也就是将该依赖隐藏在内部，而不对外部公开。*/
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api 'com.android.support.constraint:constraint-layout:1.0.2'
+    api "com.android.support:cardview-v7:$rootProject.ext.supportVersion"
+    api 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    // PermissionDispatche库 更新会出问题的
+    api 'com.github.hotchemi:permissionsdispatcher:2.3.2'
+    annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:2.3.2'
+
+    // rx相关
+
+    // api library , can be used in import module
+    api 'io.reactivex.rxjava2:rxjava:2.1.11'
+    api 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    api 'com.squareup.okhttp3:okhttp:3.10.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    api 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+    api 'com.squareup.retrofit2:converter-gson:2.3.0'
+
+    // 图片选择器  注意包含了Glide4.5了
+
+    // 版本很高
+    api 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'
+
+    //BottomBar
+    api 'com.roughike:bottom-bar:2.3.1'
+
+    // 引入fragmentation
+    api 'me.yokeyword:fragmentation:1.3.3'
+
+    // 引入MaterialDialog弹出框
+    api 'com.afollestad.material-dialogs:commons:0.9.6.0'
+
+    // 圆角 design库
+    api 'de.hdodenhof:circleimageview:2.1.0'
+    api 'com.github.lygttpod:SuperTextView:2.1.6'
+
+    // 高德地图定位
+    api files('libs/AMap3DMap_6.1.0_AMapSearch_6.1.0_AMapLocation_3.8.0_20180330.jar')
+
+    // BRVAH
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+    api 'com.github.SilenceDut:TaskScheduler:1.0.3'
+    api 'com.contrarywind:Android-PickerView:3.2.2'
+    api 'org.greenrobot:eventbus:3.1.1'
+
+    // 二维码工具
+    api 'cn.bingoogolapple:bga-qrcode-zxing:1.2.1'
+
+    // 数据库 litepal
+    api 'org.litepal.android:core:1.6.1'
+    api 'com.android.support:multidex:1.0.3'
+    api files('libs/joda-time-2.5.jar')
+    api 'cn.bingoogolapple:bga-refreshlayout:1.1.7'
+
+    // Material 日历引入
+    api 'com.prolificinteractive:material-calendarview:1.4.3'
+    api 'com.jaredrummler:material-spinner:1.0.4'
+
+    // 类似于广播
+    api 'com.silencedut:router:1.3.0'
+    api 'com.hyman:flowlayout-lib:1.1.2'
+    api 'com.commit451:PhotoView:1.2.4'
+
+    //图片缩放
+    api 'jp.wasabeef:glide-transformations:3.3.0'
+
+    //高斯背景
+    api 'com.squareup.picasso:picasso:2.5.2'
+
+    // 毕加索返回bitmap对象
+    api 'com.zaaach:citypicker:2.0.2'
+    api 'com.pgyersdk:sdk:2.8.1'
+
+    // 蒲公英SDK
+    api files('libs/pinyin4j-2.5.0.jar')
+
+    //打印日志
+    api 'com.orhanobut:logger:2.1.1'
+
+    //加载进度条
+    api 'com.wang.avi:library:2.1.3'
+    api files('libs/fastjson-1.2.29.jar')
+    api project(':xrecyclerview')
+}

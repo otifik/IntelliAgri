@@ -1,0 +1,927 @@
+2021-10-26 19:16:19.131  INFO 6868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6be413c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:16:19.261  INFO 6868 --- [main] c.j.aquaculture.AquacultureApplication   : No active profile set, falling back to default profiles: default
+2021-10-26 19:16:20.217  INFO 6868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-26 19:16:20.219  INFO 6868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-26 19:16:20.242  INFO 6868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2021-10-26 19:16:20.513  INFO 6868 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=425af0df-629a-37e5-abd0-9d64b2088f77
+2021-10-26 19:16:20.533  INFO 6868 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-10-26 19:16:20.548  INFO 6868 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-10-26 19:16:20.597  INFO 6868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.jit.aquaculture.controller.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:16:20.640  INFO 6868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4fca10c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:16:20.653  INFO 6868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$babbcbf7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:16:20.659  INFO 6868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:16:20.670  INFO 6868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6be413c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:16:21.020  INFO 6868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-10-26 19:16:21.036  INFO 6868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 19:16:21.036  INFO 6868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-10-26 19:16:21.143  INFO 6868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 19:16:21.143  INFO 6868 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1840 ms
+2021-10-26 19:16:23.279  INFO 6868 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-26 19:16:23.353  INFO 6868 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 19:16:23.429  INFO 6868 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 19:16:23.805  INFO 6868 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-26 19:16:24.364  INFO 6868 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-10-26 19:16:25.033  INFO 6868 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-10-26 19:16:25.033  INFO 6868 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2021-10-26 19:16:25.033  INFO 6868 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2021-10-26 19:16:25.041  INFO 6868 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-10-26 19:16:25.067  INFO 6868 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-10-26 19:16:25.498  INFO 6868 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-10-26 19:16:25.498  INFO 6868 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-10-26 19:16:25.668  INFO 6868 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-10-26 19:16:25.669  INFO 6868 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-10-26 19:16:25.840  INFO 6868 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:16:25.849  INFO 6868 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 19:16:25.849  INFO 6868 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 19:16:25.849  INFO 6868 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 19:16:25.849  INFO 6868 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 19:16:25.849  INFO 6868 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 19:16:25.850  INFO 6868 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-26 19:16:25.850  INFO 6868 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 19:16:25.893  INFO 6868 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-10-26 19:16:25.895  INFO 6868 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-26 19:16:25.909  INFO 6868 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635246985896 with initial instances count: 0
+2021-10-26 19:16:25.911  INFO 6868 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MICRO-AQUACULTURE with eureka with status UP
+2021-10-26 19:16:25.912  INFO 6868 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635246985912, current=UP, previous=STARTING]
+2021-10-26 19:16:25.913  INFO 6868 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084: registering service...
+2021-10-26 19:16:25.913  INFO 6868 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-10-26 19:16:25.933  INFO 6868 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-10-26 19:16:25.964  INFO 6868 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-10-26 19:16:26.121  INFO 6868 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2021-10-26 19:16:26.123  INFO 6868 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_1
+2021-10-26 19:16:26.153  INFO 6868 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllDailyThrowUsingGET_1
+2021-10-26 19:16:26.157  INFO 6868 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDailyThrowByDateUsingGET_1
+2021-10-26 19:16:26.178  INFO 6868 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_2
+2021-10-26 19:16:26.186  INFO 6868 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_3
+2021-10-26 19:16:26.191  INFO 6868 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_2
+2021-10-26 19:16:26.250  INFO 6868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2021-10-26 19:16:26.250  INFO 6868 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2021-10-26 19:16:26.252  INFO 6868 --- [main] c.j.aquaculture.AquacultureApplication   : Started AquacultureApplication in 8.262 seconds (JVM running for 9.717)
+2021-10-26 19:16:26.254  INFO 6868 --- [main] c.j.aquaculture.AquacultureApplication   : aquaculture application is running.........
+2021-10-26 19:16:36.506  INFO 6988 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$463601b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:16:36.630  INFO 6988 --- [main] com.jit.authority.AuthorityApplication   : No active profile set, falling back to default profiles: default
+2021-10-26 19:16:37.619  INFO 6988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-26 19:16:37.620  INFO 6988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-26 19:16:37.642  INFO 6988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2021-10-26 19:16:37.937  INFO 6988 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e26f9f9c-9ff5-3b80-8104-b6dd6a0dd698
+2021-10-26 19:16:37.971  INFO 6988 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.jit.authority.serviceinterface.WxloginService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:16:38.062  INFO 6988 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.jit.authority.config.RedisConfig$$EnhancerBySpringCGLIB$$399de3bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:16:38.161  INFO 6988 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2a1bfeb4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:16:38.176  INFO 6988 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$463601b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:16:38.378  INFO 6988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https) 8080 (http)
+2021-10-26 19:16:38.401  INFO 6988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 19:16:38.402  INFO 6988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-10-26 19:16:38.490  INFO 6988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 19:16:38.490  INFO 6988 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1849 ms
+2021-10-26 19:16:38.573  INFO 6988 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 19:16:38.577  INFO 6988 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7c5d36c3
+2021-10-26 19:16:40.152  INFO 6988 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-10-26 19:16:40.170  INFO 6988 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-10-26 19:16:40.346  INFO 6988 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-10-26 19:16:40.346  INFO 6988 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-10-26 19:16:40.726  INFO 6988 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-10-26 19:16:40.727  INFO 6988 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-10-26 19:16:40.983  INFO 6988 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:16:40.992  INFO 6988 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 19:16:40.992  INFO 6988 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 19:16:40.992  INFO 6988 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 19:16:40.992  INFO 6988 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 19:16:40.992  INFO 6988 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 19:16:40.992  INFO 6988 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-26 19:16:40.992  INFO 6988 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 19:16:41.053  INFO 6988 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-10-26 19:16:41.055  INFO 6988 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-26 19:16:41.057  INFO 6988 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635247001056 with initial instances count: 0
+2021-10-26 19:16:41.702  INFO 6988 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-10-26 19:16:41.816  INFO 6988 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-26 19:16:42.033  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.gif'], []
+2021-10-26 19:16:42.033  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.png'], []
+2021-10-26 19:16:42.033  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.jpg'], []
+2021-10-26 19:16:42.033  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html'], []
+2021-10-26 19:16:42.033  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js'], []
+2021-10-26 19:16:42.034  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css'], []
+2021-10-26 19:16:42.034  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.ico'], []
+2021-10-26 19:16:42.034  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**'], []
+2021-10-26 19:16:42.034  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html*/**'], []
+2021-10-26 19:16:42.034  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/swagger-ui.html*/**'], []
+2021-10-26 19:16:42.034  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/ac-service/swagger-ui.html*/**'], []
+2021-10-26 19:16:42.034  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/configuration/security'], []
+2021-10-26 19:16:42.034  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources/**'], []
+2021-10-26 19:16:42.034  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/v2/api-docs'], []
+2021-10-26 19:16:42.034  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources'], []
+2021-10-26 19:16:42.034  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-ui.html'], []
+2021-10-26 19:16:42.035  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/ac-service/swagger-ui.html'], []
+2021-10-26 19:16:42.035  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/springfox-swagger-ui/*.js'], []
+2021-10-26 19:16:42.035  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/configuration/security'], []
+2021-10-26 19:16:42.035  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources/**'], []
+2021-10-26 19:16:42.035  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/v2/api-docs'], []
+2021-10-26 19:16:42.035  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources'], []
+2021-10-26 19:16:42.035  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-ui.html'], []
+2021-10-26 19:16:42.035  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/ac-service/swagger-ui.html'], []
+2021-10-26 19:16:42.035  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/springfox-swagger-ui/*.js'], []
+2021-10-26 19:16:42.056  INFO 6988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ae5f795, org.springframework.security.web.context.SecurityContextPersistenceFilter@3bd552f7, org.springframework.security.web.header.HeaderWriterFilter@4ab1ff80, org.springframework.security.web.authentication.logout.LogoutFilter@7abeaed0, com.jit.authority.jwtsecurity.filter.JwtAuthenticationFilter@2787abe4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4158b72f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11c82829, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e94a6f6, org.springframework.security.web.session.SessionManagementFilter@1bfa398e, org.springframework.security.web.access.ExceptionTranslationFilter@24fcfdb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2fba15c5]
+2021-10-26 19:16:42.109  INFO 6988 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 19:16:42.316  INFO 6988 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-26 19:16:42.732  INFO 6988 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-10-26 19:16:42.831  INFO 6988 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+2021-10-26 19:16:42.892  INFO 6988 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTH-SERVICE with eureka with status UP
+2021-10-26 19:16:42.893  INFO 6988 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635247002893, current=UP, previous=STARTING]
+2021-10-26 19:16:42.894  INFO 6988 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443: registering service...
+2021-10-26 19:16:42.896  INFO 6988 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-10-26 19:16:42.909  INFO 6988 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-10-26 19:16:42.928  INFO 6988 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-10-26 19:16:43.197  INFO 6988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) 8080 (http) with context path ''
+2021-10-26 19:16:43.198  INFO 6988 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8443
+2021-10-26 19:16:43.200  INFO 6988 --- [main] com.jit.authority.AuthorityApplication   : Started AuthorityApplication in 7.639 seconds (JVM running for 8.446)
+2021-10-26 19:16:43.212  INFO 6988 --- [main] com.jit.authority.AuthorityApplication   : authority application is running.........
+2021-10-26 19:16:43.456  INFO 6988 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-26 19:16:43.456  INFO 6988 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-26 19:16:43.476  INFO 6988 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2021-10-26 19:16:43.749  INFO 6988 --- [parallel-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2021-10-26 19:16:43.750  INFO 6988 --- [parallel-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2021-10-26 19:16:55.893  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 19:16:55.894  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 19:16:55.894  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 19:16:55.894  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 19:16:55.894  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 19:16:55.894  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-26 19:16:55.894  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 19:16:55.919  INFO 6868 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084: registering service...
+2021-10-26 19:16:56.083  INFO 6868 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084 - Re-registering apps/MICRO-AQUACULTURE
+2021-10-26 19:16:56.084  INFO 6868 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084: registering service...
+2021-10-26 19:16:56.102  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 19:16:56.128  INFO 6868 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084 - registration status: 204
+2021-10-26 19:16:56.128  INFO 6868 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084 - registration status: 204
+2021-10-26 19:17:00.485  INFO 7277 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9e9a0177] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:17:00.586  INFO 7277 --- [main] c.jit.usercenter.UserCenterApplication   : No active profile set, falling back to default profiles: default
+2021-10-26 19:17:01.753  INFO 7277 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-26 19:17:01.774  INFO 7277 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-26 19:17:01.848  INFO 7277 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2021-10-26 19:17:02.270  INFO 7277 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b612e610-f1ee-330f-a616-9bdc466edc87
+2021-10-26 19:17:02.334  INFO 7277 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$827ffe7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:17:02.346  INFO 7277 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9e9a0177] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:17:02.478  INFO 7277 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-26 19:17:02.496  INFO 7277 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 19:17:02.496  INFO 7277 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-10-26 19:17:02.576  INFO 7277 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 19:17:02.577  INFO 7277 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1955 ms
+2021-10-26 19:17:05.048  INFO 7277 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-26 19:17:05.062  INFO 7277 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 19:17:05.064  INFO 7277 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 19:17:05.524  INFO 7277 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-26 19:17:07.114  INFO 7277 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-10-26 19:17:07.131  INFO 7277 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-10-26 19:17:07.718  INFO 7277 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-10-26 19:17:07.719  INFO 7277 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-10-26 19:17:07.826  INFO 7277 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-10-26 19:17:07.826  INFO 7277 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-10-26 19:17:08.010  INFO 7277 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:17:08.018  INFO 7277 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 19:17:08.018  INFO 7277 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 19:17:08.018  INFO 7277 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 19:17:08.018  INFO 7277 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 19:17:08.018  INFO 7277 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 19:17:08.018  INFO 7277 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-26 19:17:08.018  INFO 7277 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 19:17:08.160  INFO 7277 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 19:17:08.162  INFO 7277 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-10-26 19:17:08.163  INFO 7277 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-26 19:17:08.165  INFO 7277 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635247028165 with initial instances count: 1
+2021-10-26 19:17:08.167  INFO 7277 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-CENTER with eureka with status UP
+2021-10-26 19:17:08.167  INFO 7277 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635247028167, current=UP, previous=STARTING]
+2021-10-26 19:17:08.168  INFO 7277 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081: registering service...
+2021-10-26 19:17:08.169  INFO 7277 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-10-26 19:17:08.197  INFO 7277 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-10-26 19:17:08.269  INFO 7277 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081 - registration status: 204
+2021-10-26 19:17:08.351  INFO 7277 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-10-26 19:17:08.514  INFO 7277 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-26 19:17:08.514  INFO 7277 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2021-10-26 19:17:08.517  INFO 7277 --- [main] c.jit.usercenter.UserCenterApplication   : Started UserCenterApplication in 8.858 seconds (JVM running for 9.606)
+2021-10-26 19:17:11.054  INFO 6988 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 19:17:11.054  INFO 6988 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 19:17:11.054  INFO 6988 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 19:17:11.054  INFO 6988 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 19:17:11.054  INFO 6988 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 19:17:11.054  INFO 6988 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-26 19:17:11.054  INFO 6988 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 19:17:11.071  INFO 6988 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443 - Re-registering apps/AUTH-SERVICE
+2021-10-26 19:17:11.071  INFO 6988 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443: registering service...
+2021-10-26 19:17:11.172  INFO 6988 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443 - registration status: 204
+2021-10-26 19:17:11.355  INFO 6988 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 19:17:26.104  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 19:17:26.104  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 19:17:26.104  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 19:17:26.104  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 19:17:26.104  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 19:17:26.104  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2021-10-26 19:17:26.104  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 19:17:26.129  INFO 6868 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 19:17:26.133  INFO 6868 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084 - Re-registering apps/MICRO-AQUACULTURE
+2021-10-26 19:17:26.133  INFO 6868 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084: registering service...
+2021-10-26 19:17:26.138  INFO 6868 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084 - registration status: 204
+2021-10-26 19:21:25.927  INFO 6868 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:21:40.994  INFO 6988 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:22:08.020  INFO 7277 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:26:25.951  INFO 6868 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:26:40.996  INFO 6988 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:26:50.299  INFO 7277 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USER-CENTER with eureka with status DOWN
+2021-10-26 19:26:50.429  INFO 7277 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081: registering service...
+2021-10-26 19:26:50.433  INFO 7277 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081 - registration status: 204
+2021-10-26 19:26:50.583  INFO 6988 --- [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTH-SERVICE with eureka with status DOWN
+2021-10-26 19:26:50.604  INFO 6988 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443: registering service...
+2021-10-26 19:26:50.650  INFO 6988 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443 - registration status: 204
+2021-10-26 19:26:51.171  INFO 6988 --- [Thread-7] o.s.c.n.zuul.ZuulFilterInitializer       : Stopping filter initializer
+2021-10-26 19:26:51.624  INFO 7277 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-26 19:26:51.682  INFO 7277 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-10-26 19:26:51.715  INFO 6988 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-10-26 19:26:52.103  INFO 6988 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-26 19:26:54.682  INFO 7277 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-10-26 19:26:55.802  INFO 7277 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-10-26 19:26:55.849  INFO 6868 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MICRO-AQUACULTURE with eureka with status DOWN
+2021-10-26 19:26:56.044  INFO 6868 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084: registering service...
+2021-10-26 19:26:57.022  INFO 6988 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-10-26 19:27:00.022  INFO 6988 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-10-26 19:27:00.651  INFO 6988 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-10-26 19:27:12.772  INFO 6868 --- [Thread-5] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-10-26 19:27:12.872  INFO 6868 --- [Thread-5] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2021-10-26 19:27:12.923  INFO 6868 --- [Thread-5] o.s.i.endpoint.EventDrivenConsumer       : stopped _org.springframework.integration.errorLogger
+2021-10-26 19:27:16.223  INFO 6868 --- [Thread-5] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-10-26 19:27:17.775  INFO 6868 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-26 19:27:18.832  INFO 6868 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Could not unregister MBean [org.apache.commons.dbcp2:name=dataSource,type=BasicDataSource] as said MBean is not registered (perhaps already unregistered by an external process)
+2021-10-26 19:27:19.055  INFO 6868 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-10-26 19:27:22.080  INFO 6868 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-10-26 19:27:22.738  INFO 6868 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-10-26 19:32:38.896  INFO 9223 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$75591c67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:39.118  INFO 9223 --- [main] c.jit.usercenter.UserCenterApplication   : No active profile set, falling back to default profiles: default
+2021-10-26 19:32:41.017  INFO 9223 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-26 19:32:41.019  INFO 9223 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-26 19:32:41.054  INFO 9223 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2021-10-26 19:32:41.517  INFO 9223 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b612e610-f1ee-330f-a616-9bdc466edc87
+2021-10-26 19:32:41.649  INFO 9223 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$593f196a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:41.682  INFO 9223 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$75591c67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:42.008  INFO 9223 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-26 19:32:42.045  INFO 9223 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 19:32:42.046  INFO 9223 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-10-26 19:32:42.210  INFO 9223 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 19:32:42.210  INFO 9223 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3037 ms
+2021-10-26 19:32:43.663  INFO 9223 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-26 19:32:43.689  INFO 9223 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 19:32:43.707  INFO 9223 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 19:32:43.877  INFO 9223 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-26 19:32:45.081  INFO 9223 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-10-26 19:32:45.146  INFO 9223 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-10-26 19:32:45.671  INFO 9223 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-10-26 19:32:45.671  INFO 9223 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-10-26 19:32:45.810  INFO 9223 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-10-26 19:32:45.810  INFO 9223 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-10-26 19:32:45.994  INFO 9223 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:32:46.005  INFO 9223 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 19:32:46.005  INFO 9223 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 19:32:46.005  INFO 9223 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 19:32:46.005  INFO 9223 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 19:32:46.005  INFO 9223 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 19:32:46.005  INFO 9223 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-26 19:32:46.005  INFO 9223 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 19:32:46.307  INFO 9223 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 19:32:46.308  INFO 9223 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-10-26 19:32:46.309  INFO 9223 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-26 19:32:46.312  INFO 9223 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635247966311 with initial instances count: 0
+2021-10-26 19:32:46.313  INFO 9223 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-CENTER with eureka with status UP
+2021-10-26 19:32:46.314  INFO 9223 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635247966314, current=UP, previous=STARTING]
+2021-10-26 19:32:46.315  INFO 9223 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081: registering service...
+2021-10-26 19:32:46.316  INFO 9223 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-10-26 19:32:46.367  INFO 9223 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-10-26 19:32:46.395  INFO 9223 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-10-26 19:32:46.424  INFO 9223 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081 - registration status: 204
+2021-10-26 19:32:46.545  INFO 9223 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-26 19:32:46.546  INFO 9223 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2021-10-26 19:32:46.549  INFO 9223 --- [main] c.jit.usercenter.UserCenterApplication   : Started UserCenterApplication in 9.791 seconds (JVM running for 13.025)
+2021-10-26 19:32:52.011  INFO 9524 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a5ad58f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:52.137  INFO 9524 --- [main] com.jit.authority.AuthorityApplication   : No active profile set, falling back to default profiles: default
+2021-10-26 19:32:53.670  INFO 9524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-26 19:32:53.671  INFO 9524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-26 19:32:53.692  INFO 9524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2021-10-26 19:32:53.975  INFO 9524 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e26f9f9c-9ff5-3b80-8104-b6dd6a0dd698
+2021-10-26 19:32:54.031  INFO 9524 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.jit.authority.serviceinterface.WxloginService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:54.134  INFO 9524 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.jit.authority.config.RedisConfig$$EnhancerBySpringCGLIB$$fdc2b799] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:54.249  INFO 9524 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee40d292] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:54.265  INFO 9524 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a5ad58f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:54.466  INFO 9524 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https) 8080 (http)
+2021-10-26 19:32:54.495  INFO 9524 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 19:32:54.495  INFO 9524 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-10-26 19:32:54.601  INFO 9524 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 19:32:54.602  INFO 9524 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2423 ms
+2021-10-26 19:32:54.696  INFO 9524 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 19:32:54.700  INFO 9524 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@69ac5752
+2021-10-26 19:32:57.145  INFO 9597 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3cfdc299] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:57.325  INFO 9597 --- [main] c.j.aquaculture.AquacultureApplication   : No active profile set, falling back to default profiles: default
+2021-10-26 19:32:57.381  INFO 9524 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-10-26 19:32:57.433  INFO 9524 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-10-26 19:32:57.836  INFO 9524 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-10-26 19:32:57.836  INFO 9524 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-10-26 19:32:58.001  INFO 9524 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-10-26 19:32:58.002  INFO 9524 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-10-26 19:32:58.577  INFO 9524 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:32:58.612  INFO 9524 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 19:32:58.612  INFO 9524 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 19:32:58.612  INFO 9524 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 19:32:58.612  INFO 9524 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 19:32:58.612  INFO 9524 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 19:32:58.612  INFO 9524 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-26 19:32:58.612  INFO 9524 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 19:32:58.717  INFO 9524 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 19:32:58.719  INFO 9524 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-10-26 19:32:58.720  INFO 9524 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-26 19:32:58.723  INFO 9524 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635247978722 with initial instances count: 0
+2021-10-26 19:32:58.742  INFO 9597 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-26 19:32:58.744  INFO 9597 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-26 19:32:58.761  INFO 9597 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2021-10-26 19:32:59.073  INFO 9597 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=425af0df-629a-37e5-abd0-9d64b2088f77
+2021-10-26 19:32:59.088  INFO 9597 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-10-26 19:32:59.109  INFO 9597 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-10-26 19:32:59.161  INFO 9597 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.jit.aquaculture.controller.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:59.208  INFO 9524 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-10-26 19:32:59.209  INFO 9597 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$20e3bf9c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:59.223  INFO 9597 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$8bd57acb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:59.236  INFO 9597 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:59.249  INFO 9597 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3cfdc299] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 19:32:59.320  INFO 9524 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-26 19:32:59.449  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.gif'], []
+2021-10-26 19:32:59.450  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.png'], []
+2021-10-26 19:32:59.450  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.jpg'], []
+2021-10-26 19:32:59.450  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html'], []
+2021-10-26 19:32:59.450  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js'], []
+2021-10-26 19:32:59.450  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css'], []
+2021-10-26 19:32:59.450  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.ico'], []
+2021-10-26 19:32:59.450  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**'], []
+2021-10-26 19:32:59.450  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html*/**'], []
+2021-10-26 19:32:59.450  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/swagger-ui.html*/**'], []
+2021-10-26 19:32:59.450  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/ac-service/swagger-ui.html*/**'], []
+2021-10-26 19:32:59.450  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/configuration/security'], []
+2021-10-26 19:32:59.450  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources/**'], []
+2021-10-26 19:32:59.450  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/v2/api-docs'], []
+2021-10-26 19:32:59.451  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources'], []
+2021-10-26 19:32:59.451  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-ui.html'], []
+2021-10-26 19:32:59.451  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/ac-service/swagger-ui.html'], []
+2021-10-26 19:32:59.451  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/springfox-swagger-ui/*.js'], []
+2021-10-26 19:32:59.451  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/configuration/security'], []
+2021-10-26 19:32:59.451  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources/**'], []
+2021-10-26 19:32:59.451  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/v2/api-docs'], []
+2021-10-26 19:32:59.451  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources'], []
+2021-10-26 19:32:59.451  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-ui.html'], []
+2021-10-26 19:32:59.451  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/ac-service/swagger-ui.html'], []
+2021-10-26 19:32:59.451  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/springfox-swagger-ui/*.js'], []
+2021-10-26 19:32:59.463  INFO 9597 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-10-26 19:32:59.475  INFO 9524 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d4f1a44, org.springframework.security.web.context.SecurityContextPersistenceFilter@3470c771, org.springframework.security.web.header.HeaderWriterFilter@7ddd5715, org.springframework.security.web.authentication.logout.LogoutFilter@11636d43, com.jit.authority.jwtsecurity.filter.JwtAuthenticationFilter@6a9861de, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ae49d52, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@184b24d4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6deb2b19, org.springframework.security.web.session.SessionManagementFilter@79cfc008, org.springframework.security.web.access.ExceptionTranslationFilter@1b12c870, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cf99283]
+2021-10-26 19:32:59.481  INFO 9597 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 19:32:59.481  INFO 9597 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-10-26 19:32:59.490  INFO 9524 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 19:32:59.574  INFO 9597 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 19:32:59.574  INFO 9597 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2236 ms
+2021-10-26 19:32:59.649  INFO 9524 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-26 19:33:00.270  INFO 9524 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-10-26 19:33:00.439  INFO 9524 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+2021-10-26 19:33:00.505  INFO 9524 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTH-SERVICE with eureka with status UP
+2021-10-26 19:33:00.506  INFO 9524 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635247980506, current=UP, previous=STARTING]
+2021-10-26 19:33:00.507  INFO 9524 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.31.162:auth-service:8443: registering service...
+2021-10-26 19:33:00.510  INFO 9524 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-10-26 19:33:00.610  INFO 9524 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-10-26 19:33:00.617  INFO 9524 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.31.162:auth-service:8443 - registration status: 204
+2021-10-26 19:33:00.719  INFO 9524 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-10-26 19:33:00.963  INFO 9597 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-26 19:33:00.997  INFO 9597 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 19:33:01.000  INFO 9597 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 19:33:01.209  INFO 9524 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) 8080 (http) with context path ''
+2021-10-26 19:33:01.210  INFO 9524 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8443
+2021-10-26 19:33:01.212  INFO 9524 --- [main] com.jit.authority.AuthorityApplication   : Started AuthorityApplication in 9.796 seconds (JVM running for 10.484)
+2021-10-26 19:33:01.230  INFO 9597 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-26 19:33:01.261  INFO 9524 --- [main] com.jit.authority.AuthorityApplication   : authority application is running.........
+2021-10-26 19:33:01.485  INFO 9524 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-26 19:33:01.485  INFO 9524 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-26 19:33:01.522  INFO 9524 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 37 ms
+2021-10-26 19:33:01.699  INFO 9597 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-10-26 19:33:01.743  INFO 9524 --- [parallel-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2021-10-26 19:33:01.744  INFO 9524 --- [parallel-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2021-10-26 19:33:01.982  INFO 9597 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-10-26 19:33:01.982  INFO 9597 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2021-10-26 19:33:01.982  INFO 9597 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2021-10-26 19:33:01.990  INFO 9597 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-10-26 19:33:02.015  INFO 9597 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-10-26 19:33:02.227  INFO 9597 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-10-26 19:33:02.228  INFO 9597 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-10-26 19:33:02.327  INFO 9597 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-10-26 19:33:02.327  INFO 9597 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-10-26 19:33:02.498  INFO 9597 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:33:02.515  INFO 9597 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 19:33:02.515  INFO 9597 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 19:33:02.515  INFO 9597 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 19:33:02.515  INFO 9597 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 19:33:02.515  INFO 9597 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 19:33:02.515  INFO 9597 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-26 19:33:02.515  INFO 9597 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 19:33:02.679  INFO 9597 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 19:33:02.681  INFO 9597 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-10-26 19:33:02.682  INFO 9597 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-26 19:33:02.684  INFO 9597 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635247982683 with initial instances count: 1
+2021-10-26 19:33:02.685  INFO 9597 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MICRO-AQUACULTURE with eureka with status UP
+2021-10-26 19:33:02.686  INFO 9597 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635247982686, current=UP, previous=STARTING]
+2021-10-26 19:33:02.687  INFO 9597 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.31.162:micro-aquaculture:8084: registering service...
+2021-10-26 19:33:02.688  INFO 9597 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-10-26 19:33:02.699  INFO 9597 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-10-26 19:33:02.721  INFO 9597 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.31.162:micro-aquaculture:8084 - registration status: 204
+2021-10-26 19:33:02.734  INFO 9597 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-10-26 19:33:02.859  INFO 9597 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2021-10-26 19:33:02.861  INFO 9597 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_1
+2021-10-26 19:33:02.894  INFO 9597 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllDailyThrowUsingGET_1
+2021-10-26 19:33:02.899  INFO 9597 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDailyThrowByDateUsingGET_1
+2021-10-26 19:33:02.922  INFO 9597 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_2
+2021-10-26 19:33:02.929  INFO 9597 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_3
+2021-10-26 19:33:02.933  INFO 9597 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_2
+2021-10-26 19:33:02.970  INFO 9597 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2021-10-26 19:33:02.970  INFO 9597 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2021-10-26 19:33:02.973  INFO 9597 --- [main] c.j.aquaculture.AquacultureApplication   : Started AquacultureApplication in 6.558 seconds (JVM running for 7.283)
+2021-10-26 19:33:02.975  INFO 9597 --- [main] c.j.aquaculture.AquacultureApplication   : aquaculture application is running.........
+2021-10-26 19:33:14.516  INFO 9524 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /auth/login
+2021-10-26 19:33:14.829  INFO 9524 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:33:14.974  INFO 9524 --- [http-nio-8080-exec-1] c.j.authority.controller.AuthController  : ---------------------login 1 -------------
+2021-10-26 19:33:16.030  INFO 9524 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/0?pageNum=1&pageSize=8
+2021-10-26 19:33:16.030  INFO 9524 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:33:16.136  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/fixed
+2021-10-26 19:33:16.136  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:33:16.309  INFO 9223 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 19:33:16.309  INFO 9223 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 19:33:16.309  INFO 9223 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 19:33:16.309  INFO 9223 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 19:33:16.309  INFO 9223 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 19:33:16.309  INFO 9223 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2021-10-26 19:33:16.309  INFO 9223 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 19:33:16.361  INFO 9223 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 19:33:28.719  INFO 9524 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 19:33:28.720  INFO 9524 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 19:33:28.720  INFO 9524 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 19:33:28.720  INFO 9524 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 19:33:28.721  INFO 9524 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 19:33:28.721  INFO 9524 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2021-10-26 19:33:28.721  INFO 9524 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 19:33:28.748  INFO 9524 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 19:36:16.836  INFO 9524 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /favicon.ico
+2021-10-26 19:36:16.837  INFO 9524 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:37:46.007  INFO 9223 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:37:58.615  INFO 9524 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:38:02.518  INFO 9597 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:38:45.727  INFO 9524 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/analysis/cost
+2021-10-26 19:38:45.728  INFO 9524 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/analysis/income
+2021-10-26 19:38:45.759  INFO 9524 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:45.768  INFO 9524 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:46.318  INFO 9524 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/1?pageNum=1&pageSize=8
+2021-10-26 19:38:46.318  INFO 9524 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:46.321  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/cost
+2021-10-26 19:38:46.322  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:50.413  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/sale
+2021-10-26 19:38:50.413  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:50.414  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/2?pageNum=1&pageSize=10
+2021-10-26 19:38:50.415  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:51.269  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/0?pageNum=1&pageSize=8
+2021-10-26 19:38:51.269  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:51.270  INFO 9524 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/fixed
+2021-10-26 19:38:51.270  INFO 9524 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:53.788  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/pond/queri?pageNum=1&pageSize=8
+2021-10-26 19:38:53.788  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:55.502  INFO 9524 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/inputs/queri?pageNum=1&pageSize=8
+2021-10-26 19:38:55.503  INFO 9524 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:56.941  INFO 9524 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/fryinput/queri?pageNum=1&pageSize=8
+2021-10-26 19:38:56.941  INFO 9524 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:57.652  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/observe/name
+2021-10-26 19:38:57.652  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:57.653  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/feeding/queri?pageNum=1&pageSize=8
+2021-10-26 19:38:57.653  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:58.978  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/observe/name
+2021-10-26 19:38:58.978  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:38:59.124  INFO 9524 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/observe/?pageNum=1&pageSize=8
+2021-10-26 19:38:59.124  INFO 9524 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:00.341  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/observe/name
+2021-10-26 19:39:00.341  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:00.495  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/dailyfeeding/queri?pageNum=1&pageSize=8
+2021-10-26 19:39:00.495  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:01.588  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/reagent/queri?pageNum=1&pageSize=8
+2021-10-26 19:39:01.588  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:03.958  INFO 9524 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/analysis/cost
+2021-10-26 19:39:03.958  INFO 9524 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:03.959  INFO 9524 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/analysis/income
+2021-10-26 19:39:03.959  INFO 9524 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:07.336  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/cost
+2021-10-26 19:39:07.337  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:07.337  INFO 9524 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/1?pageNum=1&pageSize=8
+2021-10-26 19:39:07.337  INFO 9524 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:08.268  INFO 9524 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/analysis/cost
+2021-10-26 19:39:08.269  INFO 9524 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:08.269  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/analysis/income
+2021-10-26 19:39:08.269  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:18.962  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/cost
+2021-10-26 19:39:18.962  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:18.963  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/1?pageNum=1&pageSize=8
+2021-10-26 19:39:18.963  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:21.998  INFO 9524 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/medicine
+2021-10-26 19:39:21.999  INFO 9524 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:34.333  INFO 9524 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/add
+2021-10-26 19:39:34.333  INFO 9524 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:35.631  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/1?pageNum=1&pageSize=8
+2021-10-26 19:39:35.632  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:35.634  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/cost
+2021-10-26 19:39:35.634  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:37.024  INFO 9524 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/1?pageNum=8&pageSize=8
+2021-10-26 19:39:37.024  INFO 9524 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:39.696  INFO 9524 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/448
+2021-10-26 19:39:39.697  INFO 9524 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:40.064  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/1?pageNum=1&pageSize=8
+2021-10-26 19:39:40.064  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:40.068  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/cost
+2021-10-26 19:39:40.068  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:41.249  INFO 9524 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/1?pageNum=8&pageSize=8
+2021-10-26 19:39:41.249  INFO 9524 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:44.085  INFO 9524 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/analysis/cost
+2021-10-26 19:39:44.085  INFO 9524 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:39:44.087  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/analysis/income
+2021-10-26 19:39:44.087  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:40:30.032  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/analysis/cost
+2021-10-26 19:40:30.032  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:40:54.396  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/analysis/income
+2021-10-26 19:40:54.396  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:40:54.398  INFO 9524 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/analysis/cost
+2021-10-26 19:40:54.398  INFO 9524 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:40:56.059  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/fryinput/queri?pageNum=1&pageSize=8
+2021-10-26 19:40:56.060  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:40:57.427  INFO 9524 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/pond/queri?pageNum=1&pageSize=8
+2021-10-26 19:40:57.427  INFO 9524 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:40:58.841  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/1?pageNum=1&pageSize=8
+2021-10-26 19:40:58.842  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:40:58.844  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/cost
+2021-10-26 19:40:58.845  INFO 9524 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:40:59.439  INFO 9524 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/sale
+2021-10-26 19:40:59.439  INFO 9524 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:40:59.442  INFO 9524 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/2?pageNum=1&pageSize=10
+2021-10-26 19:40:59.442  INFO 9524 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:41:07.234  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /auth/login
+2021-10-26 19:41:07.235  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:41:07.236  INFO 9524 --- [http-nio-8080-exec-3] c.j.authority.controller.AuthController  : ---------------------login 1 -------------
+2021-10-26 19:41:07.648  INFO 9524 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/fixed
+2021-10-26 19:41:07.649  INFO 9524 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:41:07.651  INFO 9524 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/0?pageNum=1&pageSize=8
+2021-10-26 19:41:07.652  INFO 9524 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:41:20.000  INFO 9524 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/cost
+2021-10-26 19:41:20.000  INFO 9524 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:41:20.003  INFO 9524 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/1?pageNum=1&pageSize=8
+2021-10-26 19:41:20.003  INFO 9524 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:41:20.614  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/sale
+2021-10-26 19:41:20.614  INFO 9524 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:41:20.617  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/2?pageNum=1&pageSize=10
+2021-10-26 19:41:20.617  INFO 9524 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:41:21.383  INFO 9524 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/fixed
+2021-10-26 19:41:21.383  INFO 9524 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:41:21.387  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/0?pageNum=1&pageSize=8
+2021-10-26 19:41:21.387  INFO 9524 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 19:42:46.009  INFO 9223 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:42:58.616  INFO 9524 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:43:02.519  INFO 9597 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:47:46.009  INFO 9223 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:47:58.616  INFO 9524 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:48:02.520  INFO 9597 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:52:46.163  INFO 9223 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:52:58.617  INFO 9524 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:53:02.520  INFO 9597 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:57:46.163  INFO 9223 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:57:58.617  INFO 9524 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:58:02.521  INFO 9597 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 19:58:36.297  INFO 9597 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MICRO-AQUACULTURE with eureka with status DOWN
+2021-10-26 19:58:36.472  INFO 9597 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.31.162:micro-aquaculture:8084: registering service...
+2021-10-26 19:58:36.813  INFO 9597 --- [Thread-5] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-10-26 19:58:36.814  INFO 9597 --- [Thread-5] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2021-10-26 19:58:36.814  INFO 9597 --- [Thread-5] o.s.i.endpoint.EventDrivenConsumer       : stopped _org.springframework.integration.errorLogger
+2021-10-26 19:58:36.815  INFO 9597 --- [Thread-5] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-10-26 19:58:37.577  INFO 9597 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.31.162:micro-aquaculture:8084 - Re-registering apps/MICRO-AQUACULTURE
+2021-10-26 19:58:37.578  INFO 9597 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.31.162:micro-aquaculture:8084: registering service...
+2021-10-26 19:58:39.928  INFO 9597 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-26 19:58:40.205  INFO 9597 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.31.162:micro-aquaculture:8084 - registration status: 204
+2021-10-26 19:58:40.424  INFO 9597 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Could not unregister MBean [org.apache.commons.dbcp2:name=dataSource,type=BasicDataSource] as said MBean is not registered (perhaps already unregistered by an external process)
+2021-10-26 19:58:40.426  INFO 9597 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-10-26 19:58:40.821  INFO 9597 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.31.162:micro-aquaculture:8084 - registration status: 204
+2021-10-26 19:58:40.904  INFO 9597 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-10-26 19:58:46.907  INFO 9597 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.31.162:micro-aquaculture:8084 - deregister  status: 200
+2021-10-26 19:58:46.943  INFO 9524 --- [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTH-SERVICE with eureka with status DOWN
+2021-10-26 19:58:46.944  INFO 9524 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.31.162:auth-service:8443: registering service...
+2021-10-26 19:58:46.948  INFO 9524 --- [Thread-7] o.s.c.n.zuul.ZuulFilterInitializer       : Stopping filter initializer
+2021-10-26 19:58:47.144  INFO 9597 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-10-26 19:58:47.211  INFO 9524 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-10-26 19:58:47.212  INFO 9524 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-26 19:58:47.739  INFO 9524 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.31.162:auth-service:8443 - registration status: 204
+2021-10-26 19:58:50.130  INFO 9524 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-10-26 19:58:53.130  INFO 9524 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-10-26 19:58:53.563  INFO 9524 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.31.162:auth-service:8443 - deregister  status: 200
+2021-10-26 19:58:53.569  INFO 9524 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-10-26 19:58:58.379  INFO 9223 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USER-CENTER with eureka with status DOWN
+2021-10-26 19:58:59.180  INFO 9223 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081: registering service...
+2021-10-26 19:59:02.130  INFO 9223 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081 - registration status: 204
+2021-10-26 20:00:02.859  INFO 9223 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-26 20:00:08.701  INFO 9223 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-10-26 20:00:11.833  INFO 9223 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-10-26 20:00:17.600  INFO 9223 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-10-26 20:01:22.868  INFO 10964 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$34c7c6be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:01:25.411  INFO 10964 --- [main] c.j.aquaculture.AquacultureApplication   : No active profile set, falling back to default profiles: default
+2021-10-26 20:02:02.307  INFO 10964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-26 20:02:02.521  INFO 10964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-26 20:02:04.178  INFO 10964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 255ms. Found 0 repository interfaces.
+2021-10-26 20:02:11.197  INFO 10964 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=425af0df-629a-37e5-abd0-9d64b2088f77
+2021-10-26 20:02:11.479  INFO 10964 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-10-26 20:02:12.055  INFO 10964 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-10-26 20:02:13.367  INFO 10964 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.jit.aquaculture.controller.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:02:13.953  INFO 10964 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$18adc3c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:02:14.141  INFO 10964 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$839f7ef0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:02:14.401  INFO 10964 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:02:14.424  INFO 10964 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$34c7c6be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:02:17.358  INFO 10964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-10-26 20:02:17.683  INFO 10964 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 20:02:17.683  INFO 10964 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-10-26 20:02:19.501  INFO 10964 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 20:02:19.501  INFO 10964 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 53095 ms
+2021-10-26 20:34:09.703  INFO 16327 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bdd9e543] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:09.703  INFO 16222 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$768be5a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:11.387  INFO 16222 --- [main] c.j.aquaculture.AquacultureApplication   : No active profile set, falling back to default profiles: default
+2021-10-26 20:34:11.391  INFO 16327 --- [main] com.jit.authority.AuthorityApplication   : No active profile set, falling back to default profiles: default
+2021-10-26 20:34:14.954  INFO 16554 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$16b4c290] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:15.104  INFO 16554 --- [main] c.jit.usercenter.UserCenterApplication   : No active profile set, falling back to default profiles: default
+2021-10-26 20:34:25.539  INFO 16554 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-26 20:34:25.539  INFO 16327 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-26 20:34:25.539  INFO 16222 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-26 20:34:25.647  INFO 16554 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-26 20:34:25.648  INFO 16222 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-26 20:34:25.648  INFO 16327 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-26 20:34:26.663  INFO 16554 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 165ms. Found 0 repository interfaces.
+2021-10-26 20:34:26.697  INFO 16222 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 199ms. Found 0 repository interfaces.
+2021-10-26 20:34:26.743  INFO 16327 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 245ms. Found 0 repository interfaces.
+2021-10-26 20:34:28.108  INFO 16554 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b612e610-f1ee-330f-a616-9bdc466edc87
+2021-10-26 20:34:28.179  INFO 16554 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa9abf93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:28.212  INFO 16327 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e26f9f9c-9ff5-3b80-8104-b6dd6a0dd698
+2021-10-26 20:34:28.405  INFO 16554 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$16b4c290] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:28.464  INFO 16327 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.jit.authority.serviceinterface.WxloginService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:28.478  INFO 16222 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=425af0df-629a-37e5-abd0-9d64b2088f77
+2021-10-26 20:34:28.569  INFO 16554 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-10-26 20:34:28.596  INFO 16554 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 20:34:28.597  INFO 16554 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-10-26 20:34:28.739  INFO 16554 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 20:34:28.739  INFO 16554 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 13627 ms
+2021-10-26 20:34:28.767  INFO 16222 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-10-26 20:34:29.086  INFO 16327 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.jit.authority.config.RedisConfig$$EnhancerBySpringCGLIB$$b141c74d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:29.351  INFO 16222 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-10-26 20:34:30.607  INFO 16222 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.jit.aquaculture.controller.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:30.833  INFO 16222 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a71e2a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:30.845  INFO 16222 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$c5639dd3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:30.878  INFO 16222 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:30.896  INFO 16222 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$768be5a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:31.340  INFO 16222 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-10-26 20:34:31.356  INFO 16222 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 20:34:31.356  INFO 16222 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-10-26 20:34:31.449  INFO 16222 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 20:34:31.449  INFO 16222 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 19634 ms
+2021-10-26 20:34:32.787  INFO 16327 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1bfe246] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:32.819  INFO 16327 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bdd9e543] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-26 20:34:33.092  INFO 16327 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https) 8080 (http)
+2021-10-26 20:34:33.289  INFO 16327 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-26 20:34:33.289  INFO 16327 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-10-26 20:34:33.396  INFO 16327 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-26 20:34:33.396  INFO 16327 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 21530 ms
+2021-10-26 20:34:33.475  INFO 16327 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 20:34:33.497  INFO 16327 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@c2f7c63
+2021-10-26 20:34:42.350  INFO 16554 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-26 20:34:42.353  INFO 16222 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-26 20:34:42.366  INFO 16554 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 20:34:42.371  INFO 16554 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 20:34:42.388  INFO 16222 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 20:34:42.392  INFO 16222 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 20:34:42.603  INFO 16554 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-26 20:34:42.634  INFO 16327 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-10-26 20:34:42.949  INFO 16327 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-10-26 20:34:43.170  INFO 16222 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-26 20:34:44.677  INFO 16222 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-10-26 20:34:45.142  INFO 16554 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-10-26 20:34:45.170  INFO 16554 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-10-26 20:34:45.505  INFO 16222 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-10-26 20:34:45.505  INFO 16222 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2021-10-26 20:34:45.505  INFO 16222 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2021-10-26 20:34:45.519  INFO 16222 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-10-26 20:34:45.536  INFO 16222 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-10-26 20:34:50.744  INFO 16554 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-10-26 20:34:50.745  INFO 16554 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-10-26 20:34:50.753  INFO 16327 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-10-26 20:34:50.754  INFO 16327 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-10-26 20:34:50.754  INFO 16222 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-10-26 20:34:50.754  INFO 16222 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-10-26 20:34:50.905  INFO 16554 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-10-26 20:34:50.905  INFO 16554 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-10-26 20:34:50.914  INFO 16222 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-10-26 20:34:50.915  INFO 16222 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-10-26 20:34:50.933  INFO 16327 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-10-26 20:34:50.933  INFO 16327 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-10-26 20:34:52.313  INFO 16554 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:34:52.324  INFO 16554 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 20:34:52.325  INFO 16554 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 20:34:52.325  INFO 16554 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 20:34:52.325  INFO 16554 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 20:34:52.325  INFO 16554 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 20:34:52.325  INFO 16554 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-26 20:34:52.325  INFO 16554 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 20:34:53.662  INFO 16327 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:34:53.671  INFO 16327 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 20:34:53.671  INFO 16327 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 20:34:53.672  INFO 16327 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 20:34:53.672  INFO 16327 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 20:34:53.672  INFO 16327 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 20:34:53.672  INFO 16327 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-26 20:34:53.672  INFO 16327 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 20:34:53.893  INFO 16222 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:34:53.905  INFO 16222 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 20:34:53.906  INFO 16222 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 20:34:53.906  INFO 16222 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 20:34:53.906  INFO 16222 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 20:34:53.906  INFO 16222 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 20:34:53.906  INFO 16222 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-26 20:34:53.906  INFO 16222 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 20:34:54.162  INFO 16222 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 20:34:54.164  INFO 16222 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-10-26 20:34:54.164  INFO 16554 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 20:34:54.165  INFO 16327 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 20:34:54.165  INFO 16222 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-26 20:34:54.166  INFO 16554 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-10-26 20:34:54.167  INFO 16327 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-10-26 20:34:54.168  INFO 16554 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-26 20:34:54.169  INFO 16327 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-26 20:34:54.169  INFO 16222 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635251694168 with initial instances count: 0
+2021-10-26 20:34:54.171  INFO 16554 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635251694170 with initial instances count: 0
+2021-10-26 20:34:54.171  INFO 16222 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MICRO-AQUACULTURE with eureka with status UP
+2021-10-26 20:34:54.172  INFO 16222 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635251694172, current=UP, previous=STARTING]
+2021-10-26 20:34:54.172  INFO 16327 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635251694171 with initial instances count: 0
+2021-10-26 20:34:54.173  INFO 16554 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-CENTER with eureka with status UP
+2021-10-26 20:34:54.173  INFO 16222 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.31.162:micro-aquaculture:8084: registering service...
+2021-10-26 20:34:54.173  INFO 16554 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635251694173, current=UP, previous=STARTING]
+2021-10-26 20:34:54.174  INFO 16222 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-10-26 20:34:54.175  INFO 16554 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081: registering service...
+2021-10-26 20:34:54.183  INFO 16554 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-10-26 20:34:54.432  INFO 16222 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-10-26 20:34:54.432  INFO 16554 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-10-26 20:34:54.467  INFO 16222 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-10-26 20:34:54.560  INFO 16554 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-10-26 20:34:54.920  INFO 16554 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081 - registration status: 204
+2021-10-26 20:34:54.920  INFO 16222 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.31.162:micro-aquaculture:8084 - registration status: 204
+2021-10-26 20:34:55.013  INFO 16327 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-10-26 20:34:55.113  INFO 16222 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2021-10-26 20:34:55.115  INFO 16222 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_1
+2021-10-26 20:34:55.131  INFO 16554 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-10-26 20:34:55.132  INFO 16554 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2021-10-26 20:34:55.134  INFO 16554 --- [main] c.jit.usercenter.UserCenterApplication   : Started UserCenterApplication in 40.812 seconds (JVM running for 41.898)
+2021-10-26 20:34:55.146  INFO 16222 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllDailyThrowUsingGET_1
+2021-10-26 20:34:55.149  INFO 16222 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDailyThrowByDateUsingGET_1
+2021-10-26 20:34:55.171  INFO 16222 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_2
+2021-10-26 20:34:55.179  INFO 16222 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_3
+2021-10-26 20:34:55.182  INFO 16222 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_2
+2021-10-26 20:34:55.212  INFO 16222 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2021-10-26 20:34:55.213  INFO 16222 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2021-10-26 20:34:55.216  INFO 16222 --- [main] c.j.aquaculture.AquacultureApplication   : Started AquacultureApplication in 57.329 seconds (JVM running for 58.023)
+2021-10-26 20:34:55.220  INFO 16222 --- [main] c.j.aquaculture.AquacultureApplication   : aquaculture application is running.........
+2021-10-26 20:34:55.253  INFO 16327 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-10-26 20:34:55.780  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.gif'], []
+2021-10-26 20:34:55.781  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.png'], []
+2021-10-26 20:34:55.781  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.jpg'], []
+2021-10-26 20:34:55.781  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html'], []
+2021-10-26 20:34:55.781  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js'], []
+2021-10-26 20:34:55.781  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css'], []
+2021-10-26 20:34:55.781  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.ico'], []
+2021-10-26 20:34:55.781  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**'], []
+2021-10-26 20:34:55.781  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html*/**'], []
+2021-10-26 20:34:55.782  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/swagger-ui.html*/**'], []
+2021-10-26 20:34:55.782  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/ac-service/swagger-ui.html*/**'], []
+2021-10-26 20:34:55.782  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/configuration/security'], []
+2021-10-26 20:34:55.782  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources/**'], []
+2021-10-26 20:34:55.782  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/v2/api-docs'], []
+2021-10-26 20:34:55.782  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources'], []
+2021-10-26 20:34:55.782  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-ui.html'], []
+2021-10-26 20:34:55.782  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/ac-service/swagger-ui.html'], []
+2021-10-26 20:34:55.782  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/springfox-swagger-ui/*.js'], []
+2021-10-26 20:34:55.782  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/configuration/security'], []
+2021-10-26 20:34:55.782  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources/**'], []
+2021-10-26 20:34:55.782  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/v2/api-docs'], []
+2021-10-26 20:34:55.782  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources'], []
+2021-10-26 20:34:55.783  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-ui.html'], []
+2021-10-26 20:34:55.783  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/ac-service/swagger-ui.html'], []
+2021-10-26 20:34:55.783  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/springfox-swagger-ui/*.js'], []
+2021-10-26 20:34:55.914  INFO 16327 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ab7b0f, org.springframework.security.web.context.SecurityContextPersistenceFilter@19cc697c, org.springframework.security.web.header.HeaderWriterFilter@2a6b6f4, org.springframework.security.web.authentication.logout.LogoutFilter@2c634c0, com.jit.authority.jwtsecurity.filter.JwtAuthenticationFilter@1621264e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7593716d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b768e4d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a5b561b, org.springframework.security.web.session.SessionManagementFilter@197bf5ef, org.springframework.security.web.access.ExceptionTranslationFilter@4164ab12, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69a8191e]
+2021-10-26 20:34:55.927  INFO 16327 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-10-26 20:34:56.053  INFO 16327 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-26 20:34:56.449  INFO 16327 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-10-26 20:34:56.796  INFO 16327 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+2021-10-26 20:34:56.859  INFO 16327 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTH-SERVICE with eureka with status UP
+2021-10-26 20:34:56.860  INFO 16327 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635251696859, current=UP, previous=STARTING]
+2021-10-26 20:34:56.861  INFO 16327 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.31.162:auth-service:8443: registering service...
+2021-10-26 20:34:56.864  INFO 16327 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-10-26 20:34:57.346  INFO 16327 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-10-26 20:34:57.399  INFO 16327 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.31.162:auth-service:8443 - registration status: 204
+2021-10-26 20:34:57.405  INFO 16327 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-10-26 20:34:59.447  INFO 16327 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) 8080 (http) with context path ''
+2021-10-26 20:34:59.448  INFO 16327 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8443
+2021-10-26 20:34:59.450  INFO 16327 --- [main] com.jit.authority.AuthorityApplication   : Started AuthorityApplication in 56.01 seconds (JVM running for 56.961)
+2021-10-26 20:34:59.458  INFO 16327 --- [main] com.jit.authority.AuthorityApplication   : authority application is running.........
+2021-10-26 20:34:59.935  INFO 16327 --- [RMI TCP Connection(16)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-26 20:34:59.935  INFO 16327 --- [RMI TCP Connection(16)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-26 20:34:59.949  INFO 16327 --- [RMI TCP Connection(16)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2021-10-26 20:35:02.617  INFO 16327 --- [parallel-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2021-10-26 20:35:02.618  INFO 16327 --- [parallel-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2021-10-26 20:35:24.164  INFO 16222 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 20:35:24.164  INFO 16222 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 20:35:24.164  INFO 16222 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 20:35:24.164  INFO 16222 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 20:35:24.164  INFO 16222 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 20:35:24.164  INFO 16222 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2021-10-26 20:35:24.164  INFO 16222 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 20:35:24.166  INFO 16554 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 20:35:24.166  INFO 16554 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 20:35:24.166  INFO 16554 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 20:35:24.166  INFO 16554 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 20:35:24.166  INFO 16554 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 20:35:24.166  INFO 16554 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2021-10-26 20:35:24.167  INFO 16554 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 20:35:24.167  INFO 16327 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-26 20:35:24.167  INFO 16327 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-26 20:35:24.167  INFO 16327 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-26 20:35:24.167  INFO 16327 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-26 20:35:24.167  INFO 16327 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-26 20:35:24.167  INFO 16327 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2021-10-26 20:35:24.167  INFO 16327 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-26 20:35:24.277  INFO 16554 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 20:35:24.278  INFO 16222 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 20:35:24.468  INFO 16327 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-26 20:39:38.929  INFO 16327 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /favicon.ico
+2021-10-26 20:39:41.978  INFO 16327 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 20:39:52.344  INFO 16554 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:39:53.673  INFO 16327 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:39:53.908  INFO 16222 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:40:47.297  INFO 16327 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /auth/login
+2021-10-26 20:40:47.297  INFO 16327 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 20:40:48.229  INFO 16327 --- [http-nio-8080-exec-5] c.j.authority.controller.AuthController  : ---------------------login 1 -------------
+2021-10-26 20:40:48.762  INFO 16327 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /auth/login
+2021-10-26 20:40:48.762  INFO 16327 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 20:40:48.762  INFO 16327 --- [http-nio-8080-exec-6] c.j.authority.controller.AuthController  : ---------------------login 1 -------------
+2021-10-26 20:40:59.566  INFO 16327 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/fixed
+2021-10-26 20:40:59.567  INFO 16327 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 20:40:59.604  INFO 16327 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/0?pageNum=1&pageSize=8
+2021-10-26 20:40:59.604  INFO 16327 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 20:41:02.670  INFO 16327 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/pond/queri?pageNum=1&pageSize=8
+2021-10-26 20:41:02.670  INFO 16327 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 20:41:03.276  INFO 16327 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/inputs/queri?pageNum=1&pageSize=8
+2021-10-26 20:41:03.276  INFO 16327 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 20:41:04.935  INFO 16327 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/analysis/cost
+2021-10-26 20:41:04.935  INFO 16327 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 20:41:04.937  INFO 16327 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/analysis/income
+2021-10-26 20:41:04.937  INFO 16327 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 20:41:05.390  INFO 16327 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/1?pageNum=1&pageSize=8
+2021-10-26 20:41:05.390  INFO 16327 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 20:41:05.394  INFO 16327 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/cost
+2021-10-26 20:41:05.394  INFO 16327 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 20:41:06.404  INFO 16327 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/type/sale
+2021-10-26 20:41:06.404  INFO 16327 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/2?pageNum=1&pageSize=10
+2021-10-26 20:41:06.404  INFO 16327 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 20:41:06.404  INFO 16327 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-10-26 20:44:52.345  INFO 16554 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:44:53.674  INFO 16327 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:44:53.908  INFO 16222 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:49:52.345  INFO 16554 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:49:53.674  INFO 16327 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:49:53.909  INFO 16222 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:54:52.346  INFO 16554 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:54:53.675  INFO 16327 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:54:53.909  INFO 16222 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-26 20:55:31.343  INFO 16222 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MICRO-AQUACULTURE with eureka with status DOWN
+2021-10-26 20:55:31.343  INFO 16327 --- [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTH-SERVICE with eureka with status DOWN
+2021-10-26 20:55:31.344  INFO 16554 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USER-CENTER with eureka with status DOWN
+2021-10-26 20:55:31.447  INFO 16554 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081: registering service...
+2021-10-26 20:55:31.447  INFO 16222 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.31.162:micro-aquaculture:8084: registering service...
+2021-10-26 20:55:31.447  INFO 16327 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.31.162:auth-service:8443: registering service...
+2021-10-26 20:55:31.450  INFO 16222 --- [Thread-5] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-10-26 20:55:31.451  INFO 16222 --- [Thread-5] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2021-10-26 20:55:31.451  INFO 16222 --- [Thread-5] o.s.i.endpoint.EventDrivenConsumer       : stopped _org.springframework.integration.errorLogger
+2021-10-26 20:55:31.452  INFO 16327 --- [Thread-7] o.s.c.n.zuul.ZuulFilterInitializer       : Stopping filter initializer
+2021-10-26 20:55:31.453  INFO 16327 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-10-26 20:55:31.454  INFO 16222 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.31.162:micro-aquaculture:8084 - registration status: 204
+2021-10-26 20:55:31.454  INFO 16327 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.31.162:auth-service:8443 - registration status: 204
+2021-10-26 20:55:31.454  INFO 16554 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081 - registration status: 204
+2021-10-26 20:55:31.455  INFO 16222 --- [Thread-5] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-10-26 20:55:31.455  INFO 16327 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-26 20:55:32.375  INFO 16222 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-26 20:55:32.376  INFO 16554 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-26 20:55:32.503  INFO 16554 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-10-26 20:55:32.504  INFO 16222 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Could not unregister MBean [org.apache.commons.dbcp2:name=dataSource,type=BasicDataSource] as said MBean is not registered (perhaps already unregistered by an external process)
+2021-10-26 20:55:32.506  INFO 16222 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-10-26 20:55:33.376  INFO 16327 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-10-26 20:55:35.504  INFO 16554 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-10-26 20:55:35.506  INFO 16222 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-10-26 20:55:36.377  INFO 16327 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-10-26 20:55:36.440  INFO 16222 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-10-26 20:55:36.442  INFO 16327 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-10-26 20:55:36.442  INFO 16554 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

@@ -1,0 +1,661 @@
+2021-11-03 14:35:01.640  INFO 4054 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c3cf9629] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:02.103  INFO 4054 --- [main] c.j.aquaculture.AquacultureApplication   : No active profile set, falling back to default profiles: default
+2021-11-03 14:35:07.655  INFO 4054 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-03 14:35:07.662  INFO 4054 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-03 14:35:07.779  INFO 4054 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+2021-11-03 14:35:08.331  INFO 4054 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=053d005d-0b81-3a7d-b597-80df8e74c916
+2021-11-03 14:35:08.344  INFO 4054 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-11-03 14:35:08.358  INFO 4054 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-11-03 14:35:08.415  INFO 4054 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.jit.aquaculture.controller.UserFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:08.488  INFO 4054 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7b5932c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:08.502  INFO 4054 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$12a74e5b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:08.513  INFO 4054 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:08.531  INFO 4054 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c3cf9629] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:09.058  INFO 4054 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-03 14:35:09.526  INFO 4054 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-03 14:35:09.526  INFO 4054 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-11-03 14:35:10.018  INFO 4054 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-03 14:35:10.018  INFO 4054 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7688 ms
+2021-11-03 14:35:16.192  INFO 4634 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$eb76c0f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:16.583  INFO 4634 --- [main] com.jit.authority.AuthorityApplication   : No active profile set, falling back to default profiles: default
+2021-11-03 14:35:23.830  INFO 4634 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-03 14:35:23.832  INFO 4634 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-03 14:35:23.912  INFO 4634 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 0 repository interfaces.
+2021-11-03 14:35:24.676  INFO 4634 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e26f9f9c-9ff5-3b80-8104-b6dd6a0dd698
+2021-11-03 14:35:24.781  INFO 4634 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.jit.authority.serviceinterface.WxloginService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:25.088  INFO 4634 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.jit.authority.config.RedisConfig$$EnhancerBySpringCGLIB$$dedea300] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:25.892  INFO 4634 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cf5cbdf9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:25.915  INFO 4634 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$eb76c0f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:26.257  INFO 4634 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8443 (https) 8080 (http)
+2021-11-03 14:35:26.448  INFO 4634 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-03 14:35:26.448  INFO 4634 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-11-03 14:35:26.592  INFO 4634 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-03 14:35:26.592  INFO 4634 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9954 ms
+2021-11-03 14:35:26.640  INFO 5249 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a612506a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:26.750  INFO 4634 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-03 14:35:26.777  INFO 4634 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3b4f1eb
+2021-11-03 14:35:26.816  INFO 5249 --- [main] c.jit.usercenter.UserCenterApplication   : No active profile set, falling back to default profiles: default
+2021-11-03 14:35:28.390  INFO 4054 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-11-03 14:35:28.488  INFO 4054 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-03 14:35:28.491  INFO 4054 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-03 14:35:28.598  INFO 5249 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-03 14:35:28.600  INFO 5249 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-03 14:35:28.618  INFO 5249 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2021-11-03 14:35:28.735  INFO 4054 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-03 14:35:28.964  INFO 5249 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b612e610-f1ee-330f-a616-9bdc466edc87
+2021-11-03 14:35:29.053  INFO 5249 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$89f84d6d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:29.083  INFO 5249 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a612506a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-03 14:35:29.326  INFO 5249 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-11-03 14:35:29.356  INFO 4054 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-03 14:35:29.366  INFO 5249 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-03 14:35:29.367  INFO 5249 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-11-03 14:35:29.508  INFO 5249 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-03 14:35:29.509  INFO 5249 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2540 ms
+2021-11-03 14:35:30.063  INFO 4054 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-11-03 14:35:30.063  INFO 4054 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2021-11-03 14:35:30.063  INFO 4054 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2021-11-03 14:35:30.076  INFO 4054 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-11-03 14:35:30.094  INFO 4634 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-11-03 14:35:30.145  INFO 4054 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-11-03 14:35:30.150  INFO 4634 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-11-03 14:35:30.338  INFO 5249 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-11-03 14:35:30.361  INFO 5249 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-03 14:35:30.363  INFO 5249 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-03 14:35:30.501  INFO 5249 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-03 14:35:31.150  INFO 4634 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-11-03 14:35:31.151  INFO 4634 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-11-03 14:35:31.212  INFO 4054 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-11-03 14:35:31.212  INFO 4054 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-11-03 14:35:31.366  INFO 4634 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-11-03 14:35:31.366  INFO 4634 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-11-03 14:35:31.376  INFO 5249 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-11-03 14:35:31.380  INFO 4054 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-11-03 14:35:31.380  INFO 4054 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-11-03 14:35:31.393  INFO 5249 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-11-03 14:35:31.554  INFO 5249 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-11-03 14:35:31.554  INFO 5249 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-11-03 14:35:31.694  INFO 5249 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-11-03 14:35:31.695  INFO 5249 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-11-03 14:35:31.803  INFO 5249 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:35:31.813  INFO 5249 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-03 14:35:31.814  INFO 5249 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-03 14:35:31.814  INFO 5249 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-03 14:35:31.814  INFO 5249 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-03 14:35:31.814  INFO 5249 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-03 14:35:31.814  INFO 5249 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-11-03 14:35:31.814  INFO 5249 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-03 14:35:31.841  INFO 4054 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:35:31.852  INFO 4054 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-03 14:35:31.852  INFO 4054 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-03 14:35:31.852  INFO 4054 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-03 14:35:31.852  INFO 4054 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-03 14:35:31.852  INFO 4054 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-03 14:35:31.852  INFO 4054 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-11-03 14:35:31.852  INFO 4054 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-03 14:35:31.872  INFO 4634 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:35:31.886  INFO 4634 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-03 14:35:31.886  INFO 4634 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-03 14:35:31.886  INFO 4634 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-03 14:35:31.886  INFO 4634 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-03 14:35:31.886  INFO 4634 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-03 14:35:31.886  INFO 4634 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-11-03 14:35:31.887  INFO 4634 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-03 14:35:32.166  INFO 4634 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-03 14:35:32.168  INFO 4054 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-03 14:35:32.169  INFO 4634 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-11-03 14:35:32.169  INFO 5249 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-03 14:35:32.170  INFO 4054 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-11-03 14:35:32.172  INFO 5249 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-11-03 14:35:32.172  INFO 4634 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-11-03 14:35:32.173  INFO 4054 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-11-03 14:35:32.176  INFO 5249 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-11-03 14:35:32.178  INFO 4634 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635921332176 with initial instances count: 0
+2021-11-03 14:35:32.178  INFO 4054 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635921332176 with initial instances count: 0
+2021-11-03 14:35:32.180  INFO 5249 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1635921332179 with initial instances count: 0
+2021-11-03 14:35:32.182  INFO 4054 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MICRO-AQUACULTURE with eureka with status UP
+2021-11-03 14:35:32.183  INFO 5249 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-CENTER with eureka with status UP
+2021-11-03 14:35:32.183  INFO 4054 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635921332183, current=UP, previous=STARTING]
+2021-11-03 14:35:32.184  INFO 5249 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635921332184, current=UP, previous=STARTING]
+2021-11-03 14:35:32.186  INFO 4054 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-11-03 14:35:32.186  INFO 5249 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081: registering service...
+2021-11-03 14:35:32.188  INFO 5249 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-11-03 14:35:32.185  INFO 4054 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084: registering service...
+2021-11-03 14:35:32.253  INFO 5249 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-11-03 14:35:32.253  INFO 4054 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-11-03 14:35:32.949  INFO 5249 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-11-03 14:35:32.952  INFO 4054 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-11-03 14:35:33.077  INFO 4054 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084 - registration status: 204
+2021-11-03 14:35:33.077  INFO 5249 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081 - registration status: 204
+2021-11-03 14:35:33.346  INFO 5249 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-11-03 14:35:33.346  INFO 4054 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_1
+2021-11-03 14:35:33.347  INFO 5249 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2021-11-03 14:35:33.348  INFO 4054 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_1
+2021-11-03 14:35:33.351  INFO 5249 --- [main] c.jit.usercenter.UserCenterApplication   : Started UserCenterApplication in 7.934 seconds (JVM running for 8.986)
+2021-11-03 14:35:33.378  INFO 4054 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllDailyThrowUsingGET_1
+2021-11-03 14:35:33.384  INFO 4054 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getDailyThrowByDateUsingGET_1
+2021-11-03 14:35:33.420  INFO 4054 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_2
+2021-11-03 14:35:33.440  INFO 4054 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addpondUsingGET_1
+2021-11-03 14:35:33.462  INFO 4054 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getAllUsingGET_3
+2021-11-03 14:35:33.469  INFO 4054 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getOneUsingGET_2
+2021-11-03 14:35:33.495  INFO 4634 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-11-03 14:35:33.510  INFO 4054 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2021-11-03 14:35:33.511  INFO 4054 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8084
+2021-11-03 14:35:33.514  INFO 4054 --- [main] c.j.aquaculture.AquacultureApplication   : Started AquacultureApplication in 36.026 seconds (JVM running for 40.331)
+2021-11-03 14:35:33.516  INFO 4054 --- [main] c.j.aquaculture.AquacultureApplication   : aquaculture application is running.........
+2021-11-03 14:35:33.611  INFO 4634 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-11-03 14:35:33.754  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.gif'], []
+2021-11-03 14:35:33.754  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.png'], []
+2021-11-03 14:35:33.754  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.jpg'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.ico'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html*/**'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/swagger-ui.html*/**'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/ac-service/swagger-ui.html*/**'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/configuration/security'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources/**'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/v2/api-docs'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-resources'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/swagger-ui.html'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/ac-service/swagger-ui.html'], []
+2021-11-03 14:35:33.755  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/springfox-swagger-ui/*.js'], []
+2021-11-03 14:35:33.756  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/configuration/security'], []
+2021-11-03 14:35:33.756  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources/**'], []
+2021-11-03 14:35:33.756  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/v2/api-docs'], []
+2021-11-03 14:35:33.756  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-resources'], []
+2021-11-03 14:35:33.756  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/swagger-ui.html'], []
+2021-11-03 14:35:33.756  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/ac-service/swagger-ui.html'], []
+2021-11-03 14:35:33.756  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Mvc [pattern='/**/springfox-swagger-ui/*.js'], []
+2021-11-03 14:35:33.782  INFO 4634 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@bb9bad9, org.springframework.security.web.context.SecurityContextPersistenceFilter@7593716d, org.springframework.security.web.header.HeaderWriterFilter@753b6846, org.springframework.security.web.authentication.logout.LogoutFilter@71d2bc34, com.jit.authority.jwtsecurity.filter.JwtAuthenticationFilter@1435feb6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a7be6e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ad67d82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34fe89a5, org.springframework.security.web.session.SessionManagementFilter@19cc697c, org.springframework.security.web.access.ExceptionTranslationFilter@2a6b6f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5392c0a7]
+2021-11-03 14:35:33.859  INFO 4634 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-11-03 14:35:34.162  INFO 4634 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-03 14:35:34.764  INFO 4634 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-03 14:35:34.928  INFO 4634 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+2021-11-03 14:35:34.996  INFO 4634 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTH-SERVICE with eureka with status UP
+2021-11-03 14:35:34.996  INFO 4634 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1635921334996, current=UP, previous=STARTING]
+2021-11-03 14:35:34.997  INFO 4634 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443: registering service...
+2021-11-03 14:35:34.999  INFO 4634 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-11-03 14:35:35.019  INFO 4634 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-11-03 14:35:35.036  INFO 4634 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443 - registration status: 204
+2021-11-03 14:35:35.039  INFO 4634 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-11-03 14:35:35.423  INFO 4634 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8443 (https) 8080 (http) with context path ''
+2021-11-03 14:35:35.424  INFO 4634 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8443
+2021-11-03 14:35:35.427  INFO 4634 --- [main] com.jit.authority.AuthorityApplication   : Started AuthorityApplication in 23.286 seconds (JVM running for 24.049)
+2021-11-03 14:35:35.437  INFO 4634 --- [main] com.jit.authority.AuthorityApplication   : authority application is running.........
+2021-11-03 14:35:35.603  INFO 4634 --- [RMI TCP Connection(25)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-03 14:35:35.604  INFO 4634 --- [RMI TCP Connection(25)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-03 14:35:35.628  INFO 4634 --- [RMI TCP Connection(25)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2021-11-03 14:35:35.837  INFO 4634 --- [parallel-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2021-11-03 14:35:35.838  INFO 4634 --- [parallel-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2021-11-03 14:36:02.169  INFO 4634 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-03 14:36:02.170  INFO 4054 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-03 14:36:02.172  INFO 5249 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-11-03 14:36:02.243  INFO 4054 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-03 14:36:02.243  INFO 4634 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-03 14:36:02.243  INFO 4054 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-03 14:36:02.243  INFO 5249 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-11-03 14:36:02.243  INFO 4634 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-03 14:36:02.243  INFO 4054 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-03 14:36:02.243  INFO 4634 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-03 14:36:02.243  INFO 4054 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-03 14:36:02.243  INFO 5249 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-11-03 14:36:02.243  INFO 4054 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2021-11-03 14:36:02.243  INFO 4634 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-03 14:36:02.243  INFO 5249 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-11-03 14:36:02.243  INFO 4054 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-03 14:36:02.243  INFO 4634 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2021-11-03 14:36:02.243  INFO 5249 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-11-03 14:36:02.244  INFO 4634 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-03 14:36:02.244  INFO 5249 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2021-11-03 14:36:02.244  INFO 5249 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-11-03 14:36:02.448  INFO 4054 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-03 14:36:02.448  INFO 5249 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-03 14:36:02.464  INFO 4634 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-11-03 14:40:31.818  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:40:31.854  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:40:31.888  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:45:31.819  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:45:31.856  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:45:31.889  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:50:31.820  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:50:31.857  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:50:31.890  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:55:31.821  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:55:31.858  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 14:55:31.891  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:00:31.822  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:00:31.859  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:00:31.893  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:05:31.823  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:05:31.860  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:05:31.893  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:10:31.825  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:10:31.861  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:10:31.894  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:15:31.826  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:15:31.862  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:15:31.895  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:20:31.858  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:20:31.863  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:20:31.896  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:25:31.859  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:25:31.863  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:25:31.897  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:30:31.860  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:30:31.864  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:30:31.898  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:35:31.861  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:35:31.865  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:35:31.899  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:40:31.862  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:40:31.866  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:40:31.900  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:45:31.863  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:45:31.867  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:45:31.901  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:50:31.864  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:50:31.868  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:50:31.902  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:55:31.865  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:55:31.869  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 15:55:31.904  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:00:31.866  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:00:31.870  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:00:31.905  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:03:01.933  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /auth/login?username=sc&password=1
+2021-11-03 16:03:03.336  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:03:03.546  INFO 4634 --- [http-nio-8080-exec-1] c.j.authority.controller.AuthController  : ---------------------login 1 -------------
+2021-11-03 16:03:05.852  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/pond/queri?username=sc&page=1
+2021-11-03 16:03:05.852  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:03:06.187  INFO 4634 --- [http-nio-8080-exec-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: micro-aquaculture.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-11-03 16:03:06.195  INFO 4634 --- [http-nio-8080-exec-2] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-micro-aquaculture
+2021-11-03 16:03:06.196  INFO 4634 --- [http-nio-8080-exec-2] c.netflix.loadbalancer.BaseLoadBalancer  : Client: micro-aquaculture instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=micro-aquaculture,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2021-11-03 16:03:06.206  INFO 4634 --- [http-nio-8080-exec-2] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2021-11-03 16:03:06.222  INFO 4634 --- [http-nio-8080-exec-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: micro-aquaculture.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-11-03 16:03:06.224  INFO 4634 --- [http-nio-8080-exec-2] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client micro-aquaculture initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=micro-aquaculture,current list of Servers=[192.168.100.184:8084],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.100.184:8084;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@3ab05d41
+2021-11-03 16:03:06.517  INFO 4054 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-03 16:03:06.517  INFO 4054 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-03 16:03:06.528  INFO 4054 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-11-03 16:03:07.208  INFO 4634 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: micro-aquaculture.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2021-11-03 16:03:15.947  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/inputs/queri?username=sc&page=1
+2021-11-03 16:03:15.948  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:03:16.399  INFO 4054 --- [http-nio-8084-exec-2] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2021-11-03 16:03:16.400  INFO 4054 --- [http-nio-8084-exec-2] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2021-11-03 16:03:18.274  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 16:03:18.274  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:03:21.072  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 16:03:21.073  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:03:25.182  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/dailyfeeding/queri?username=sc&page=1
+2021-11-03 16:03:25.183  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:03:27.987  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /reagent/queri?username=sc&page=1
+2021-11-03 16:03:27.987  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:04:22.822  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /auth/login?username=sc&password=1
+2021-11-03 16:04:22.822  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:04:22.824  INFO 4634 --- [http-nio-8080-exec-9] c.j.authority.controller.AuthController  : ---------------------login 1 -------------
+2021-11-03 16:04:23.307  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/pond/queri?username=sc&page=1
+2021-11-03 16:04:23.307  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:04:36.200  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /template/queri?username=sc&page=1
+2021-11-03 16:04:36.200  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:04:39.280  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /template/queri?username=sc&page=1
+2021-11-03 16:04:39.280  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:04:42.719  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/dailyfeeding/queri?username=sc&page=1
+2021-11-03 16:04:42.719  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:04:44.256  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 16:04:44.256  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:04:45.689  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /reagent/queri?username=sc&page=1
+2021-11-03 16:04:45.689  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:04:48.332  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/inputs/queri?username=sc&page=1
+2021-11-03 16:04:48.332  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:05:31.867  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:05:31.871  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:05:31.906  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:05:37.021  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/0?pageNum=1
+2021-11-03 16:05:37.021  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:05:40.408  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/observe/?pageNum=1
+2021-11-03 16:05:40.408  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:05:41.826  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/throw/?pageNum=1
+2021-11-03 16:05:41.827  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:09:49.189  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/0?pageNum=1
+2021-11-03 16:09:49.189  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:10:31.868  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:10:31.871  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:10:31.907  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:11:45.556  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /auth/login?username=sc&password=1
+2021-11-03 16:11:45.556  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:11:45.556  INFO 4634 --- [http-nio-8080-exec-3] c.j.authority.controller.AuthController  : ---------------------login 1 -------------
+2021-11-03 16:13:02.273  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/0?pageNum=1
+2021-11-03 16:13:02.273  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:13:05.949  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/throw/?pageNum=1
+2021-11-03 16:13:05.949  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:13:07.957  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/observe/?pageNum=1
+2021-11-03 16:13:07.957  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:13:10.744  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/throw/?pageNum=1
+2021-11-03 16:13:10.744  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:13:14.409  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/1?pageNum=1
+2021-11-03 16:13:14.409  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:13:19.394  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/2?pageNum=1
+2021-11-03 16:13:19.394  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:15:31.868  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:15:31.872  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:15:31.908  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:17:58.757  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /auth/login?username=sc&password=1
+2021-11-03 16:17:58.757  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:17:58.758  INFO 4634 --- [http-nio-8080-exec-2] c.j.authority.controller.AuthController  : ---------------------login 1 -------------
+2021-11-03 16:17:59.295  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/pond/queri?username=sc&page=1
+2021-11-03 16:17:59.295  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:00.454  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/pond/queri?username=sc&page=1
+2021-11-03 16:18:00.454  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:05.195  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /ac-service/income/2?pageNum=1
+2021-11-03 16:18:05.195  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:06.802  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/inputs/queri?username=sc&page=1
+2021-11-03 16:18:06.802  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:08.236  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 16:18:08.236  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:09.329  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /template/queri?username=sc&page=1
+2021-11-03 16:18:09.329  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:10.309  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/dailyfeeding/queri?username=sc&page=1
+2021-11-03 16:18:10.309  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:11.405  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /reagent/queri?username=sc&page=1
+2021-11-03 16:18:11.405  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:13.188  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /reagent/queri?username=sc&page=1
+2021-11-03 16:18:13.189  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:16.773  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/dailyfeeding/queri?username=sc&page=1
+2021-11-03 16:18:16.773  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:18.803  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/dailyfeeding/queri?username=sc&page=1
+2021-11-03 16:18:18.803  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:20.777  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /reagent/queri?username=sc&page=1
+2021-11-03 16:18:20.778  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:22.333  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /reagent/queri?username=sc&page=1
+2021-11-03 16:18:22.333  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:30.990  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /reagent/queri?username=sc&page=1
+2021-11-03 16:18:30.990  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:18:33.857  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /template/queri?username=sc&page=1
+2021-11-03 16:18:33.857  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:19:05.390  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /auth/login?username=sc&password=1
+2021-11-03 16:19:05.390  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:19:05.391  INFO 4634 --- [http-nio-8080-exec-10] c.j.authority.controller.AuthController  : ---------------------login 1 -------------
+2021-11-03 16:19:05.926  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/pond/queri?username=sc&page=1
+2021-11-03 16:19:05.926  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:19:08.436  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /template/queri?username=sc&page=1
+2021-11-03 16:19:08.436  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:19:09.904  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /reagent/queri?username=sc&page=1
+2021-11-03 16:19:09.904  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:19:11.187  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/dailyfeeding/queri?username=sc&page=1
+2021-11-03 16:19:11.187  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:19:16.564  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 16:19:16.565  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:19:18.023  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/inputs/queri?username=sc&page=1
+2021-11-03 16:19:18.023  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:19:25.009  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/pond/queri?username=sc&page=1
+2021-11-03 16:19:25.009  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:19:26.239  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/pond/queri?username=sc&page=1
+2021-11-03 16:19:26.239  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:20:31.869  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:20:31.873  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:20:31.908  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:21:55.851  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /auth/login?username=sc&password=1
+2021-11-03 16:21:55.851  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:21:55.852  INFO 4634 --- [http-nio-8080-exec-3] c.j.authority.controller.AuthController  : ---------------------login 1 -------------
+2021-11-03 16:21:56.417  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/pond/queri?username=sc&page=1
+2021-11-03 16:21:56.417  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:21:59.000  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/inputs/queri?username=sc&page=1
+2021-11-03 16:21:59.000  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:22:00.751  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 16:22:00.751  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:22:02.084  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /template/queri?username=sc&page=1
+2021-11-03 16:22:02.085  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:22:03.132  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/dailyfeeding/queri?username=sc&page=1
+2021-11-03 16:22:03.133  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:22:05.711  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /reagent/queri?username=sc&page=1
+2021-11-03 16:22:05.711  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:22:07.041  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/dailyfeeding/queri?username=sc&page=1
+2021-11-03 16:22:07.041  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:22:09.790  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/dailyfeeding/queri?username=sc&page=1
+2021-11-03 16:22:09.790  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:22:38.597  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/inputs/queri?username=sc&page=1
+2021-11-03 16:22:38.597  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:23:25.025  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /template/queri?username=sc&page=1
+2021-11-03 16:23:25.025  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:23:31.314  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/dailyfeeding/queri?username=sc&page=1
+2021-11-03 16:23:31.314  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:23:54.134  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /reagent/queri?username=sc&page=1
+2021-11-03 16:23:54.134  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:23:58.833  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /reagent/queri?username=sc&page=1
+2021-11-03 16:23:58.833  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 16:25:31.870  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:25:31.874  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:25:31.909  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:30:31.871  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:30:31.875  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:30:31.910  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:35:31.872  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:35:31.875  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:35:31.910  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:40:31.872  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:40:31.876  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:40:31.911  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:45:31.873  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:45:31.877  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:45:31.911  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:50:31.874  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:50:31.878  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:50:31.913  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:55:31.875  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:55:31.878  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 16:55:31.914  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:00:31.876  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:00:31.879  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:00:31.914  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:05:31.876  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:05:31.880  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:05:31.915  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:10:31.877  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:10:31.882  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:10:31.915  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:15:31.878  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:15:31.883  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:15:31.916  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:20:31.879  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:20:31.883  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:20:31.917  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:25:31.880  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:25:31.884  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:25:31.917  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:30:31.880  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:30:31.885  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:30:31.918  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:35:31.881  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:35:31.885  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:35:31.918  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:40:31.882  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:40:31.886  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:40:31.919  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:45:31.883  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:45:31.887  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:45:31.920  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:50:31.884  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:50:31.888  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:50:31.920  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:55:31.884  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:55:31.889  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 17:55:31.921  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:00:31.885  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:00:31.889  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:00:31.921  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:05:31.886  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:05:31.890  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:05:31.922  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:10:31.886  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:10:31.891  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:10:31.923  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:15:31.887  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:15:31.891  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:15:31.923  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:20:31.888  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:20:31.892  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:20:31.924  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:25:31.889  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:25:31.893  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:25:31.925  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:30:31.890  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:30:31.894  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:30:31.925  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:35:31.890  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:35:31.895  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:35:31.926  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:40:31.891  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:40:31.895  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:40:31.927  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:45:31.892  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:45:31.896  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:45:31.927  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:50:31.893  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:50:31.897  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:50:31.928  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:55:31.894  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:55:31.898  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 18:55:31.929  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:00:31.895  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:00:31.899  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:00:31.929  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:05:31.896  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:05:31.900  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:05:31.930  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:10:31.896  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:10:31.900  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:10:31.931  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:15:31.897  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:15:31.901  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:15:31.931  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:18:10.015  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /auth/login?username=sc&password=1
+2021-11-03 19:18:10.015  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:10.017  INFO 4634 --- [http-nio-8080-exec-9] c.j.authority.controller.AuthController  : ---------------------login 1 -------------
+2021-11-03 19:18:10.516  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/pond/queri?username=sc&page=1
+2021-11-03 19:18:10.516  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:12.944  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/inputs/queri?username=sc&page=1
+2021-11-03 19:18:12.944  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:14.654  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 19:18:14.654  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:16.864  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 19:18:16.864  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:18.205  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 19:18:18.205  INFO 4634 --- [http-nio-8080-exec-4] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:21.570  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /template/queri?username=sc&page=1
+2021-11-03 19:18:21.570  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:23.205  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/dailyfeeding/queri?username=sc&page=1
+2021-11-03 19:18:23.205  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:24.725  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/dailyfeeding/queri?username=sc&page=1
+2021-11-03 19:18:24.725  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:27.106  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/dailyfeeding/queri?username=sc&page=1
+2021-11-03 19:18:27.106  INFO 4634 --- [http-nio-8080-exec-9] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:30.373  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 19:18:30.374  INFO 4634 --- [http-nio-8080-exec-10] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:32.065  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 19:18:32.065  INFO 4634 --- [http-nio-8080-exec-1] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:33.501  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 19:18:33.501  INFO 4634 --- [http-nio-8080-exec-2] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:37.124  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 19:18:37.124  INFO 4634 --- [http-nio-8080-exec-3] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:39.607  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /reagent/queri?username=sc&page=1
+2021-11-03 19:18:39.607  INFO 4634 --- [http-nio-8080-exec-5] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:41.243  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /reagent/queri?username=sc&page=1
+2021-11-03 19:18:41.243  INFO 4634 --- [http-nio-8080-exec-6] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:42.857  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/fishinput/queri?username=sc&page=1
+2021-11-03 19:18:42.858  INFO 4634 --- [http-nio-8080-exec-7] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:18:46.809  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : fi in MyFilterSecurityInterceptor FilterInvocation: URL: /micro-aquaculture/inputs/queri?username=sc&page=1
+2021-11-03 19:18:46.809  INFO 4634 --- [http-nio-8080-exec-8] c.j.a.rbac.MyFilterSecurityInterceptor   : token in MyFilterSecurityInterceptor null
+2021-11-03 19:20:31.898  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:20:31.902  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:20:31.932  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:25:31.899  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:25:31.902  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:25:31.933  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:30:31.900  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:30:31.903  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:30:31.933  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:35:31.900  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:35:31.904  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:35:31.934  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:40:31.901  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:40:31.904  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:40:31.935  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:45:31.902  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:45:31.905  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:45:31.935  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:50:31.903  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:50:31.906  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:50:31.936  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:55:31.903  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:55:31.907  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 19:55:31.936  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 20:00:31.904  INFO 5249 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 20:00:31.907  INFO 4054 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 20:00:31.937  INFO 4634 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-11-03 20:04:15.480  INFO 5249 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USER-CENTER with eureka with status DOWN
+2021-11-03 20:04:15.480  INFO 4054 --- [Thread-5] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MICRO-AQUACULTURE with eureka with status DOWN
+2021-11-03 20:04:15.480  INFO 4634 --- [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTH-SERVICE with eureka with status DOWN
+2021-11-03 20:04:15.480  INFO 4634 --- [Thread-11] c.n.l.PollingServerListUpdater           : Shutting down the Executor Pool for PollingServerListUpdater
+2021-11-03 20:04:15.481  INFO 4634 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443: registering service...
+2021-11-03 20:04:15.482  INFO 5249 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081: registering service...
+2021-11-03 20:04:15.485  INFO 4634 --- [Thread-7] o.s.c.n.zuul.ZuulFilterInitializer       : Stopping filter initializer
+2021-11-03 20:04:15.486  INFO 4634 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-03 20:04:15.486  INFO 4634 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTH-SERVICE/192.168.100.184:auth-service:8443 - registration status: 204
+2021-11-03 20:04:15.487  INFO 4634 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-03 20:04:15.488  INFO 5249 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-CENTER/127.0.0.1:8081 - registration status: 204
+2021-11-03 20:04:15.498  INFO 4054 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084: registering service...
+2021-11-03 20:04:15.501  INFO 4054 --- [Thread-5] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-11-03 20:04:15.501  INFO 4054 --- [Thread-5] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2021-11-03 20:04:15.501  INFO 4054 --- [Thread-5] o.s.i.endpoint.EventDrivenConsumer       : stopped _org.springframework.integration.errorLogger
+2021-11-03 20:04:15.502  INFO 4054 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MICRO-AQUACULTURE/192.168.100.184:micro-aquaculture:8084 - registration status: 204
+2021-11-03 20:04:15.503  INFO 4054 --- [Thread-5] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-03 20:04:15.503  INFO 4054 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-03 20:04:15.580  INFO 4634 --- [Thread-7] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook removed for: NFLoadBalancer-PingTimer-micro-aquaculture
+2021-11-03 20:04:15.591  INFO 4634 --- [Thread-7] c.n.u.concurrent.ShutdownEnabledTimer    : Exception caught (might be ok if at shutdown)
+
+java.lang.IllegalStateException: Shutdown in progress
+	at java.base/java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82)
+	at java.base/java.lang.Runtime.removeShutdownHook(Runtime.java:241)
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70)
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:632)
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:883)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:285)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:975)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:92)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+
+2021-11-03 20:04:15.602  INFO 5249 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-03 20:04:15.631  INFO 5249 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-11-03 20:04:15.633  INFO 4054 --- [Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Could not unregister MBean [org.apache.commons.dbcp2:name=dataSource,type=BasicDataSource] as said MBean is not registered (perhaps already unregistered by an external process)
+2021-11-03 20:04:15.635  INFO 4054 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-11-03 20:04:16.707  INFO 4634 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-11-03 20:04:18.631  INFO 5249 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-11-03 20:04:18.635  INFO 4054 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-11-03 20:04:18.802  INFO 4054 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-11-03 20:04:18.803  INFO 5249 --- [Thread-5] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-11-03 20:04:19.708  INFO 4634 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-11-03 20:04:19.861  INFO 4634 --- [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

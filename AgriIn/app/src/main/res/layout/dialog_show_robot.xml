@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 带密码验证的删除养殖户 -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:paddingLeft="@dimen/common_dimension_25"
+    android:paddingRight="@dimen/common_dimension_25"
+    android:paddingTop="@dimen/common_dimension_15"
+    android:paddingBottom="@dimen/common_dimension_15"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="机器人"
+        android:textColor="@color/black"
+        android:textSize="@dimen/LargeTextSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="@dimen/common_dimension_15"
+        android:id="@+id/recyclerView"
+        android:scrollbars="vertical"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_below="@id/recyclerView"
+        android:layout_marginTop="@dimen/common_dimension_12"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/common_dimension_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/red0"
+            android:id="@+id/tvCancel"
+            android:padding="@dimen/common_dimension_5"
+            android:textSize="@dimen/BasicTextSize"
+            android:text="取消"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvChooseEdit"
+        android:background="@drawable/ic_material"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/mediumTextSize"
+        android:padding="@dimen/common_dimension_12"
+        android:text="@string/edit"
+        android:textColor="@color/pond_text_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/line_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimension_0.5"/>
+    <TextView
+        android:id="@+id/tvChooseDel"
+        android:background="@drawable/ic_material"
+        android:textColor="@color/pond_text_color"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/mediumTextSize"
+        android:padding="@dimen/common_dimension_12"
+        android:text="@string/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/line_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimension_2.5"/>
+    <TextView
+        android:id="@+id/tvChooseCancel"
+        android:background="@drawable/ic_material"
+        android:textColor="@color/pond_text_color"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/mediumTextSize"
+        android:padding="@dimen/common_dimension_12"
+        android:text="@string/dialog_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

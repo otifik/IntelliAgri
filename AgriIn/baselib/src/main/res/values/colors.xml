@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="robot_colorPrimary">#313131</color>
+    <color name="robot_colorPrimaryDark">#313131</color>
+    <color name="colorAccent">#7e7e7e</color>
+    <color name="accent">#DD2C00</color>
+
+    <color name="color_weather_theme">#00BCD4</color>
+
+    <color name="color_zxing_corner">#f57257</color>
+    <color name="colorPrimaryDarkTrans">#CCf57257</color>
+
+    <color name="green0">#45C01A</color>
+    <color name="green1">#45C01A</color>
+    <color name="green2">#A3DEA3</color>
+    <color name="green3">#1AAD19</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="line">#D2D2D2</color>
+    <color name="gray">#FFF0F0F0</color>
+    <color name="gray0">#464646</color>
+    <color name="gray1">#7e7e7e</color>
+    <color name="gray3">#c8969696</color>
+    <color name="gray4">#F5F5F5</color> // dark_background
+    <color name="gray5">#EBEBEB</color>
+    <color name="gray8">#D9D9D9</color>
+
+    <color name="line_color">#EEEEEE</color>
+
+    <color name="bg_detail_orange">#FDCA7E</color>
+
+    <color name="red0">#ff0000</color>
+
+    <color name="md_red_400">#e84e40</color>
+    <color name="color_add_line">#fff0f2f5</color>
+
+
+    <!--  弹出喜好背景-->
+    <color name="colorTitle">#666</color>
+
+
+    <!--透明色-->
+    <!--半透明-->
+    <!--首页item文字颜色-->
+    <color name="colorTheme">#ffce3d3a</color>
+    <!--tab标签栏文字的颜色-->
+    <!--正文文字颜色-->
+    <color name="colorContent">#ff333333</color>
+    <!--水波纹或5.0以下选择器颜色-->
+    <!--item的水波纹颜色-->
+    <!--item的5.0一下版本选择器颜色-->
+
+
+    <!--遮盖层颜色-->
+
+    <!--快速索引bar颜色-->
+
+    <!-- 设备背景-->
+
+    <color name="item_select_color">#FBE381</color>
+    <color name="bg_line_2">#A000</color>
+
+    <color name="image_overlay_true">#80000000</color>
+    <color name="image_overlay_false">#20000000</color>
+
+    <color name="bgBigImage">#ff000000</color> <!--  大图vp的背景 -->
+
+    <!-- dropDownView 颜色-->
+    <color name="dDVTransparentGray">#99000000</color>
+    <color name="dDVColorPrimary">@color/robot_colorPrimary</color>
+    <!-- patternButton default-->
+    <color name="paper_text_color">#60000000</color>
+    <color name="paper_button_color">#FFAD5B</color>
+    <color name="paper_button_shadow_color">#000000</color>
+
+    <color name="colorPrimary">#4A95CF</color>
+</resources>

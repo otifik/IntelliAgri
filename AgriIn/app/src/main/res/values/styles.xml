@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="RobotAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/robot_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/robot_colorPrimaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="FullScreenTheme" parent="RobotAppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorAccent">@color/login_input_active</item>
+    </style>
+
+    <style name="Base.App.Theme.NoTitle" parent="RobotAppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="App.Theme.Tweet.Main" parent="Base.App.Theme.NoTitle" />
+
+
+    <style name="RobotAppTheme.ShowTheme" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="App.Theme.main" parent="Base.App.Theme.NoTitle">
+    </style>
+
+    <style name="MyCheckBoxGreen" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/green1</item>
+        <item name="colorControlActivated">@color/green1</item>
+    </style>
+
+
+
+</resources>

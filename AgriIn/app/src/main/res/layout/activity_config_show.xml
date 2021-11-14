@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jit.AgriIn.ui.activity.config.ConfigShowActivity">
+    <include
+        layout="@layout/include_toolbar"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@color/bg_detail_orange" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="18dp"
+                    android:text="配置详情展示"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/mediumTextSize" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cv"
+                        android:layout_marginTop="@dimen/common_dimension_45"
+                        android:paddingBottom="80dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="@dimen/common_dimension_12"
+                        android:layout_marginRight="@dimen/common_dimension_12"
+                        android:layout_height="wrap_content"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:visibility="visible"
+                        app:cardBackgroundColor="#FFFFFF"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="2dp"
+                        app:cardUseCompatPadding="true">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"/>
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp">
+                                <TextView
+                                    android:layout_marginLeft="@dimen/common_dimension_30"
+                                    android:layout_centerVertical="true"
+                                    android:text="生产单元号"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+
+                                    android:id="@+id/tvPondName"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="@dimen/common_dimension_160"
+                                    android:textColor="@color/black" />
+
+                                <ImageView
+                                    android:id="@+id/ivEditor"
+                                    android:layout_marginTop="@dimen/common_dimension_3"
+                                    android:layout_marginRight="@dimen/common_dimension_15"
+                                    android:layout_alignParentRight="true"
+                                    android:src="@mipmap/ic_info_editor"
+                                    android:layout_width="18dp"
+                                    android:layout_height="wrap_content" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp">
+                                <TextView
+                                    android:layout_marginLeft="@dimen/common_dimension_30"
+                                    android:layout_centerVertical="true"
+                                    android:text="机器编号"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/tvRobotNum"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="@dimen/common_dimension_160"
+                                    android:textColor="@color/black" />
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp">
+                                <TextView
+                                    android:layout_marginLeft="@dimen/common_dimension_30"
+                                    android:layout_centerVertical="true"
+                                    android:text="种苗类型"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/tvCategory"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="@dimen/common_dimension_160"
+                                    android:textColor="@color/black" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp">
+                                <TextView
+                                    android:layout_marginLeft="@dimen/common_dimension_30"
+                                    android:layout_centerVertical="true"
+                                    android:text="@string/cruise_mode_title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/tvCruiseMode"
+                                    android:layout_marginLeft="@dimen/common_dimension_160"
+                                    android:layout_centerVertical="true"
+                                    android:textColor="@color/black"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp">
+                                <TextView
+                                    android:layout_marginLeft="@dimen/common_dimension_30"
+                                    android:layout_centerVertical="true"
+                                    android:text="@string/camera_depth_title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/tvCameraDepth"
+                                    android:layout_marginLeft="@dimen/common_dimension_160"
+                                    android:layout_centerVertical="true"
+                                    android:textColor="@color/black"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp">
+                                <TextView
+                                    android:layout_marginLeft="@dimen/common_dimension_30"
+                                    android:layout_centerVertical="true"
+                                    android:text="@string/sensor_depth_title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/tvSensorDepth"
+                                    android:layout_marginLeft="@dimen/common_dimension_160"
+                                    android:layout_centerVertical="true"
+                                    android:textColor="@color/black"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp">
+                                <TextView
+                                    android:layout_marginLeft="@dimen/common_dimension_30"
+                                    android:layout_centerVertical="true"
+                                    android:text="@string/cruise_speed_title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/tvCruiseSpeed"
+                                    android:layout_marginLeft="@dimen/common_dimension_160"
+                                    android:layout_centerVertical="true"
+                                    android:textColor="@color/black"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp">
+                                <TextView
+                                    android:layout_marginLeft="@dimen/common_dimension_30"
+                                    android:layout_centerVertical="true"
+                                    android:text="@string/cruise_num_title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/tvCruiseNum"
+                                    android:layout_marginLeft="@dimen/common_dimension_160"
+                                    android:layout_centerVertical="true"
+                                    android:textColor="@color/black"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp">
+                                <TextView
+                                    android:layout_marginLeft="@dimen/common_dimension_30"
+                                    android:layout_centerVertical="true"
+                                    android:text="@string/return_cruise_num_title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/tvCruiseReturn"
+                                    android:layout_marginLeft="@dimen/common_dimension_160"
+                                    android:layout_centerVertical="true"
+                                    android:textColor="@color/black"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp">
+                                <TextView
+                                    android:layout_marginLeft="@dimen/common_dimension_30"
+                                    android:layout_centerVertical="true"
+                                    android:text="@string/drive_bird_title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/tvBirdState"
+                                    android:layout_marginLeft="@dimen/common_dimension_160"
+                                    android:layout_centerVertical="true"
+                                    android:textColor="@color/black"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </RelativeLayout>
+
+
+
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp"/>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <LinearLayout
+                        android:id="@+id/llFeed"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <View
+                            android:background="@color/gray5"
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"/>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/mediumTextSize"
+                                android:text="料饵详情"
+                                android:layout_centerVertical="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp">
+                            <TextView
+                                android:layout_marginLeft="@dimen/common_dimension_15"
+                                android:layout_centerVertical="true"
+                                android:text="@string/feed_name_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/tvFeedName"
+                                android:layout_marginLeft="@dimen/common_dimension_160"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp">
+                            <TextView
+                                android:layout_marginLeft="@dimen/common_dimension_15"
+                                android:layout_centerVertical="true"
+                                android:text="@string/feed_weight_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/tvFeedWeight"
+                                android:layout_marginLeft="@dimen/common_dimension_160"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp">
+                            <TextView
+                                android:layout_marginLeft="@dimen/common_dimension_15"
+                                android:layout_centerVertical="true"
+                                android:text="@string/feed_speed_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/tvFeedSpeed"
+                                android:layout_marginLeft="@dimen/common_dimension_160"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/llDrug"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <View
+                            android:background="@color/gray5"
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"/>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/mediumTextSize"
+                                android:text="喷药详情"
+                                android:layout_centerVertical="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp">
+                            <TextView
+                                android:layout_marginLeft="@dimen/common_dimension_15"
+                                android:layout_centerVertical="true"
+                                android:text="@string/drug_name_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/tvDrugName"
+                                android:layout_marginLeft="@dimen/common_dimension_160"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp">
+                            <TextView
+                                android:layout_marginLeft="@dimen/common_dimension_15"
+                                android:layout_centerVertical="true"
+                                android:text="@string/drug_weight_num_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/tvDrugWeight"
+                                android:layout_marginLeft="@dimen/common_dimension_160"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp">
+                            <TextView
+                                android:layout_marginLeft="@dimen/common_dimension_15"
+                                android:layout_centerVertical="true"
+                                android:text="@string/drug_speed_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/tvDrugSpeed"
+                                android:layout_marginLeft="@dimen/common_dimension_160"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                <View
+                    android:background="@color/gray5"
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/mediumTextSize"
+                        android:text="工作模式"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+                    <TextView
+                        android:id="@+id/tvHand"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="6dp"
+                        android:background="@drawable/selector_config_work"
+                        android:layout_marginLeft="15dp"
+                        android:text="手动开始巡航"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tvMachine"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="6dp"
+                        android:background="@drawable/selector_config_work"
+                        android:layout_marginLeft="45dp"
+                        android:text="自动开始巡航"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"/>
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

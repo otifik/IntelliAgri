@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <!-- 图片背景 沉浸式状态栏-->
+
+    <!-- 城市选择的主体 注意使用城市得注意了-->
+
+
+    <!-- 天气属性开始 -->
+
+
+    <style name="CustomTitleTextAppearance">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 天气属性结束 -->
+
+    <!-- 二维码属性开始-->
+
+    <!--圆角Dialog-->
+    <style name="MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <!-- 二维码属性结束-->
+
+    <!--实下滑线样式-->
+    <style name="Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line</item>
+    </style>
+
+    <!-- 带弹出框的toolbar设置 -->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- 登录注册界面的字体设置  -->
+
+
+    <!-- 设置 弹出弹入的动画  由下往上 然后再返回去-->
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+
+    <!--底部弹框 样式-->
+    <style name="BottomDialog" parent="@style/AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <!--titleBar样式-->
+
+    <!--titlebar 标题-->
+
+    <!--titlebar 副标题-->
+
+
+    <!--自定义CheckBox样式-->
+    <!--选项条目样式-->
+
+    <!-- 透明应用 因为可以看见下面的透明是很好的 -->
+
+    <!-- 加载的弹出框动画 -->
+    <style name="loadDialog" parent="@android:style/Theme.Dialog">
+        <!-- 不需要弹出框的撒  -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 悬浮-->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 允许模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 设置全屏幕显示-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame" >@null</item>
+        <item name="android:windowIsFloating" >true</item>
+        <item name="android:windowIsTranslucent" >false</item>
+        <item name="android:windowNoTitle" >true</item>
+        <item name="android:windowBackground" >@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled" >true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style >
+
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 维修列表展示效果 -->
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:clickable="true"
+    app:cardCornerRadius="3dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="1dp">
+    <LinearLayout
+        android:id="@+id/layout_wrapper"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvMing"
+                android:textColor="@color/pond_text_color"
+                android:textSize="@dimen/SmallTextSize"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:text="名称："
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvRobertName"
+                android:layout_below="@id/tvMing"
+                android:textColor="@color/pond_text_color"
+                android:textSize="@dimen/LargeTextSize"
+                android:layout_marginLeft="8dp"
+                android:text="塘口a"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvStateShow"
+                android:layout_alignParentRight="true"
+                android:layout_margin="6dp"
+                android:textColor="@color/red0"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:contentDescription="描述维修状态"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvXiang"
+                android:textColor="@color/pond_text_color"
+                android:textSize="@dimen/SmallTextSize"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:text="详情："
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvRepairDescription"
+                android:layout_below="@id/tvXiang"
+                android:textColor="@color/pond_text_color"
+                android:textSize="@dimen/mediumTextSize"
+                android:layout_marginLeft="8dp"
+                android:text="塘口a"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvShijiang"
+                android:textColor="@color/pond_text_color"
+                android:textSize="@dimen/SmallTextSize"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:text="发布时间："
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvRepairTime"
+                android:layout_below="@id/tvShijiang"
+                android:textColor="@color/pond_text_color"
+                android:textSize="@dimen/mediumTextSize"
+                android:layout_marginLeft="8dp"
+                android:text="塘口a"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

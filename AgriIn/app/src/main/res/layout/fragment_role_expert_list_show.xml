@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.xrecyclerview.XRecyclerView
+        android:layout_marginBottom="@dimen/common_dimension_50"
+        android:id="@+id/rec_baike"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.example.xrecyclerview.XRecyclerView>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnAddBaike"
+        android:text="添加疾病百科"
+        android:textSize="@dimen/mediumTextSize"
+        android:background="@drawable/selector_btn_orange"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimension_45"/>
+</RelativeLayout>

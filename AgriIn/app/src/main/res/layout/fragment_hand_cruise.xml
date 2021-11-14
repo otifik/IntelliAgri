@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:segmentedgroup="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/typecCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:clickable="true"
+        app:cardCornerRadius="3dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="1dp">
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:id="@+id/layout_wrapper"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ico_opinion" />
+                <TextView
+                    android:id="@+id/tvMuban"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="塘口测量参数"
+                    android:textColor="@color/colorContent"
+                    android:textSize="@dimen/mediumTextSize" />
+            </LinearLayout>
+
+
+            <TextView
+                android:textSize="@dimen/mediumTextSize"
+                android:id="@+id/stvName"
+                android:layout_marginTop="5dp"
+                android:text="测量参数"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.example.xrecyclerview.XRecyclerView
+            android:layout_marginBottom="@dimen/common_dimension_45"
+            android:id="@+id/rvPond"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.example.xrecyclerview.XRecyclerView>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

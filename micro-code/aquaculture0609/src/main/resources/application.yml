@@ -1,0 +1,103 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: micro-aquaculture #指定服务名
+  # 数据库连接
+  datasource:
+#    url: jdbc:mysql://111.229.163.181:3306/shuichan?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://127.0.0.1:3306/shuichan?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    #    url: jdbc:mysql://192.168.100.91:3306/shuichan?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+#    password: nsi-xu811
+    password: zhny-123
+    #    password: jit-dev1217
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: org.apache.commons.dbcp2.BasicDataSource
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+####服务注册到eureka注册中心的地址
+eureka:
+  client:
+    service-url:
+#      defaultZone: http://111.229.140.47:8761/eureka
+      defaultZone: http://127.0.0.1:8761/eureka
+    ###因为该应用为服务提供者，是eureka的一个客户端，需要注册到注册中心
+    register-with-eureka: true
+    ###是否需要从eureka上检索服务
+    fetch-registry: true
+
+
+
+##配置文件上传目录
+image:
+  #url: D:/
+  url: http://111.229.163.181:80
+  #观察记录
+  observe:
+    path: /home/ubuntu/jit/resource/shuichan/observe/
+    url: /shuichan/observe/
+  #用户头像
+  user:
+    path: /home/ubuntu/jit/resource/shuichan/user/
+    url: /shuichan/user/
+  #综合知识图片
+  knowledgeStore:
+    path: /home/ubuntu/jit/resource/shuichan/knowledge/
+    url: /shuichan/knowledge/
+  #养殖技术图片
+  technologyStore:
+    path: /home/ubuntu/jit/resource/shuichan/technology/
+    url: /shuichan/technology/
+  #养殖技术图片
+  diseaseStore:
+    path: /home/ubuntu/jit/resource/shuichan/technology/
+    url: /shuichan/disease/
+  #专家问答图片
+  question:
+    path: /home/ubuntu/jit/resource/shuichan/question/
+    url: /shuichan/question/
+
+  #put picture
+  put:
+#    path: /home/ubuntu/jit/resource/shuichan/put/
+     path: /home/zhny/桌面/test/shuichan/put/
+
+
+
+# mybatis配置
+mybatis:
+  mapper-locations: classpath:mybatis/*mapper.xml
+  type-aliases-package: com.jit.aquaculture.domain
+# mybatis-plus 配置
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-column-underline: true
+    id-type: 0
+    capital-mode: true
+# 分页插件
+pagehelper:
+  reasonable: false
+  support-methods-arguments: true
+  params: count=countSql
+  row-bounds-with-count: true
+  helper-dialect: mysql
+## 日志
+logging:
+  level:
+    com.jit.aquaculture: info
+  #config: classpath:logback-spring.xml
+
+#feign通用配置，适用于所有feign client
+feign:
+  client:
+    config:
+      default:
+        connect-timeout: 1000000
+        read-timeout: 1000000
+        logger-level: basic
